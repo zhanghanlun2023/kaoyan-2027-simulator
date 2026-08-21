@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="2027考研原创仿真题库：全日制/非全日制、985/211院校选择、智能组卷与考纲雷达。">
+  <title>研途 · 2027考研仿真题库</title>
+  <link rel="stylesheet" href="static-style.css">
+</head>
+<body>
+  <div id="loading" class="loading">正在装载题库…</div>
+  <div id="app" class="shell" hidden>
+    <aside class="sidebar">
+      <a class="brand" href="#home" aria-label="研途首页">
+        <span class="brand-mark">研</span>
+        <span><b>研途 YANTU</b><small>2027 考研仿真系统</small></span>
+      </a>
+      <nav id="nav" class="nav"></nav>
+      <div class="side-form">
+        <label>学习方式</label>
+        <div class="segmented" id="mode-switch">
+          <button data-mode="全日制" class="active">全日制</button>
+          <button data-mode="非全日制">非全日制</button>
+        </div>
+        <label for="university-select">目标院校</label>
+        <select id="university-select"></select>
+        <label for="subject-select">当前科目</label>
+        <select id="subject-select"></select>
+      </div>
+      <div class="side-foot">知识状态<br><b>截至 2026-08-21</b></div>
+    </aside>
+    <main id="main" class="main" tabindex="-1"></main>
+  </div>
+  <noscript>本网站需要启用 JavaScript 才能进行组卷和评分。</noscript>
+  <script src="static-app.js" defer></script>
+</body>
+</html>
+
