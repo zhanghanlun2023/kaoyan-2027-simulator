@@ -1,4 +1,5 @@
 from engine import build_paper, score_paper
+from engine import load_json
 
 
 QUESTIONS = [
@@ -16,3 +17,10 @@ def test_score_single_and_multiple():
     assert result["earned"] == 10
     assert result["accuracy"] == 1
 
+
+def test_university_catalog_counts():
+    catalog = load_json("universities.json")
+    units = catalog["universities"]
+    assert len(units) == 116
+    assert sum(item["is_985"] for item in units) == 39
+    assert len({item["name"] for item in units}) == 116

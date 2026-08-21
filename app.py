@@ -46,6 +46,8 @@ st.markdown(
 questions = load_json("questions.json")
 syllabus = load_json("syllabus.json")
 papers = load_json("past_papers.json")
+university_data = load_json("universities.json")
+universities = university_data["universities"]
 subjects = [s["name"] for s in syllabus["subjects"]]
 
 
@@ -57,8 +59,15 @@ def header(title: str, subtitle: str) -> None:
 with st.sidebar:
     st.markdown("## 研途 YANTU")
     st.caption("2027 考研仿真训练系统")
-    page = st.radio("导航", ["备考总览", "智能组卷", "五年真题索引", "2027考纲雷达", "项目说明"], label_visibility="collapsed")
+    page = st.radio("导航", ["备考总览", "院校与学习方式", "智能组卷", "五年真题索引", "2027考纲雷达", "项目说明"], label_visibility="collapsed")
     st.divider()
+    study_mode = st.segmented_control(
+        "学习方式", ["全日制", "非全日制"], default="全日制",
+        help="日常所说的“在职考研”在统一招生制度中通常对应非全日制；最终以招生单位专业目录为准。",
+    )
+    university_names = ["暂未确定"] + [u["name"] for u in universities]
+    selected_university_name = st.selectbox("目标院校", university_names)
+    selected_university = next((u for u in universities if u["name"] == selected_university_name), None)
     selected_subject = st.selectbox("当前科目", subjects)
     available = sum(q["subject"] == selected_subject for q in questions)
     st.caption(f"当前原创题量 · {available} 道")
@@ -81,6 +90,13 @@ if page == "备考总览":
     c2.metric("原创仿真题", f"{len(questions)} 道")
     c3.metric("真题索引跨度", "5 年")
     c4.metric("考纲状态", "待官方发布")
+    target_label = selected_university_name if selected_university else "尚未确定目标院校"
+    mode_tip = "整段复习优先：按正式考试时长训练" if study_mode == "全日制" else "在职节奏：工作日小测 + 周末整卷"
+    st.markdown(
+        f'<div class="notice"><b>{study_mode} · {target_label}</b><br><span class="muted">{mode_tip}。全国统考科目使用同一套训练题；院校差异主要在专业目录、自命题、复试、学费与培养安排。</span></div>',
+        unsafe_allow_html=True,
+    )
+    st.write("")
     st.markdown("### 今天从哪里开始")
     cols = st.columns(3)
     cards = [
@@ -101,8 +117,68 @@ if page == "备考总览":
                 unsafe_allow_html=True,
             )
 
+elif page == "院校与学习方式":
+    header("院校与学习方式", "先确定招生路径，再决定练什么；统考共用，自命题与复试按学校核对。")
+    if study_mode == "非全日制":
+        st.info("非全日制常被口语称为“在职研究生”。教育部规定全日制和非全日制执行相同考试招生政策和标准；原则上非全日制硕士招收在职定向就业人员，具体以学校当年招生章程为准。")
+    else:
+        st.info("全日制通常为全脱产在校学习。考试科目、报考条件、学制、学费、住宿和培养校区仍需逐校逐专业核对。")
+
+    f1, f2, f3 = st.columns([1, 1, 2])
+    tier = f1.selectbox("历史工程标签", ["全部原985/211", "原985", "原211（非985）"])
+    provinces = ["全部地区"] + sorted({u["province"] for u in universities})
+    province = f2.selectbox("地区", provinces)
+    keyword = f3.text_input("搜索院校", placeholder="输入学校、城市或省份")
+
+    filtered = universities
+    if tier == "原985":
+        filtered = [u for u in filtered if u["is_985"]]
+    elif tier == "原211（非985）":
+        filtered = [u for u in filtered if u["is_211"] and not u["is_985"]]
+    if province != "全部地区":
+        filtered = [u for u in filtered if u["province"] == province]
+    if keyword.strip():
+        token = keyword.strip().lower()
+        filtered = [u for u in filtered if token in f"{u['name']} {u['province']} {u['city']}".lower()]
+
+    st.caption(f"找到 {len(filtered)} 个可选招生单位/校区 · 历史官方口径为112所原211、其中39所原985")
+    uni_df = pd.DataFrame([
+        {"院校": u["name"], "地区": f"{u['province']} · {u['city']}", "原985": "是" if u["is_985"] else "—", "原211": "是"}
+        for u in filtered
+    ])
+    st.dataframe(uni_df, width="stretch", hide_index=True, height=420)
+
+    if selected_university:
+        tags = "原985 / 原211" if selected_university["is_985"] else "原211"
+        st.markdown(f"### 当前目标：{selected_university['name']}")
+        a, b, c = st.columns(3)
+        a.metric("历史标签", tags)
+        b.metric("学习方式", study_mode)
+        c.metric("统考题库", "全国共用")
+        st.markdown("#### 报考前必须核对")
+        checklist = [
+            "2027招生简章和专业目录是否开设该学习方式",
+            "专业代码、研究方向以及初试统考/自命题科目",
+            "非全日制定向就业要求，或全日制住宿与档案要求",
+            "学制、学费、授课地点、复试科目和同等学力加试",
+        ]
+        for item in checklist:
+            st.checkbox(item, key=f"check_{selected_university_name}_{item}")
+        st.link_button("前往研招网院校库核验", "https://yz.chsi.com.cn/sch/", width="stretch")
+    else:
+        st.warning("请先在左侧选择目标院校。院校尚未确定时可以正常练统考题，但无法生成报考核对清单。")
+
+    with st.expander("为什么可选项是116，而不是112？"):
+        st.write(university_data["meta"]["note"])
+        for source in university_data["meta"]["sources"]:
+            st.markdown(f"- [{source['title']}]({source['url']})")
+
 elif page == "智能组卷":
     header("智能组卷", "同一日期、科目和配置会生成相同试卷，便于复盘与分享。")
+    if selected_university:
+        st.caption(f"目标：{selected_university_name} · {study_mode} · 本页为全国统考共用训练，不会因院校名称改变统考试题。")
+    if study_mode == "非全日制":
+        st.info("在职训练建议：工作日选 5—8 题限时小测，周末再按正式时长完成整卷。")
     subject_questions = [q for q in questions if q["subject"] == selected_subject]
     chapters = sorted({q["chapter"] for q in subject_questions})
     with st.container(border=True):
@@ -206,10 +282,11 @@ else:
 - 训练题均标注“原创仿真”，不是历年真题的逐字复制。
 - 五年真题模块保存结构化索引和个人错因，不把来源不明的整套试卷打包传播。
 - 2027 全国统考考纲未正式发布时，页面明确显示“待官方发布”。
+- 全日制与非全日制执行相同考试招生政策和标准；院校选择不会改变全国统考题。
 
 ### 当前版本边界
 
-这是首个可运行版本，覆盖 7 门通用统考科目。政治主观题、英语作文自动批改、数学/408完整大题以及院校自命题专业课仍需后续扩充；当前分数只代表抽样小测，不可直接外推到正式考试总分。
+这是首个可运行版本，覆盖 7 门通用统考科目和全部原985/211院校选择。政治主观题、英语作文自动批改、数学/408完整大题以及各校自命题专业课仍需后续扩充；当前分数只代表抽样小测，不可直接外推到正式考试总分。
         """
     )
     st.markdown("### 技术与反馈")
