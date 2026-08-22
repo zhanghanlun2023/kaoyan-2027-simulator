@@ -34,10 +34,13 @@ def build_paper(
 
 def score_paper(paper: list[dict], answers: dict[str, object]) -> dict:
     earned = 0
-    possible = sum(q["points"] for q in paper)
+    possible = sum(q["points"] for q in paper if q["type"] != "essay")
     chapter_stats: dict[str, dict[str, int]] = {}
     details = []
     for q in paper:
+        if q["type"] == "essay":
+            details.append({"question": q, "actual": answers.get(q["id"]), "correct": None, "earned": 0})
+            continue
         expected = q["answer"]
         actual = answers.get(q["id"])
         if q["type"] == "multiple":
@@ -53,7 +56,10 @@ def score_paper(paper: list[dict], answers: dict[str, object]) -> dict:
     return {
         "earned": earned,
         "possible": possible,
-        "accuracy": (sum(d["correct"] for d in details) / len(details)) if details else 0,
+        "accuracy": (
+            sum(d["correct"] for d in details if d["correct"] is not None)
+            / sum(d["correct"] is not None for d in details)
+        ) if any(d["correct"] is not None for d in details) else 0,
         "chapter_stats": chapter_stats,
         "details": details,
     }
