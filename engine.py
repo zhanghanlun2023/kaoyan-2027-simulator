@@ -56,6 +56,28 @@ def build_english2_paper(bank: dict, seed: int) -> list[dict]:
     return paper
 
 
+def build_management_paper(questions: list[dict], seed: int) -> list[dict]:
+    """Build one complete 199 paper: 25 math, 30 logic and 2 essays."""
+    rng = random.Random(seed)
+    plan = [
+        ("数学基础·问题求解", 15),
+        ("数学基础·条件充分性判断", 10),
+        ("逻辑推理", 30),
+        ("写作·论证有效性分析", 1),
+        ("写作·论说文", 1),
+    ]
+    paper: list[dict] = []
+    for chapter, count in plan:
+        pool = [
+            q for q in questions
+            if q["subject"] == "管理类综合能力" and q["chapter"] == chapter
+        ]
+        if len(pool) < count:
+            raise ValueError(f"199题库中“{chapter}”不足{count}题")
+        paper.extend(rng.sample(pool, count))
+    return paper
+
+
 def score_paper(paper: list[dict], answers: dict[str, object]) -> dict:
     earned = 0
     possible = sum(q["points"] for q in paper if q["type"] != "essay")
