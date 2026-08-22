@@ -59,6 +59,11 @@ def build_english2_paper(bank: dict, seed: int) -> list[dict]:
 def build_management_paper(questions: list[dict], seed: int) -> list[dict]:
     """Build one complete 199 paper: 25 math, 30 logic and 2 essays."""
     rng = random.Random(seed)
+    paper_ids = sorted({q.get("paper_id") for q in questions if q.get("paper_id")})
+    if paper_ids:
+        chosen = rng.choice(paper_ids)
+        paper = [q for q in questions if q.get("paper_id") == chosen]
+        return sorted(paper, key=lambda q: q["paper_order"])
     plan = [
         ("数学基础·问题求解", 15),
         ("数学基础·条件充分性判断", 10),
