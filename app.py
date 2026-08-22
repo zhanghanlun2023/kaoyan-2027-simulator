@@ -232,6 +232,7 @@ elif page == "智能组卷":
         answers = {}
         with st.form("exam_form"):
             last_set_id = None
+            last_group_id = None
             for number, q in enumerate(paper, 1):
                 if is_english2 and q.get("set_id") != last_set_id:
                     last_set_id = q.get("set_id")
@@ -241,6 +242,9 @@ elif page == "智能组卷":
                 elif is_management and q.get("chapter") != last_set_id:
                     last_set_id = q.get("chapter")
                     st.markdown(f"### {q['chapter']}")
+                if is_management and q.get("group_id") and q.get("group_id") != last_group_id:
+                    last_group_id = q.get("group_id")
+                    st.info(q.get("shared_stem", ""))
                 st.markdown(f"#### {number}. {q['stem']}  `{q['points']}分`")
                 opts = [f"{key}. {value}" for key, value in q["options"].items()]
                 if q["type"] == "essay":
@@ -327,7 +331,7 @@ else:
 
 ### 当前版本边界
 
-当前覆盖 8 门统考科目、1415 道原创训练题和全部原985/211院校选择。其中MBA关联题1170道：199管理类综合能力650道，英语二520道；英语二按完形、阅读A、阅读B、翻译和两类写作整卷组卷。主观题不做虚假的机器评分。
+当前覆盖 8 门统考科目、936 个原创作答项和全部原985/211院校选择。其中199管理类综合能力为3套完整卷、每套57个作答项，逻辑部分含独立长材料与4个“一材三问”题组；英语二为520个作答项。主观题不做虚假的机器评分。
         """
     )
     st.markdown("### 技术与反馈")
