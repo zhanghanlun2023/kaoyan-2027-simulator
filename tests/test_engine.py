@@ -32,11 +32,11 @@ def test_question_bank_has_mba_path_and_no_duplicates():
     english2 = load_json("english2_bank.json")["questions"]
     questions = core + management + english2
     assert len(core) == 245
-    assert len(management) == 650
+    assert len(management) == 171
     assert len(english2) == 520
-    assert len(questions) == 1415
+    assert len(questions) == 936
     assert len({q["id"] for q in questions}) == len(questions)
-    assert len({(q["subject"], q.get("set_id", ""), q["stem"]) for q in questions}) == len(questions)
+    assert len({(q["subject"], q.get("paper_id", ""), q.get("set_id", q.get("group_id", "")), q["stem"]) for q in questions}) == len(questions)
 
 
 def test_english2_full_paper_matches_real_section_totals():
@@ -59,6 +59,9 @@ def test_management_full_paper_matches_real_section_totals():
     assert sum(q["chapter"] == "数学基础·条件充分性判断" for q in paper) == 10
     assert sum(q["chapter"] == "逻辑推理" for q in paper) == 30
     assert sum(q["type"] == "essay" for q in paper) == 2
+    assert len({q["group_id"] for q in paper if q.get("group_id")}) == 4
+    assert all(sum(q.get("group_id") == group for q in paper) == 3 for group in {q["group_id"] for q in paper if q.get("group_id")})
+    assert [q["paper_order"] for q in paper] == list(range(1, 58))
 
 
 def test_essay_is_excluded_from_automatic_score():
