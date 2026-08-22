@@ -570,6 +570,19 @@ for i in range(40):
     add_en2(set_id, "图表/情境作文", set_id, 1, "essay", prompt, {}, guide, 15, guide)
 
 
+from expand_english_passages import (
+    expand_cloze,
+    expand_read_a,
+    expand_read_b,
+    validate as validate_english_passages,
+)
+
+expand_cloze(english2_bank)
+expand_read_a(english2_bank)
+expand_read_b(english2_bank)
+english_length_summary = validate_english_passages(english2_bank)
+
+
 # ------------------------- 校验并输出 -------------------------
 from build_management_editorial import build_management_bank
 
@@ -622,5 +635,5 @@ for target, payload in (
 counts = {}
 for q in all_items:
     counts[q["subject"]] = counts.get(q["subject"], 0) + 1
-print(json.dumps({"total": len(all_items), "subjects": counts, "english2_sections": section_counts}, ensure_ascii=False, indent=2))
+print(json.dumps({"total": len(all_items), "subjects": counts, "english2_sections": section_counts, "english2_lengths": english_length_summary}, ensure_ascii=False, indent=2))
 
