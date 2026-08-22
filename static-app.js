@@ -9,7 +9,7 @@ const tag = u => u?.is_985 ? "原985 / 原211" : "原211";
 
 async function boot(){
   const [coreQuestions,managementQuestions,english2,syllabus,papers,universities] = await Promise.all([
-    "data/questions.json","data/questions_199.json","data/english2_bank.json","data/syllabus.json","data/past_papers.json","data/universities.json"
+    "data/questions.json","data/questions_199.json","data/english2_bank.json?v=20260822f","data/syllabus.json","data/past_papers.json","data/universities.json"
   ].map(url=>fetch(url).then(r=>{if(!r.ok) throw new Error(url); return r.json()})));
   state.data={questions:[...coreQuestions,...managementQuestions],english2,syllabus,papers,universities};
   restore(); setupChrome(); route();
