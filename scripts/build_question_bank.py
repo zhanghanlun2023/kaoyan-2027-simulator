@@ -571,7 +571,11 @@ for i in range(40):
 
 
 # ------------------------- 校验并输出 -------------------------
-all_items = [*questions, *english2_bank["questions"]]
+from build_management_editorial import build_management_bank
+
+core_questions = [q for q in questions if q["subject"] != "管理类综合能力"]
+management_questions = build_management_bank()
+all_items = [*core_questions, *management_questions, *english2_bank["questions"]]
 ids = [q["id"] for q in all_items]
 if len(ids) != len(set(ids)):
     duplicates = sorted({qid for qid in ids if ids.count(qid) > 1})
@@ -584,7 +588,7 @@ for q in all_items:
         if any(answer not in q["options"] for answer in answers):
             raise ValueError(f"答案不在选项中: {q['id']}")
 
-stems = [(q["subject"], q.get("set_id", ""), q["stem"]) for q in all_items]
+stems = [(q["subject"], q.get("paper_id", ""), q.get("set_id", q.get("group_id", "")), q["stem"]) for q in all_items]
 if len(stems) != len(set(stems)):
     duplicates = sorted({stem for stem in stems if stems.count(stem) > 1})
     raise ValueError(f"同一科目存在重复题干: {duplicates[:20]}")
@@ -603,10 +607,8 @@ expected_sections = {
 if section_counts != expected_sections:
     raise ValueError(f"英语二题型数量错误: {section_counts}")
 
-core_questions = [q for q in questions if q["subject"] != "管理类综合能力"]
-management_questions = [q for q in questions if q["subject"] == "管理类综合能力"]
-if len(management_questions) != 650:
-    raise ValueError(f"199题量应为650，实际为{len(management_questions)}")
+if len(management_questions) != 171:
+    raise ValueError(f"199题量应为3套×57题=171，实际为{len(management_questions)}")
 
 for target, payload in (
     (TARGET_CORE, core_questions),
