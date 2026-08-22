@@ -6,7 +6,7 @@ from datetime import date
 import pandas as pd
 import streamlit as st
 
-from engine import build_english2_paper, build_paper, load_json, score_paper, stable_seed
+from engine import build_english2_paper, build_management_paper, build_paper, load_json, score_paper, stable_seed
 
 
 st.set_page_config(
@@ -189,6 +189,7 @@ elif page == "智能组卷":
     elif study_mode == "非全日制":
         st.info("在职训练建议：工作日选 5—8 题限时小测，周末再按正式时长完成整卷。")
     is_english2 = selected_subject == "英语二"
+    is_management = selected_subject == "管理类综合能力"
     subject_questions = english2_questions if is_english2 else [q for q in questions if q["subject"] == selected_subject]
     chapters = sorted({q["chapter"] for q in subject_questions})
     with st.container(border=True):
@@ -196,6 +197,10 @@ elif page == "智能组卷":
             st.markdown("**英语二完整仿真结构：** 完形20题 + 阅读A 20题 + 阅读B 5题 + 翻译1题 + 小作文1题 + 大作文1题，共100分。")
             version = st.number_input("试卷版本", min_value=1, max_value=999, value=1)
             chosen_chapters, count = tuple(chapters), 48
+        elif is_management:
+            st.markdown("**199完整仿真结构：** 问题求解15题 + 条件充分性判断10题 + 逻辑推理30题 + 论证有效性分析1题 + 论说文1题，共57个作答项、200分。")
+            version = st.number_input("试卷版本", min_value=1, max_value=999, value=1)
+            chosen_chapters, count = tuple(chapters), 57
         else:
             c1, c2, c3 = st.columns([2, 2, 1])
             chosen_chapters = c1.multiselect("章节范围", chapters, default=chapters)
@@ -207,7 +212,12 @@ elif page == "智能组卷":
     config = (selected_subject, tuple(chosen_chapters), count, int(version))
     if start or st.session_state.get("paper_config") != config:
         seed = stable_seed(date.today().isoformat(), *config)
-        st.session_state.paper = build_english2_paper(english2_bank, seed) if is_english2 else build_paper(questions, selected_subject, count, seed, chosen_chapters)
+        if is_english2:
+            st.session_state.paper = build_english2_paper(english2_bank, seed)
+        elif is_management:
+            st.session_state.paper = build_management_paper(questions, seed)
+        else:
+            st.session_state.paper = build_paper(questions, selected_subject, count, seed, chosen_chapters)
         st.session_state.paper_config = config
         st.session_state.paper_started = time.time()
         st.session_state.pop("result", None)
@@ -228,6 +238,9 @@ elif page == "智能组卷":
                     st.markdown(f"### {q['section']}")
                     if q.get("passage_id"):
                         st.info(english2_bank["passages"][q["passage_id"]])
+                elif is_management and q.get("chapter") != last_set_id:
+                    last_set_id = q.get("chapter")
+                    st.markdown(f"### {q['chapter']}")
                 st.markdown(f"#### {number}. {q['stem']}  `{q['points']}分`")
                 opts = [f"{key}. {value}" for key, value in q["options"].items()]
                 if q["type"] == "essay":

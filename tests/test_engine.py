@@ -1,4 +1,4 @@
-from engine import build_english2_paper, build_paper, score_paper
+from engine import build_english2_paper, build_management_paper, build_paper, score_paper
 from engine import load_json
 
 
@@ -48,6 +48,17 @@ def test_english2_full_paper_matches_real_section_totals():
     assert sum(q["section"] == "英语知识运用（完形填空）" for q in paper) == 20
     assert sum(q["section"] == "阅读理解A" for q in paper) == 20
     assert sum(q["section"] == "阅读理解B（新题型）" for q in paper) == 5
+
+
+def test_management_full_paper_matches_real_section_totals():
+    questions = load_json("questions_199.json")
+    paper = build_management_paper(questions, 2027)
+    assert len(paper) == 57
+    assert sum(q["points"] for q in paper) == 200
+    assert sum(q["chapter"] == "数学基础·问题求解" for q in paper) == 15
+    assert sum(q["chapter"] == "数学基础·条件充分性判断" for q in paper) == 10
+    assert sum(q["chapter"] == "逻辑推理" for q in paper) == 30
+    assert sum(q["type"] == "essay" for q in paper) == 2
 
 
 def test_essay_is_excluded_from_automatic_score():
