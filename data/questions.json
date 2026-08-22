@@ -1,49 +1,7630 @@
 [
-  {"id":"p001","subject":"思想政治理论","chapter":"马克思主义基本原理","difficulty":2,"type":"single","stem":"某工厂通过改进工艺，使同样劳动时间内生产的产品数量增加。若其他条件不变，单位商品的价值量将如何变化？","options":{"A":"增加","B":"减少","C":"不变","D":"无法判断"},"answer":"B","points":2,"explanation":"社会劳动生产率提高，生产单位商品所需的社会必要劳动时间减少，单位商品价值量降低。","source":"原创仿真"},
-  {"id":"p002","subject":"思想政治理论","chapter":"马克思主义基本原理","difficulty":3,"type":"multiple","stem":"关于实践与认识关系，下列判断正确的有：","options":{"A":"实践是认识的来源","B":"认识对实践具有能动反作用","C":"真理在实践中发展","D":"认识一经形成便不再变化"},"answer":["A","B","C"],"points":3,"explanation":"实践决定认识，认识反作用于实践；真理具有具体性并随实践发展。D否定了认识的发展。","source":"原创仿真"},
-  {"id":"p003","subject":"思想政治理论","chapter":"中国近现代史纲要","difficulty":2,"type":"single","stem":"近代中国社会最主要的矛盾是：","options":{"A":"农民阶级与地主阶级的矛盾","B":"帝国主义和中华民族的矛盾","C":"无产阶级与资产阶级的矛盾","D":"封建主义与人民大众的矛盾"},"answer":"B","points":2,"explanation":"帝国主义和中华民族的矛盾是近代中国各种矛盾中最主要的矛盾。","source":"原创仿真"},
-  {"id":"p004","subject":"思想政治理论","chapter":"思想道德与法治","difficulty":2,"type":"multiple","stem":"全面依法治国要求坚持的基本原则包括：","options":{"A":"党的领导","B":"人民主体地位","C":"法律面前人人平等","D":"依法治国和以德治国相结合"},"answer":["A","B","C","D"],"points":3,"explanation":"四项均属于全面依法治国的重要原则。","source":"原创仿真"},
-  {"id":"p005","subject":"思想政治理论","chapter":"习近平新时代中国特色社会主义思想概论","difficulty":2,"type":"single","stem":"中国式现代化的本质要求中，居于首位的是：","options":{"A":"发展全过程人民民主","B":"坚持中国共产党领导","C":"实现全体人民共同富裕","D":"推动构建人类命运共同体"},"answer":"B","points":2,"explanation":"坚持中国共产党领导是中国式现代化本质要求的首项。","source":"原创仿真"},
-  {"id":"p006","subject":"思想政治理论","chapter":"毛泽东思想和中国特色社会主义理论体系概论","difficulty":3,"type":"single","stem":"检验改革各项工作成败得失的根本标准，归根到底要看是否有利于：","options":{"A":"扩大投资规模","B":"提高行政效率","C":"发展社会主义社会的生产力、增强综合国力、提高人民生活水平","D":"增加商品数量"},"answer":"C","points":2,"explanation":"题干对应“三个有利于”标准。","source":"原创仿真"},
-
-  {"id":"e101","subject":"英语一","chapter":"阅读理解A","difficulty":3,"type":"single","stem":"A city library extended weekend hours. Attendance rose, yet book lending barely changed. Surveys showed that most new visitors used quiet desks and free internet access. The main purpose of the passage is to show that the library—","options":{"A":"failed to promote reading","B":"serves needs beyond lending books","C":"should reduce weekend hours","D":"attracts only internet users"},"answer":"B","points":2,"explanation":"The contrast between attendance and lending is explained by other services, supporting B. A, C and D overstate the evidence.","source":"原创仿真"},
-  {"id":"e102","subject":"英语一","chapter":"英语知识运用","difficulty":2,"type":"single","stem":"Scientific models are useful not because they copy reality perfectly, ___ because they simplify it in productive ways.","options":{"A":"and","B":"but","C":"or","D":"so"},"answer":"B","points":2,"explanation":"The fixed contrast is “not because..., but because...”.","source":"原创仿真"},
-  {"id":"e103","subject":"英语一","chapter":"阅读理解B","difficulty":3,"type":"single","stem":"Paragraph: Good note-taking is selective. Writing every word leaves no mental space for judging what matters. Which heading best fits?","options":{"A":"Record More to Learn More","B":"The Value of Selective Attention","C":"Why Memory Always Fails","D":"Technology Replaces Judgment"},"answer":"B","points":2,"explanation":"The paragraph argues for selection and judgment, directly matching B.","source":"原创仿真"},
-  {"id":"e104","subject":"英语一","chapter":"英译汉","difficulty":3,"type":"single","stem":"In the sentence “The policy is less a final answer than an invitation to experiment,” the best interpretation is:","options":{"A":"该政策拒绝试验","B":"该政策既是答案也是命令","C":"与其说该政策是最终答案，不如说它是在鼓励试验","D":"该政策的试验已经结束"},"answer":"C","points":2,"explanation":"“less A than B” means “与其说是A，不如说是B”.","source":"原创仿真"},
-  {"id":"e105","subject":"英语一","chapter":"阅读理解A","difficulty":4,"type":"single","stem":"The author notes that algorithms can make consistent decisions, then adds that consistency may merely reproduce a consistently biased rule. This qualification mainly serves to—","options":{"A":"reject all automated decisions","B":"distinguish consistency from fairness","C":"prove human judgment is unbiased","D":"define how algorithms are programmed"},"answer":"B","points":2,"explanation":"The qualification limits the positive implication of consistency by separating it from fairness.","source":"原创仿真"},
-  {"id":"e106","subject":"英语一","chapter":"英语知识运用","difficulty":3,"type":"single","stem":"The finding should be treated with caution, ___ the sample was drawn from a single institution.","options":{"A":"given that","B":"even if","C":"unless","D":"whereas"},"answer":"A","points":2,"explanation":"“Given that” introduces the reason for caution.","source":"原创仿真"},
-
-  {"id":"e201","subject":"英语二","chapter":"阅读理解A","difficulty":2,"type":"single","stem":"A small firm introduced four-day workweeks while keeping total weekly hours unchanged. Staff satisfaction improved, but sick leave did not change. Which claim is supported?","options":{"A":"Shorter weeks eliminate illness","B":"The change improved reported satisfaction","C":"Employees worked fewer hours","D":"Productivity certainly doubled"},"answer":"B","points":2,"explanation":"Only the improvement in satisfaction is directly stated.","source":"原创仿真"},
-  {"id":"e202","subject":"英语二","chapter":"英语知识运用","difficulty":2,"type":"single","stem":"Customers value speed, but they are rarely willing to ___ accuracy for it.","options":{"A":"sacrifice","B":"deliver","C":"restore","D":"predict"},"answer":"A","points":2,"explanation":"“Sacrifice accuracy for speed” is the logical collocation.","source":"原创仿真"},
-  {"id":"e203","subject":"英语二","chapter":"阅读理解B","difficulty":3,"type":"single","stem":"A guide recommends setting a savings goal, automating transfers, and reviewing progress monthly. The best title is:","options":{"A":"Three Steps to a Saving Habit","B":"Why Banks Avoid Technology","C":"The History of Household Debt","D":"How to Spend More Each Month"},"answer":"A","points":2,"explanation":"A summarizes the three practical steps without adding unsupported claims.","source":"原创仿真"},
-  {"id":"e204","subject":"英语二","chapter":"英译汉","difficulty":2,"type":"single","stem":"“Convenience matters only when it does not come at the cost of trust.” 最准确的翻译是：","options":{"A":"便利总比信任重要","B":"只要便利就无需信任","C":"便利固然重要，但不能以牺牲信任为代价","D":"信任会带来不便"},"answer":"C","points":2,"explanation":"“at the cost of”意为“以……为代价”。","source":"原创仿真"},
-  {"id":"e205","subject":"英语二","chapter":"阅读理解A","difficulty":3,"type":"single","stem":"The phrase “a modest first step” suggests that the author regards the proposal as—","options":{"A":"limited but potentially useful","B":"completely ineffective","C":"too risky to attempt","D":"the final solution"},"answer":"A","points":2,"explanation":"“Modest” signals limited scope, while “first step” leaves room for usefulness and later action.","source":"原创仿真"},
-  {"id":"e206","subject":"英语二","chapter":"英语知识运用","difficulty":3,"type":"single","stem":"Remote meetings save travel time; ___, they may make informal communication harder.","options":{"A":"similarly","B":"however","C":"therefore","D":"for example"},"answer":"B","points":2,"explanation":"The two clauses contrast benefits and costs.","source":"原创仿真"},
-
-  {"id":"m101","subject":"数学一","chapter":"高等数学","difficulty":2,"type":"single","stem":"设 f(x)=x²eˣ，则 f'(0)=","options":{"A":"0","B":"1","C":"2","D":"e"},"answer":"A","points":5,"explanation":"f'(x)=eˣ(x²+2x)，故f'(0)=0。","source":"原创仿真"},
-  {"id":"m102","subject":"数学一","chapter":"高等数学","difficulty":3,"type":"single","stem":"极限 lim(x→0) [sin x - x]/x³ 等于","options":{"A":"-1/6","B":"0","C":"1/6","D":"不存在"},"answer":"A","points":5,"explanation":"sin x=x-x³/6+o(x³)。","source":"原创仿真"},
-  {"id":"m103","subject":"数学一","chapter":"线性代数","difficulty":3,"type":"single","stem":"三阶矩阵A的特征值为1、2、-1，则det(A²)=","options":{"A":"-4","B":"4","C":"2","D":"-2"},"answer":"B","points":5,"explanation":"det(A)=-2，det(A²)=det(A)²=4。","source":"原创仿真"},
-  {"id":"m104","subject":"数学一","chapter":"概率论与数理统计","difficulty":3,"type":"single","stem":"若X与Y独立，D(X)=2，D(Y)=3，则D(2X-Y)=","options":{"A":"1","B":"5","C":"7","D":"11"},"answer":"D","points":5,"explanation":"独立时D(2X-Y)=4D(X)+D(Y)=11。","source":"原创仿真"},
-  {"id":"m105","subject":"数学一","chapter":"高等数学","difficulty":4,"type":"single","stem":"微分方程 y'+y=eˣ 的通解为","options":{"A":"y=eˣ+Ce⁻ˣ","B":"y=(1/2)eˣ+Ce⁻ˣ","C":"y=(1/2)eˣ+C","D":"y=e⁻ˣ+C"},"answer":"B","points":5,"explanation":"乘积分因子eˣ得(eˣy)'=e²ˣ，积分后y=(1/2)eˣ+Ce⁻ˣ。","source":"原创仿真"},
-
-  {"id":"m201","subject":"数学二","chapter":"高等数学","difficulty":2,"type":"single","stem":"∫₀¹ 2x dx 等于","options":{"A":"0","B":"1","C":"2","D":"1/2"},"answer":"B","points":5,"explanation":"原函数为x²，在0到1上取值为1。","source":"原创仿真"},
-  {"id":"m202","subject":"数学二","chapter":"高等数学","difficulty":3,"type":"single","stem":"函数z=x²+y²在点(1,-1)处沿x轴正向的方向导数为","options":{"A":"-2","B":"0","C":"2","D":"4"},"answer":"C","points":5,"explanation":"梯度为(2x,2y)，与方向(1,0)点乘得2。","source":"原创仿真"},
-  {"id":"m203","subject":"数学二","chapter":"线性代数","difficulty":2,"type":"single","stem":"若二阶矩阵A可逆，则下列一定正确的是","options":{"A":"det(A)=0","B":"A有零特征值","C":"rank(A)=2","D":"A为对称矩阵"},"answer":"C","points":5,"explanation":"二阶方阵可逆等价于满秩。","source":"原创仿真"},
-  {"id":"m204","subject":"数学二","chapter":"高等数学","difficulty":3,"type":"single","stem":"级数 Σ(n=1→∞) 1/[n(n+1)] 的和为","options":{"A":"1","B":"2","C":"1/2","D":"发散"},"answer":"A","points":5,"explanation":"拆项为1/n-1/(n+1)，部分和趋于1。","source":"原创仿真"},
-  {"id":"m205","subject":"数学二","chapter":"线性代数","difficulty":4,"type":"single","stem":"设A为3阶矩阵且rank(A)=1，则rank(A²)可能为","options":{"A":"只能为1","B":"只能为0","C":"0或1","D":"2或3"},"answer":"C","points":5,"explanation":"rank(A²)≤rank(A)=1；可构造A²=0或A²=A的情形。","source":"原创仿真"},
-
-  {"id":"m301","subject":"数学三","chapter":"微积分","difficulty":2,"type":"single","stem":"某商品需求函数Q=100-2p，则价格p=20时的需求价格弹性绝对值为","options":{"A":"1/3","B":"2/3","C":"1","D":"2"},"answer":"B","points":5,"explanation":"|E|=|pQ'/Q|=|20×(-2)/60|=2/3。","source":"原创仿真"},
-  {"id":"m302","subject":"数学三","chapter":"微积分","difficulty":3,"type":"single","stem":"若总成本C(q)=q²+10q+100，则边际成本在q=5处为","options":{"A":"15","B":"20","C":"25","D":"35"},"answer":"B","points":5,"explanation":"C'(q)=2q+10，C'(5)=20。","source":"原创仿真"},
-  {"id":"m303","subject":"数学三","chapter":"线性代数","difficulty":3,"type":"single","stem":"若A与B均为n阶可逆矩阵，则(AB)⁻¹等于","options":{"A":"A⁻¹B⁻¹","B":"B⁻¹A⁻¹","C":"AB","D":"BA"},"answer":"B","points":5,"explanation":"逆矩阵乘积需逆序。","source":"原创仿真"},
-  {"id":"m304","subject":"数学三","chapter":"概率论与数理统计","difficulty":2,"type":"single","stem":"随机变量X服从参数λ=2的泊松分布，则E(X)=","options":{"A":"1/2","B":"1","C":"2","D":"4"},"answer":"C","points":5,"explanation":"泊松分布期望和方差均为λ。","source":"原创仿真"},
-  {"id":"m305","subject":"数学三","chapter":"概率论与数理统计","difficulty":4,"type":"single","stem":"从总体N(μ,σ²)抽取容量n的样本，σ²已知，则样本均值的方差为","options":{"A":"σ²","B":"σ²/n","C":"σ/n","D":"nσ²"},"answer":"B","points":5,"explanation":"独立同分布样本均值的方差为σ²/n。","source":"原创仿真"},
-
-  {"id":"c001","subject":"计算机学科专业基础","chapter":"数据结构","difficulty":2,"type":"single","stem":"对长度为n的有序顺序表进行二分查找，最坏时间复杂度是","options":{"A":"O(1)","B":"O(log n)","C":"O(n)","D":"O(n log n)"},"answer":"B","points":2,"explanation":"每次将查找区间缩小约一半。","source":"原创仿真"},
-  {"id":"c002","subject":"计算机学科专业基础","chapter":"数据结构","difficulty":3,"type":"single","stem":"一棵含n个结点的完全二叉树按层序从1编号，编号为i的结点若有右孩子，其编号为","options":{"A":"i+1","B":"2i","C":"2i+1","D":"2i-1"},"answer":"C","points":2,"explanation":"1起始的顺序存储中左孩子2i，右孩子2i+1。","source":"原创仿真"},
-  {"id":"c003","subject":"计算机学科专业基础","chapter":"计算机组成原理","difficulty":3,"type":"single","stem":"采用32位地址、按字节编址的系统，其理论最大地址空间为","options":{"A":"2 GB","B":"4 GB","C":"8 GB","D":"32 GB"},"answer":"B","points":2,"explanation":"可表示2³²个字节，即4 GiB，通常表述为4 GB。","source":"原创仿真"},
-  {"id":"c004","subject":"计算机学科专业基础","chapter":"操作系统","difficulty":3,"type":"single","stem":"进程从运行态主动请求I/O后，通常转入","options":{"A":"就绪态","B":"阻塞态","C":"终止态","D":"创建态"},"answer":"B","points":2,"explanation":"进程需等待I/O事件完成，进入阻塞态。","source":"原创仿真"},
-  {"id":"c005","subject":"计算机学科专业基础","chapter":"操作系统","difficulty":4,"type":"multiple","stem":"产生死锁通常需要同时满足的条件包括","options":{"A":"互斥","B":"请求并保持","C":"不可剥夺","D":"循环等待"},"answer":["A","B","C","D"],"points":3,"explanation":"四项为死锁的四个必要条件。","source":"原创仿真"},
-  {"id":"c006","subject":"计算机学科专业基础","chapter":"计算机网络","difficulty":2,"type":"single","stem":"TCP连接建立通常使用","options":{"A":"一次握手","B":"两次握手","C":"三次握手","D":"四次握手"},"answer":"C","points":2,"explanation":"TCP通过三次握手同步双方初始序号并确认收发能力。","source":"原创仿真"},
-  {"id":"c007","subject":"计算机学科专业基础","chapter":"计算机网络","difficulty":3,"type":"single","stem":"某IPv4网络前缀为/24，在不考虑特殊保留的传统用法下，可分配给主机的地址数为","options":{"A":"254","B":"255","C":"256","D":"510"},"answer":"A","points":2,"explanation":"主机位8位，共256个地址，扣除网络地址和广播地址后为254。","source":"原创仿真"},
-  {"id":"c008","subject":"计算机学科专业基础","chapter":"计算机组成原理","difficulty":4,"type":"single","stem":"若Cache命中时间1 ns，主存访问时间50 ns，命中率95%，采用先查Cache、未命中再访主存，则平均访问时间约为","options":{"A":"1.5 ns","B":"3.5 ns","C":"48.5 ns","D":"51 ns"},"answer":"B","points":2,"explanation":"平均时间=1+0.05×50=3.5 ns。","source":"原创仿真"}
+  {
+    "id": "p001",
+    "subject": "思想政治理论",
+    "chapter": "马克思主义基本原理",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "某工厂通过改进工艺，使同样劳动时间内生产的产品数量增加。若其他条件不变，单位商品的价值量将如何变化？",
+    "options": {
+      "A": "增加",
+      "B": "减少",
+      "C": "不变",
+      "D": "无法判断"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "社会劳动生产率提高，生产单位商品所需的社会必要劳动时间减少，单位商品价值量降低。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "p002",
+    "subject": "思想政治理论",
+    "chapter": "马克思主义基本原理",
+    "difficulty": 3,
+    "type": "multiple",
+    "stem": "关于实践与认识关系，下列判断正确的有：",
+    "options": {
+      "A": "实践是认识的来源",
+      "B": "认识对实践具有能动反作用",
+      "C": "真理在实践中发展",
+      "D": "认识一经形成便不再变化"
+    },
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "points": 3,
+    "explanation": "实践决定认识，认识反作用于实践；真理具有具体性并随实践发展。D否定了认识的发展。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "p003",
+    "subject": "思想政治理论",
+    "chapter": "中国近现代史纲要",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "近代中国社会最主要的矛盾是：",
+    "options": {
+      "A": "农民阶级与地主阶级的矛盾",
+      "B": "帝国主义和中华民族的矛盾",
+      "C": "无产阶级与资产阶级的矛盾",
+      "D": "封建主义与人民大众的矛盾"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "帝国主义和中华民族的矛盾是近代中国各种矛盾中最主要的矛盾。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "p004",
+    "subject": "思想政治理论",
+    "chapter": "思想道德与法治",
+    "difficulty": 2,
+    "type": "multiple",
+    "stem": "全面依法治国要求坚持的基本原则包括：",
+    "options": {
+      "A": "党的领导",
+      "B": "人民主体地位",
+      "C": "法律面前人人平等",
+      "D": "依法治国和以德治国相结合"
+    },
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "points": 3,
+    "explanation": "四项均属于全面依法治国的重要原则。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "p005",
+    "subject": "思想政治理论",
+    "chapter": "习近平新时代中国特色社会主义思想概论",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "中国式现代化的本质要求中，居于首位的是：",
+    "options": {
+      "A": "发展全过程人民民主",
+      "B": "坚持中国共产党领导",
+      "C": "实现全体人民共同富裕",
+      "D": "推动构建人类命运共同体"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "坚持中国共产党领导是中国式现代化本质要求的首项。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "p006",
+    "subject": "思想政治理论",
+    "chapter": "毛泽东思想和中国特色社会主义理论体系概论",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "检验改革各项工作成败得失的根本标准，归根到底要看是否有利于：",
+    "options": {
+      "A": "扩大投资规模",
+      "B": "提高行政效率",
+      "C": "发展社会主义社会的生产力、增强综合国力、提高人民生活水平",
+      "D": "增加商品数量"
+    },
+    "answer": "C",
+    "points": 2,
+    "explanation": "题干对应“三个有利于”标准。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "e101",
+    "subject": "英语一",
+    "chapter": "阅读理解A",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "A city library extended weekend hours. Attendance rose, yet book lending barely changed. Surveys showed that most new visitors used quiet desks and free internet access. The main purpose of the passage is to show that the library—",
+    "options": {
+      "A": "failed to promote reading",
+      "B": "serves needs beyond lending books",
+      "C": "should reduce weekend hours",
+      "D": "attracts only internet users"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "The contrast between attendance and lending is explained by other services, supporting B. A, C and D overstate the evidence.",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "e102",
+    "subject": "英语一",
+    "chapter": "英语知识运用",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "Scientific models are useful not because they copy reality perfectly, ___ because they simplify it in productive ways.",
+    "options": {
+      "A": "and",
+      "B": "but",
+      "C": "or",
+      "D": "so"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "The fixed contrast is “not because..., but because...”.",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "e103",
+    "subject": "英语一",
+    "chapter": "阅读理解B",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "Paragraph: Good note-taking is selective. Writing every word leaves no mental space for judging what matters. Which heading best fits?",
+    "options": {
+      "A": "Record More to Learn More",
+      "B": "The Value of Selective Attention",
+      "C": "Why Memory Always Fails",
+      "D": "Technology Replaces Judgment"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "The paragraph argues for selection and judgment, directly matching B.",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "e105",
+    "subject": "英语一",
+    "chapter": "阅读理解A",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "The author notes that algorithms can make consistent decisions, then adds that consistency may merely reproduce a consistently biased rule. This qualification mainly serves to—",
+    "options": {
+      "A": "reject all automated decisions",
+      "B": "distinguish consistency from fairness",
+      "C": "prove human judgment is unbiased",
+      "D": "define how algorithms are programmed"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "The qualification limits the positive implication of consistency by separating it from fairness.",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "e106",
+    "subject": "英语一",
+    "chapter": "英语知识运用",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "The finding should be treated with caution, ___ the sample was drawn from a single institution.",
+    "options": {
+      "A": "given that",
+      "B": "even if",
+      "C": "unless",
+      "D": "whereas"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "“Given that” introduces the reason for caution.",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "e201",
+    "subject": "英语二",
+    "chapter": "阅读理解A",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "A small firm introduced four-day workweeks while keeping total weekly hours unchanged. Staff satisfaction improved, but sick leave did not change. Which claim is supported?",
+    "options": {
+      "A": "Shorter weeks eliminate illness",
+      "B": "The change improved reported satisfaction",
+      "C": "Employees worked fewer hours",
+      "D": "Productivity certainly doubled"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "Only the improvement in satisfaction is directly stated.",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "e202",
+    "subject": "英语二",
+    "chapter": "英语知识运用",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "Customers value speed, but they are rarely willing to ___ accuracy for it.",
+    "options": {
+      "A": "sacrifice",
+      "B": "deliver",
+      "C": "restore",
+      "D": "predict"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "“Sacrifice accuracy for speed” is the logical collocation.",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "e203",
+    "subject": "英语二",
+    "chapter": "阅读理解B",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "A guide recommends setting a savings goal, automating transfers, and reviewing progress monthly. The best title is:",
+    "options": {
+      "A": "Three Steps to a Saving Habit",
+      "B": "Why Banks Avoid Technology",
+      "C": "The History of Household Debt",
+      "D": "How to Spend More Each Month"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "A summarizes the three practical steps without adding unsupported claims.",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "e205",
+    "subject": "英语二",
+    "chapter": "阅读理解A",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "The phrase “a modest first step” suggests that the author regards the proposal as—",
+    "options": {
+      "A": "limited but potentially useful",
+      "B": "completely ineffective",
+      "C": "too risky to attempt",
+      "D": "the final solution"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "“Modest” signals limited scope, while “first step” leaves room for usefulness and later action.",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "e206",
+    "subject": "英语二",
+    "chapter": "英语知识运用",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "Remote meetings save travel time; ___, they may make informal communication harder.",
+    "options": {
+      "A": "similarly",
+      "B": "however",
+      "C": "therefore",
+      "D": "for example"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "The two clauses contrast benefits and costs.",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "m101",
+    "subject": "数学一",
+    "chapter": "高等数学",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "设 f(x)=x²eˣ，则 f'(0)=",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "e"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "f'(x)=eˣ(x²+2x)，故f'(0)=0。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "m102",
+    "subject": "数学一",
+    "chapter": "高等数学",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "极限 lim(x→0) [sin x - x]/x³ 等于",
+    "options": {
+      "A": "-1/6",
+      "B": "0",
+      "C": "1/6",
+      "D": "不存在"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "sin x=x-x³/6+o(x³)。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "m103",
+    "subject": "数学一",
+    "chapter": "线性代数",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "三阶矩阵A的特征值为1、2、-1，则det(A²)=",
+    "options": {
+      "A": "-4",
+      "B": "4",
+      "C": "2",
+      "D": "-2"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "det(A)=-2，det(A²)=det(A)²=4。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "m104",
+    "subject": "数学一",
+    "chapter": "概率论与数理统计",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "若X与Y独立，D(X)=2，D(Y)=3，则D(2X-Y)=",
+    "options": {
+      "A": "1",
+      "B": "5",
+      "C": "7",
+      "D": "11"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "独立时D(2X-Y)=4D(X)+D(Y)=11。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "m105",
+    "subject": "数学一",
+    "chapter": "高等数学",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "微分方程 y'+y=eˣ 的通解为",
+    "options": {
+      "A": "y=eˣ+Ce⁻ˣ",
+      "B": "y=(1/2)eˣ+Ce⁻ˣ",
+      "C": "y=(1/2)eˣ+C",
+      "D": "y=e⁻ˣ+C"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "乘积分因子eˣ得(eˣy)'=e²ˣ，积分后y=(1/2)eˣ+Ce⁻ˣ。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "m201",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "∫₀¹ 2x dx 等于",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "1/2"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "原函数为x²，在0到1上取值为1。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "m202",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "函数z=x²+y²在点(1,-1)处沿x轴正向的方向导数为",
+    "options": {
+      "A": "-2",
+      "B": "0",
+      "C": "2",
+      "D": "4"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "梯度为(2x,2y)，与方向(1,0)点乘得2。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "m203",
+    "subject": "数学二",
+    "chapter": "线性代数",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "若二阶矩阵A可逆，则下列一定正确的是",
+    "options": {
+      "A": "det(A)=0",
+      "B": "A有零特征值",
+      "C": "rank(A)=2",
+      "D": "A为对称矩阵"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "二阶方阵可逆等价于满秩。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "m204",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "级数 Σ(n=1→∞) 1/[n(n+1)] 的和为",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "1/2",
+      "D": "发散"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "拆项为1/n-1/(n+1)，部分和趋于1。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "m205",
+    "subject": "数学二",
+    "chapter": "线性代数",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "设A为3阶矩阵且rank(A)=1，则rank(A²)可能为",
+    "options": {
+      "A": "只能为1",
+      "B": "只能为0",
+      "C": "0或1",
+      "D": "2或3"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "rank(A²)≤rank(A)=1；可构造A²=0或A²=A的情形。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "m301",
+    "subject": "数学三",
+    "chapter": "微积分",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "某商品需求函数Q=100-2p，则价格p=20时的需求价格弹性绝对值为",
+    "options": {
+      "A": "1/3",
+      "B": "2/3",
+      "C": "1",
+      "D": "2"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "|E|=|pQ'/Q|=|20×(-2)/60|=2/3。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "m302",
+    "subject": "数学三",
+    "chapter": "微积分",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "若总成本C(q)=q²+10q+100，则边际成本在q=5处为",
+    "options": {
+      "A": "15",
+      "B": "20",
+      "C": "25",
+      "D": "35"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "C'(q)=2q+10，C'(5)=20。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "m303",
+    "subject": "数学三",
+    "chapter": "线性代数",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "若A与B均为n阶可逆矩阵，则(AB)⁻¹等于",
+    "options": {
+      "A": "A⁻¹B⁻¹",
+      "B": "B⁻¹A⁻¹",
+      "C": "AB",
+      "D": "BA"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "逆矩阵乘积需逆序。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "m304",
+    "subject": "数学三",
+    "chapter": "概率论与数理统计",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "随机变量X服从参数λ=2的泊松分布，则E(X)=",
+    "options": {
+      "A": "1/2",
+      "B": "1",
+      "C": "2",
+      "D": "4"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "泊松分布期望和方差均为λ。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "m305",
+    "subject": "数学三",
+    "chapter": "概率论与数理统计",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "从总体N(μ,σ²)抽取容量n的样本，σ²已知，则样本均值的方差为",
+    "options": {
+      "A": "σ²",
+      "B": "σ²/n",
+      "C": "σ/n",
+      "D": "nσ²"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "独立同分布样本均值的方差为σ²/n。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "c001",
+    "subject": "计算机学科专业基础",
+    "chapter": "数据结构",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "对长度为n的有序顺序表进行二分查找，最坏时间复杂度是",
+    "options": {
+      "A": "O(1)",
+      "B": "O(log n)",
+      "C": "O(n)",
+      "D": "O(n log n)"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "每次将查找区间缩小约一半。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "c002",
+    "subject": "计算机学科专业基础",
+    "chapter": "数据结构",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "一棵含n个结点的完全二叉树按层序从1编号，编号为i的结点若有右孩子，其编号为",
+    "options": {
+      "A": "i+1",
+      "B": "2i",
+      "C": "2i+1",
+      "D": "2i-1"
+    },
+    "answer": "C",
+    "points": 2,
+    "explanation": "1起始的顺序存储中左孩子2i，右孩子2i+1。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "c003",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机组成原理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "采用32位地址、按字节编址的系统，其理论最大地址空间为",
+    "options": {
+      "A": "2 GB",
+      "B": "4 GB",
+      "C": "8 GB",
+      "D": "32 GB"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "可表示2³²个字节，即4 GiB，通常表述为4 GB。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "c004",
+    "subject": "计算机学科专业基础",
+    "chapter": "操作系统",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "进程从运行态主动请求I/O后，通常转入",
+    "options": {
+      "A": "就绪态",
+      "B": "阻塞态",
+      "C": "终止态",
+      "D": "创建态"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "进程需等待I/O事件完成，进入阻塞态。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "c005",
+    "subject": "计算机学科专业基础",
+    "chapter": "操作系统",
+    "difficulty": 4,
+    "type": "multiple",
+    "stem": "产生死锁通常需要同时满足的条件包括",
+    "options": {
+      "A": "互斥",
+      "B": "请求并保持",
+      "C": "不可剥夺",
+      "D": "循环等待"
+    },
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "points": 3,
+    "explanation": "四项为死锁的四个必要条件。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "c006",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机网络",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "TCP连接建立通常使用",
+    "options": {
+      "A": "一次握手",
+      "B": "两次握手",
+      "C": "三次握手",
+      "D": "四次握手"
+    },
+    "answer": "C",
+    "points": 2,
+    "explanation": "TCP通过三次握手同步双方初始序号并确认收发能力。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "c007",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机网络",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "某IPv4网络前缀为/24，在不考虑特殊保留的传统用法下，可分配给主机的地址数为",
+    "options": {
+      "A": "254",
+      "B": "255",
+      "C": "256",
+      "D": "510"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "主机位8位，共256个地址，扣除网络地址和广播地址后为254。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "c008",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机组成原理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "若Cache命中时间1 ns，主存访问时间50 ns，命中率95%，采用先查Cache、未命中再访主存，则平均访问时间约为",
+    "options": {
+      "A": "1.5 ns",
+      "B": "3.5 ns",
+      "C": "48.5 ns",
+      "D": "51 ns"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "平均时间=1+0.05×50=3.5 ns。",
+    "source": "原创仿真",
+    "format_tag": "专项选择题"
+  },
+  {
+    "id": "gp000",
+    "subject": "思想政治理论",
+    "chapter": "马克思主义基本原理",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "某行业普遍采用新工艺后，生产同一件商品所需的平均劳动时间下降。其他条件不变，单位商品价值量将。下列理解正确的是：",
+    "options": {
+      "A": "上升",
+      "B": "下降",
+      "C": "不变",
+      "D": "先升后降"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "行业社会劳动生产率提高，社会必要劳动时间缩短，单位商品价值量下降。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 价值量由社会必要劳动时间决定"
+  },
+  {
+    "id": "gp001",
+    "subject": "思想政治理论",
+    "chapter": "马克思主义基本原理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "某行业普遍采用新工艺后，生产同一件商品所需的平均劳动时间下降。其他条件不变，单位商品价值量将。从这一材料可以推出：",
+    "options": {
+      "A": "上升",
+      "B": "下降",
+      "C": "不变",
+      "D": "先升后降"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "行业社会劳动生产率提高，社会必要劳动时间缩短，单位商品价值量下降。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 价值量由社会必要劳动时间决定"
+  },
+  {
+    "id": "gp002",
+    "subject": "思想政治理论",
+    "chapter": "马克思主义基本原理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "某行业普遍采用新工艺后，生产同一件商品所需的平均劳动时间下降。其他条件不变，单位商品价值量将。该案例主要说明：",
+    "options": {
+      "A": "上升",
+      "B": "下降",
+      "C": "不变",
+      "D": "先升后降"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "行业社会劳动生产率提高，社会必要劳动时间缩短，单位商品价值量下降。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 价值量由社会必要劳动时间决定"
+  },
+  {
+    "id": "gp010",
+    "subject": "思想政治理论",
+    "chapter": "马克思主义基本原理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "一项理论能否被确认为真理，最终要看它是否。下列理解正确的是：",
+    "options": {
+      "A": "得到多数人赞同",
+      "B": "逻辑形式完美",
+      "C": "在实践中达到预期结果",
+      "D": "由权威提出"
+    },
+    "answer": "C",
+    "points": 2,
+    "explanation": "实践能够把主观认识同客观结果联系起来，是检验真理性的唯一标准。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 实践是检验认识真理性的唯一标准"
+  },
+  {
+    "id": "gp011",
+    "subject": "思想政治理论",
+    "chapter": "马克思主义基本原理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "一项理论能否被确认为真理，最终要看它是否。从这一材料可以推出：",
+    "options": {
+      "A": "得到多数人赞同",
+      "B": "逻辑形式完美",
+      "C": "在实践中达到预期结果",
+      "D": "由权威提出"
+    },
+    "answer": "C",
+    "points": 2,
+    "explanation": "实践能够把主观认识同客观结果联系起来，是检验真理性的唯一标准。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 实践是检验认识真理性的唯一标准"
+  },
+  {
+    "id": "gp012",
+    "subject": "思想政治理论",
+    "chapter": "马克思主义基本原理",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "一项理论能否被确认为真理，最终要看它是否。该案例主要说明：",
+    "options": {
+      "A": "得到多数人赞同",
+      "B": "逻辑形式完美",
+      "C": "在实践中达到预期结果",
+      "D": "由权威提出"
+    },
+    "answer": "C",
+    "points": 2,
+    "explanation": "实践能够把主观认识同客观结果联系起来，是检验真理性的唯一标准。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 实践是检验认识真理性的唯一标准"
+  },
+  {
+    "id": "gp020",
+    "subject": "思想政治理论",
+    "chapter": "马克思主义基本原理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "把一般政策转化为适合本地区的具体方案，体现的哲学道理是。下列理解正确的是：",
+    "options": {
+      "A": "否认规律客观性",
+      "B": "共性寓于个性之中",
+      "C": "现象决定本质",
+      "D": "量变必然中断"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "一般要求必须通过具体条件实现，体现矛盾普遍性和特殊性的统一。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 矛盾普遍性与特殊性相统一"
+  },
+  {
+    "id": "gp021",
+    "subject": "思想政治理论",
+    "chapter": "马克思主义基本原理",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "把一般政策转化为适合本地区的具体方案，体现的哲学道理是。从这一材料可以推出：",
+    "options": {
+      "A": "否认规律客观性",
+      "B": "共性寓于个性之中",
+      "C": "现象决定本质",
+      "D": "量变必然中断"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "一般要求必须通过具体条件实现，体现矛盾普遍性和特殊性的统一。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 矛盾普遍性与特殊性相统一"
+  },
+  {
+    "id": "gp022",
+    "subject": "思想政治理论",
+    "chapter": "马克思主义基本原理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "把一般政策转化为适合本地区的具体方案，体现的哲学道理是。该案例主要说明：",
+    "options": {
+      "A": "否认规律客观性",
+      "B": "共性寓于个性之中",
+      "C": "现象决定本质",
+      "D": "量变必然中断"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "一般要求必须通过具体条件实现，体现矛盾普遍性和特殊性的统一。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 矛盾普遍性与特殊性相统一"
+  },
+  {
+    "id": "gp030",
+    "subject": "思想政治理论",
+    "chapter": "马克思主义基本原理",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "企业持续改进工艺，积累到一定程度后生产方式发生根本变化。这说明。下列理解正确的是：",
+    "options": {
+      "A": "质变排斥量变",
+      "B": "量变是质变的必要准备",
+      "C": "偶然性决定必然性",
+      "D": "事物发展没有过程"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "量的积累达到一定程度会引起质变。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 量变是质变的必要准备"
+  },
+  {
+    "id": "gp031",
+    "subject": "思想政治理论",
+    "chapter": "马克思主义基本原理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "企业持续改进工艺，积累到一定程度后生产方式发生根本变化。这说明。从这一材料可以推出：",
+    "options": {
+      "A": "质变排斥量变",
+      "B": "量变是质变的必要准备",
+      "C": "偶然性决定必然性",
+      "D": "事物发展没有过程"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "量的积累达到一定程度会引起质变。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 量变是质变的必要准备"
+  },
+  {
+    "id": "gp032",
+    "subject": "思想政治理论",
+    "chapter": "马克思主义基本原理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "企业持续改进工艺，积累到一定程度后生产方式发生根本变化。这说明。该案例主要说明：",
+    "options": {
+      "A": "质变排斥量变",
+      "B": "量变是质变的必要准备",
+      "C": "偶然性决定必然性",
+      "D": "事物发展没有过程"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "量的积累达到一定程度会引起质变。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 量变是质变的必要准备"
+  },
+  {
+    "id": "gp040",
+    "subject": "思想政治理论",
+    "chapter": "马克思主义基本原理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "评价社会发展动力时，坚持历史唯物主义应首先看到。下列理解正确的是：",
+    "options": {
+      "A": "少数英雄可以脱离社会条件创造历史",
+      "B": "人民群众是社会物质财富和精神财富的创造者",
+      "C": "思想观念独立决定历史进程",
+      "D": "自然环境是唯一动力"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "人民群众是社会历史的主体和历史创造者。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 人民群众是历史创造者"
+  },
+  {
+    "id": "gp041",
+    "subject": "思想政治理论",
+    "chapter": "马克思主义基本原理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "评价社会发展动力时，坚持历史唯物主义应首先看到。从这一材料可以推出：",
+    "options": {
+      "A": "少数英雄可以脱离社会条件创造历史",
+      "B": "人民群众是社会物质财富和精神财富的创造者",
+      "C": "思想观念独立决定历史进程",
+      "D": "自然环境是唯一动力"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "人民群众是社会历史的主体和历史创造者。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 人民群众是历史创造者"
+  },
+  {
+    "id": "gp042",
+    "subject": "思想政治理论",
+    "chapter": "马克思主义基本原理",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "评价社会发展动力时，坚持历史唯物主义应首先看到。该案例主要说明：",
+    "options": {
+      "A": "少数英雄可以脱离社会条件创造历史",
+      "B": "人民群众是社会物质财富和精神财富的创造者",
+      "C": "思想观念独立决定历史进程",
+      "D": "自然环境是唯一动力"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "人民群众是社会历史的主体和历史创造者。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 人民群众是历史创造者"
+  },
+  {
+    "id": "gp050",
+    "subject": "思想政治理论",
+    "chapter": "中国近现代史纲要",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "近代中国社会各种矛盾中最主要的矛盾是。下列理解正确的是：",
+    "options": {
+      "A": "帝国主义和中华民族的矛盾",
+      "B": "工人阶级和农民阶级的矛盾",
+      "C": "城市和乡村的矛盾",
+      "D": "工业和农业的矛盾"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "帝国主义和中华民族的矛盾是近代中国社会最主要的矛盾。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 帝国主义和中华民族的矛盾"
+  },
+  {
+    "id": "gp051",
+    "subject": "思想政治理论",
+    "chapter": "中国近现代史纲要",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "近代中国社会各种矛盾中最主要的矛盾是。从这一材料可以推出：",
+    "options": {
+      "A": "帝国主义和中华民族的矛盾",
+      "B": "工人阶级和农民阶级的矛盾",
+      "C": "城市和乡村的矛盾",
+      "D": "工业和农业的矛盾"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "帝国主义和中华民族的矛盾是近代中国社会最主要的矛盾。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 帝国主义和中华民族的矛盾"
+  },
+  {
+    "id": "gp052",
+    "subject": "思想政治理论",
+    "chapter": "中国近现代史纲要",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "近代中国社会各种矛盾中最主要的矛盾是。该案例主要说明：",
+    "options": {
+      "A": "帝国主义和中华民族的矛盾",
+      "B": "工人阶级和农民阶级的矛盾",
+      "C": "城市和乡村的矛盾",
+      "D": "工业和农业的矛盾"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "帝国主义和中华民族的矛盾是近代中国社会最主要的矛盾。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 帝国主义和中华民族的矛盾"
+  },
+  {
+    "id": "gp060",
+    "subject": "思想政治理论",
+    "chapter": "思想道德与法治",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "推进国家治理现代化，正确处理法治与德治关系应当。下列理解正确的是：",
+    "options": {
+      "A": "只强调道德教化",
+      "B": "只依靠法律强制",
+      "C": "坚持依法治国和以德治国相结合",
+      "D": "以个人好恶替代规则"
+    },
+    "answer": "C",
+    "points": 2,
+    "explanation": "法治和德治相辅相成，应坚持依法治国和以德治国相结合。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 法治与德治相结合"
+  },
+  {
+    "id": "gp061",
+    "subject": "思想政治理论",
+    "chapter": "思想道德与法治",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "推进国家治理现代化，正确处理法治与德治关系应当。从这一材料可以推出：",
+    "options": {
+      "A": "只强调道德教化",
+      "B": "只依靠法律强制",
+      "C": "坚持依法治国和以德治国相结合",
+      "D": "以个人好恶替代规则"
+    },
+    "answer": "C",
+    "points": 2,
+    "explanation": "法治和德治相辅相成，应坚持依法治国和以德治国相结合。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 法治与德治相结合"
+  },
+  {
+    "id": "gp062",
+    "subject": "思想政治理论",
+    "chapter": "思想道德与法治",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "推进国家治理现代化，正确处理法治与德治关系应当。该案例主要说明：",
+    "options": {
+      "A": "只强调道德教化",
+      "B": "只依靠法律强制",
+      "C": "坚持依法治国和以德治国相结合",
+      "D": "以个人好恶替代规则"
+    },
+    "answer": "C",
+    "points": 2,
+    "explanation": "法治和德治相辅相成，应坚持依法治国和以德治国相结合。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 法治与德治相结合"
+  },
+  {
+    "id": "gp070",
+    "subject": "思想政治理论",
+    "chapter": "习近平新时代中国特色社会主义思想概论",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "中国式现代化本质要求的首项是。下列理解正确的是：",
+    "options": {
+      "A": "坚持中国共产党领导",
+      "B": "照搬西方模式",
+      "C": "先污染后治理",
+      "D": "减少公共服务"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "坚持中国共产党领导是中国式现代化本质要求的首项。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 中国式现代化"
+  },
+  {
+    "id": "gp071",
+    "subject": "思想政治理论",
+    "chapter": "习近平新时代中国特色社会主义思想概论",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "中国式现代化本质要求的首项是。从这一材料可以推出：",
+    "options": {
+      "A": "坚持中国共产党领导",
+      "B": "照搬西方模式",
+      "C": "先污染后治理",
+      "D": "减少公共服务"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "坚持中国共产党领导是中国式现代化本质要求的首项。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 中国式现代化"
+  },
+  {
+    "id": "gp072",
+    "subject": "思想政治理论",
+    "chapter": "习近平新时代中国特色社会主义思想概论",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "中国式现代化本质要求的首项是。该案例主要说明：",
+    "options": {
+      "A": "坚持中国共产党领导",
+      "B": "照搬西方模式",
+      "C": "先污染后治理",
+      "D": "减少公共服务"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "坚持中国共产党领导是中国式现代化本质要求的首项。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 中国式现代化"
+  },
+  {
+    "id": "gp080",
+    "subject": "思想政治理论",
+    "chapter": "毛泽东思想和中国特色社会主义理论体系概论",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "从实际情况出发制定政策并在实践中检验和发展真理，体现了党的思想路线中的。下列理解正确的是：",
+    "options": {
+      "A": "实事求是",
+      "B": "闭门造车",
+      "C": "经验至上",
+      "D": "形式主义"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "实事求是要求一切从实际出发、理论联系实际，并在实践中检验和发展真理。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 实事求是"
+  },
+  {
+    "id": "gp081",
+    "subject": "思想政治理论",
+    "chapter": "毛泽东思想和中国特色社会主义理论体系概论",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "从实际情况出发制定政策并在实践中检验和发展真理，体现了党的思想路线中的。从这一材料可以推出：",
+    "options": {
+      "A": "实事求是",
+      "B": "闭门造车",
+      "C": "经验至上",
+      "D": "形式主义"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "实事求是要求一切从实际出发、理论联系实际，并在实践中检验和发展真理。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 实事求是"
+  },
+  {
+    "id": "gp082",
+    "subject": "思想政治理论",
+    "chapter": "毛泽东思想和中国特色社会主义理论体系概论",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "从实际情况出发制定政策并在实践中检验和发展真理，体现了党的思想路线中的。该案例主要说明：",
+    "options": {
+      "A": "实事求是",
+      "B": "闭门造车",
+      "C": "经验至上",
+      "D": "形式主义"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "实事求是要求一切从实际出发、理论联系实际，并在实践中检验和发展真理。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 实事求是"
+  },
+  {
+    "id": "gp090",
+    "subject": "思想政治理论",
+    "chapter": "思想道德与法治",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "行政机关对事实和情节相同的案件适用同一标准，主要体现。下列理解正确的是：",
+    "options": {
+      "A": "法外特权",
+      "B": "法律面前人人平等",
+      "C": "权力不受监督",
+      "D": "程序可以省略"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "同等情况同等对待是法律面前人人平等的基本要求。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 法律面前人人平等"
+  },
+  {
+    "id": "gp091",
+    "subject": "思想政治理论",
+    "chapter": "思想道德与法治",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "行政机关对事实和情节相同的案件适用同一标准，主要体现。从这一材料可以推出：",
+    "options": {
+      "A": "法外特权",
+      "B": "法律面前人人平等",
+      "C": "权力不受监督",
+      "D": "程序可以省略"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "同等情况同等对待是法律面前人人平等的基本要求。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 法律面前人人平等"
+  },
+  {
+    "id": "gp092",
+    "subject": "思想政治理论",
+    "chapter": "思想道德与法治",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "行政机关对事实和情节相同的案件适用同一标准，主要体现。该案例主要说明：",
+    "options": {
+      "A": "法外特权",
+      "B": "法律面前人人平等",
+      "C": "权力不受监督",
+      "D": "程序可以省略"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "同等情况同等对待是法律面前人人平等的基本要求。",
+    "source": "原创仿真",
+    "format_tag": "稳定考点 · 法律面前人人平等"
+  },
+  {
+    "id": "e1gc000",
+    "subject": "英语一",
+    "chapter": "英语知识运用",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "Choose the best answer. Scientific conclusions should remain open to revision ___ new evidence emerges.",
+    "options": {
+      "A": "unless",
+      "B": "when",
+      "C": "although",
+      "D": "before"
+    },
+    "answer": "B",
+    "points": 0.5,
+    "explanation": "when 引导时间状语，表示新证据出现时应修正结论。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e1gc001",
+    "subject": "英语一",
+    "chapter": "英语知识运用",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "Choose the best answer. The proposal is attractive in theory; ___, its cost has not been fully assessed.",
+    "options": {
+      "A": "therefore",
+      "B": "similarly",
+      "C": "however",
+      "D": "for example"
+    },
+    "answer": "C",
+    "points": 0.5,
+    "explanation": "前后是转折关系，应使用 however。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e1gc002",
+    "subject": "英语一",
+    "chapter": "英语知识运用",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "Choose the best answer. Customers value convenience, but few are willing to ___ security for speed.",
+    "options": {
+      "A": "sacrifice",
+      "B": "restore",
+      "C": "predict",
+      "D": "deliver"
+    },
+    "answer": "A",
+    "points": 0.5,
+    "explanation": "sacrifice A for B 表示为了B牺牲A。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e1gc003",
+    "subject": "英语一",
+    "chapter": "英语知识运用",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "Choose the best answer. The result should be treated with caution, ___ the sample came from one city.",
+    "options": {
+      "A": "given that",
+      "B": "even if",
+      "C": "so that",
+      "D": "whereas"
+    },
+    "answer": "A",
+    "points": 0.5,
+    "explanation": "given that 引出需要谨慎的原因。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e1gc004",
+    "subject": "英语一",
+    "chapter": "英语知识运用",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "Choose the best answer. A good model is useful not because it copies reality perfectly, ___ because it simplifies it productively.",
+    "options": {
+      "A": "or",
+      "B": "but",
+      "C": "and",
+      "D": "so"
+    },
+    "answer": "B",
+    "points": 0.5,
+    "explanation": "固定对比结构 not because..., but because...。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e1gc005",
+    "subject": "英语一",
+    "chapter": "英语知识运用",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "Choose the best answer. The team postponed the launch in order to ___ several unresolved safety concerns.",
+    "options": {
+      "A": "address",
+      "B": "display",
+      "C": "inherit",
+      "D": "estimate"
+    },
+    "answer": "A",
+    "points": 0.5,
+    "explanation": "address concerns 表示处理、应对问题。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e1gc006",
+    "subject": "英语一",
+    "chapter": "英语知识运用",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "Choose the best answer. The policy had an effect that was small but statistically ___.",
+    "options": {
+      "A": "significant",
+      "B": "ordinary",
+      "C": "available",
+      "D": "temporary"
+    },
+    "answer": "A",
+    "points": 0.5,
+    "explanation": "statistically significant 是统计学常用搭配。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e1gc007",
+    "subject": "英语一",
+    "chapter": "英语知识运用",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "Choose the best answer. Rather than ___ employees constantly, managers should clarify goals and constraints.",
+    "options": {
+      "A": "monitor",
+      "B": "monitored",
+      "C": "to monitor",
+      "D": "monitoring"
+    },
+    "answer": "D",
+    "points": 0.5,
+    "explanation": "rather than 在此与后面的动名词结构对应。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e1gc008",
+    "subject": "英语一",
+    "chapter": "英语知识运用",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "Choose the best answer. The museum redesigned its signs so that visitors could find exhibits more ___.",
+    "options": {
+      "A": "rarely",
+      "B": "easily",
+      "C": "loosely",
+      "D": "quietly"
+    },
+    "answer": "B",
+    "points": 0.5,
+    "explanation": "语境要求表达更容易找到展品。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e1gc009",
+    "subject": "英语一",
+    "chapter": "英语知识运用",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "Choose the best answer. Evidence from a single case cannot, by itself, ___ a universal claim.",
+    "options": {
+      "A": "justify",
+      "B": "borrow",
+      "C": "remove",
+      "D": "attend"
+    },
+    "answer": "A",
+    "points": 0.5,
+    "explanation": "justify a claim 表示为主张提供充分依据。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e1gc010",
+    "subject": "英语一",
+    "chapter": "英语知识运用",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "Choose the best answer. Although the device is cheaper, it is not necessarily more ___ over its full life cycle.",
+    "options": {
+      "A": "economical",
+      "B": "economic",
+      "C": "economy",
+      "D": "economize"
+    },
+    "answer": "A",
+    "points": 0.5,
+    "explanation": "economical 表示节省成本、经济实用。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e1gc011",
+    "subject": "英语一",
+    "chapter": "英语知识运用",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "Choose the best answer. The report distinguishes correlation ___ causation.",
+    "options": {
+      "A": "from",
+      "B": "with",
+      "C": "by",
+      "D": "into"
+    },
+    "answer": "A",
+    "points": 0.5,
+    "explanation": "distinguish A from B 是固定搭配。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e1gc012",
+    "subject": "英语一",
+    "chapter": "英语知识运用",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "Choose the best answer. Public trust is difficult to build and easy to ___.",
+    "options": {
+      "A": "erode",
+      "B": "arrange",
+      "C": "measure up",
+      "D": "settle down"
+    },
+    "answer": "A",
+    "points": 0.5,
+    "explanation": "erode trust 表示逐渐损害信任。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e1gc013",
+    "subject": "英语一",
+    "chapter": "英语知识运用",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "Choose the best answer. The experiment was repeated to determine ___ the first result was accidental.",
+    "options": {
+      "A": "whether",
+      "B": "what",
+      "C": "whose",
+      "D": "where"
+    },
+    "answer": "A",
+    "points": 0.5,
+    "explanation": "whether 引导宾语从句，表示是否。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e1gc014",
+    "subject": "英语一",
+    "chapter": "英语知识运用",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "Choose the best answer. Productivity improved, ___ employees reported no increase in working hours.",
+    "options": {
+      "A": "while",
+      "B": "because of",
+      "C": "unless",
+      "D": "despite"
+    },
+    "answer": "A",
+    "points": 0.5,
+    "explanation": "while 可连接两个完整分句并表示对照。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e1gr000",
+    "subject": "英语一",
+    "chapter": "阅读理解A",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "A library extended weekend hours. Attendance rose sharply, while book lending changed little. Surveys showed that most new visitors used quiet desks, group rooms and free internet access.\n\nThe passage mainly shows that the library—",
+    "options": {
+      "A": "failed to promote reading",
+      "B": "serves needs beyond lending books",
+      "C": "should close on weekends",
+      "D": "attracts only internet users"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "到访增加而借阅变化不大，是因为图书馆还提供空间和网络等服务。",
+    "source": "原创仿真",
+    "format_tag": "阅读理解专项 · 每题2分"
+  },
+  {
+    "id": "e1gr001",
+    "subject": "英语一",
+    "chapter": "阅读理解A",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "A firm introduced a four-day schedule without reducing total weekly hours. Staff satisfaction improved, but sick leave and output remained almost unchanged.\n\nWhich statement is supported?",
+    "options": {
+      "A": "Employees worked fewer hours",
+      "B": "Reported satisfaction improved",
+      "C": "Sick leave disappeared",
+      "D": "Output doubled"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "材料只明确支持满意度提高。",
+    "source": "原创仿真",
+    "format_tag": "阅读理解专项 · 每题2分"
+  },
+  {
+    "id": "e1gr002",
+    "subject": "英语一",
+    "chapter": "阅读理解A",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "Algorithms can make consistent decisions. Yet consistency may simply reproduce a consistently biased rule.\n\nThe second sentence mainly serves to—",
+    "options": {
+      "A": "reject all automation",
+      "B": "distinguish consistency from fairness",
+      "C": "prove humans are unbiased",
+      "D": "describe programming languages"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "作者限定了“稳定一致”的积极含义，指出一致不等于公平。",
+    "source": "原创仿真",
+    "format_tag": "阅读理解专项 · 每题2分"
+  },
+  {
+    "id": "e1gr003",
+    "subject": "英语一",
+    "chapter": "阅读理解A",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "Researchers found that people remembered a route better when they actively chose each turn than when a navigation app directed them. The study did not claim that navigation apps always harm memory.\n\nWhat caution does the passage emphasize?",
+    "options": {
+      "A": "The finding applies to every use of navigation",
+      "B": "The study supports a limited, not universal, conclusion",
+      "C": "Route choice never affects memory",
+      "D": "Navigation apps should be banned"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "末句明确限制了结论的适用范围。",
+    "source": "原创仿真",
+    "format_tag": "阅读理解专项 · 每题2分"
+  },
+  {
+    "id": "e1gr004",
+    "subject": "英语一",
+    "chapter": "阅读理解A",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "A city planted trees in its hottest neighborhoods. Surface temperatures fell near mature trees, but the effect was smaller on wide roads with heavy traffic.\n\nThe passage suggests that tree planting—",
+    "options": {
+      "A": "has identical effects everywhere",
+      "B": "can help but its effect depends on local conditions",
+      "C": "raises road temperatures",
+      "D": "works only without traffic"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "树木有降温作用，但效果受道路和交通等局部条件影响。",
+    "source": "原创仿真",
+    "format_tag": "阅读理解专项 · 每题2分"
+  },
+  {
+    "id": "e1gr005",
+    "subject": "英语一",
+    "chapter": "阅读理解A",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "Remote meetings reduce travel time. They can also make informal conversation harder, especially for new team members who have not yet built personal connections.\n\nThe author presents remote meetings as—",
+    "options": {
+      "A": "entirely harmful",
+      "B": "a trade-off with both benefits and costs",
+      "C": "useful only to new staff",
+      "D": "a complete replacement for offices"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "文本同时给出节省时间的收益与沟通成本。",
+    "source": "原创仿真",
+    "format_tag": "阅读理解专项 · 每题2分"
+  },
+  {
+    "id": "e1gr006",
+    "subject": "英语一",
+    "chapter": "阅读理解A",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "A hospital shortened appointment forms. Completion rates improved most among first-time patients, while returning patients showed little change.\n\nWhich group benefited most?",
+    "options": {
+      "A": "Returning patients",
+      "B": "First-time patients",
+      "C": "Hospital managers",
+      "D": "No group"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "材料直接说明首次就诊者改善最大。",
+    "source": "原创仿真",
+    "format_tag": "阅读理解专项 · 每题2分"
+  },
+  {
+    "id": "e1gr007",
+    "subject": "英语一",
+    "chapter": "阅读理解A",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "A company published salary ranges in job advertisements. Applications increased, but the share of qualified applicants remained stable.\n\nWhat can be inferred?",
+    "options": {
+      "A": "Every applicant was qualified",
+      "B": "Transparency attracted more applications without changing the qualified share",
+      "C": "Salary ranges reduced interest",
+      "D": "Hiring standards were removed"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "申请数量增加，而合格比例稳定。",
+    "source": "原创仿真",
+    "format_tag": "阅读理解专项 · 每题2分"
+  },
+  {
+    "id": "e1gr008",
+    "subject": "英语一",
+    "chapter": "阅读理解A",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "Some failures are informative because they reveal which assumptions were wrong. This does not mean that organizations should ignore avoidable mistakes.\n\nThe author distinguishes between—",
+    "options": {
+      "A": "useful learning and careless error",
+      "B": "success and all forms of failure",
+      "C": "research and management",
+      "D": "rules and assumptions"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "作者肯定可产生学习的失败，同时反对可避免的疏忽。",
+    "source": "原创仿真",
+    "format_tag": "阅读理解专项 · 每题2分"
+  },
+  {
+    "id": "e1gr009",
+    "subject": "英语一",
+    "chapter": "阅读理解A",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "A school replaced one large exam with several smaller assessments. Average scores changed little, but students reported less anxiety before each test.\n\nThe change primarily affected—",
+    "options": {
+      "A": "reported anxiety",
+      "B": "average achievement dramatically",
+      "C": "course content",
+      "D": "class size"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "成绩变化不大，明显变化是单次考试前焦虑下降。",
+    "source": "原创仿真",
+    "format_tag": "阅读理解专项 · 每题2分"
+  },
+  {
+    "id": "e1gr010",
+    "subject": "英语一",
+    "chapter": "阅读理解A",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "An online store added detailed repair guides. Product returns declined for simple faults, while returns for major defects were unchanged.\n\nThe guides were most useful for—",
+    "options": {
+      "A": "major defects",
+      "B": "simple faults",
+      "C": "all returns equally",
+      "D": "preventing purchases"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "退货减少只出现在简单故障。",
+    "source": "原创仿真",
+    "format_tag": "阅读理解专项 · 每题2分"
+  },
+  {
+    "id": "e1gr011",
+    "subject": "英语一",
+    "chapter": "阅读理解A",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "A transit agency made real-time arrival data public. Independent developers then created accessibility tools the agency had not planned.\n\nThe example illustrates how open data can—",
+    "options": {
+      "A": "eliminate public agencies",
+      "B": "enable unanticipated services",
+      "C": "guarantee accurate predictions",
+      "D": "reduce accessibility"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "开发者创造了机构原先未规划的新工具。",
+    "source": "原创仿真",
+    "format_tag": "阅读理解专项 · 每题2分"
+  },
+  {
+    "id": "e2gc000",
+    "subject": "英语二",
+    "chapter": "英语知识运用",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "Choose the best answer. Scientific conclusions should remain open to revision ___ new evidence emerges.",
+    "options": {
+      "A": "unless",
+      "B": "when",
+      "C": "although",
+      "D": "before"
+    },
+    "answer": "B",
+    "points": 0.5,
+    "explanation": "when 引导时间状语，表示新证据出现时应修正结论。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e2gc001",
+    "subject": "英语二",
+    "chapter": "英语知识运用",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "Choose the best answer. The proposal is attractive in theory; ___, its cost has not been fully assessed.",
+    "options": {
+      "A": "therefore",
+      "B": "similarly",
+      "C": "however",
+      "D": "for example"
+    },
+    "answer": "C",
+    "points": 0.5,
+    "explanation": "前后是转折关系，应使用 however。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e2gc002",
+    "subject": "英语二",
+    "chapter": "英语知识运用",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "Choose the best answer. Customers value convenience, but few are willing to ___ security for speed.",
+    "options": {
+      "A": "sacrifice",
+      "B": "restore",
+      "C": "predict",
+      "D": "deliver"
+    },
+    "answer": "A",
+    "points": 0.5,
+    "explanation": "sacrifice A for B 表示为了B牺牲A。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e2gc003",
+    "subject": "英语二",
+    "chapter": "英语知识运用",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "Choose the best answer. The result should be treated with caution, ___ the sample came from one city.",
+    "options": {
+      "A": "given that",
+      "B": "even if",
+      "C": "so that",
+      "D": "whereas"
+    },
+    "answer": "A",
+    "points": 0.5,
+    "explanation": "given that 引出需要谨慎的原因。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e2gc004",
+    "subject": "英语二",
+    "chapter": "英语知识运用",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "Choose the best answer. A good model is useful not because it copies reality perfectly, ___ because it simplifies it productively.",
+    "options": {
+      "A": "or",
+      "B": "but",
+      "C": "and",
+      "D": "so"
+    },
+    "answer": "B",
+    "points": 0.5,
+    "explanation": "固定对比结构 not because..., but because...。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e2gc005",
+    "subject": "英语二",
+    "chapter": "英语知识运用",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "Choose the best answer. The team postponed the launch in order to ___ several unresolved safety concerns.",
+    "options": {
+      "A": "address",
+      "B": "display",
+      "C": "inherit",
+      "D": "estimate"
+    },
+    "answer": "A",
+    "points": 0.5,
+    "explanation": "address concerns 表示处理、应对问题。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e2gc006",
+    "subject": "英语二",
+    "chapter": "英语知识运用",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "Choose the best answer. The policy had an effect that was small but statistically ___.",
+    "options": {
+      "A": "significant",
+      "B": "ordinary",
+      "C": "available",
+      "D": "temporary"
+    },
+    "answer": "A",
+    "points": 0.5,
+    "explanation": "statistically significant 是统计学常用搭配。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e2gc007",
+    "subject": "英语二",
+    "chapter": "英语知识运用",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "Choose the best answer. Rather than ___ employees constantly, managers should clarify goals and constraints.",
+    "options": {
+      "A": "monitor",
+      "B": "monitored",
+      "C": "to monitor",
+      "D": "monitoring"
+    },
+    "answer": "D",
+    "points": 0.5,
+    "explanation": "rather than 在此与后面的动名词结构对应。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e2gc008",
+    "subject": "英语二",
+    "chapter": "英语知识运用",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "Choose the best answer. The museum redesigned its signs so that visitors could find exhibits more ___.",
+    "options": {
+      "A": "rarely",
+      "B": "easily",
+      "C": "loosely",
+      "D": "quietly"
+    },
+    "answer": "B",
+    "points": 0.5,
+    "explanation": "语境要求表达更容易找到展品。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e2gc009",
+    "subject": "英语二",
+    "chapter": "英语知识运用",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "Choose the best answer. Evidence from a single case cannot, by itself, ___ a universal claim.",
+    "options": {
+      "A": "justify",
+      "B": "borrow",
+      "C": "remove",
+      "D": "attend"
+    },
+    "answer": "A",
+    "points": 0.5,
+    "explanation": "justify a claim 表示为主张提供充分依据。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e2gc010",
+    "subject": "英语二",
+    "chapter": "英语知识运用",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "Choose the best answer. Although the device is cheaper, it is not necessarily more ___ over its full life cycle.",
+    "options": {
+      "A": "economical",
+      "B": "economic",
+      "C": "economy",
+      "D": "economize"
+    },
+    "answer": "A",
+    "points": 0.5,
+    "explanation": "economical 表示节省成本、经济实用。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e2gc011",
+    "subject": "英语二",
+    "chapter": "英语知识运用",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "Choose the best answer. The report distinguishes correlation ___ causation.",
+    "options": {
+      "A": "from",
+      "B": "with",
+      "C": "by",
+      "D": "into"
+    },
+    "answer": "A",
+    "points": 0.5,
+    "explanation": "distinguish A from B 是固定搭配。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e2gc012",
+    "subject": "英语二",
+    "chapter": "英语知识运用",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "Choose the best answer. Public trust is difficult to build and easy to ___.",
+    "options": {
+      "A": "erode",
+      "B": "arrange",
+      "C": "measure up",
+      "D": "settle down"
+    },
+    "answer": "A",
+    "points": 0.5,
+    "explanation": "erode trust 表示逐渐损害信任。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e2gc013",
+    "subject": "英语二",
+    "chapter": "英语知识运用",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "Choose the best answer. The experiment was repeated to determine ___ the first result was accidental.",
+    "options": {
+      "A": "whether",
+      "B": "what",
+      "C": "whose",
+      "D": "where"
+    },
+    "answer": "A",
+    "points": 0.5,
+    "explanation": "whether 引导宾语从句，表示是否。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e2gc014",
+    "subject": "英语二",
+    "chapter": "英语知识运用",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "Choose the best answer. Productivity improved, ___ employees reported no increase in working hours.",
+    "options": {
+      "A": "while",
+      "B": "because of",
+      "C": "unless",
+      "D": "despite"
+    },
+    "answer": "A",
+    "points": 0.5,
+    "explanation": "while 可连接两个完整分句并表示对照。",
+    "source": "原创仿真",
+    "format_tag": "完形/词汇专项 · 每题0.5分"
+  },
+  {
+    "id": "e2gr000",
+    "subject": "英语二",
+    "chapter": "阅读理解A",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "A library extended weekend hours. Attendance rose sharply, while book lending changed little. Surveys showed that most new visitors used quiet desks, group rooms and free internet access.\n\nThe passage mainly shows that the library—",
+    "options": {
+      "A": "failed to promote reading",
+      "B": "serves needs beyond lending books",
+      "C": "should close on weekends",
+      "D": "attracts only internet users"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "到访增加而借阅变化不大，是因为图书馆还提供空间和网络等服务。",
+    "source": "原创仿真",
+    "format_tag": "阅读理解专项 · 每题2分"
+  },
+  {
+    "id": "e2gr001",
+    "subject": "英语二",
+    "chapter": "阅读理解A",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "A firm introduced a four-day schedule without reducing total weekly hours. Staff satisfaction improved, but sick leave and output remained almost unchanged.\n\nWhich statement is supported?",
+    "options": {
+      "A": "Employees worked fewer hours",
+      "B": "Reported satisfaction improved",
+      "C": "Sick leave disappeared",
+      "D": "Output doubled"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "材料只明确支持满意度提高。",
+    "source": "原创仿真",
+    "format_tag": "阅读理解专项 · 每题2分"
+  },
+  {
+    "id": "e2gr002",
+    "subject": "英语二",
+    "chapter": "阅读理解A",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "Algorithms can make consistent decisions. Yet consistency may simply reproduce a consistently biased rule.\n\nThe second sentence mainly serves to—",
+    "options": {
+      "A": "reject all automation",
+      "B": "distinguish consistency from fairness",
+      "C": "prove humans are unbiased",
+      "D": "describe programming languages"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "作者限定了“稳定一致”的积极含义，指出一致不等于公平。",
+    "source": "原创仿真",
+    "format_tag": "阅读理解专项 · 每题2分"
+  },
+  {
+    "id": "e2gr003",
+    "subject": "英语二",
+    "chapter": "阅读理解A",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "Researchers found that people remembered a route better when they actively chose each turn than when a navigation app directed them. The study did not claim that navigation apps always harm memory.\n\nWhat caution does the passage emphasize?",
+    "options": {
+      "A": "The finding applies to every use of navigation",
+      "B": "The study supports a limited, not universal, conclusion",
+      "C": "Route choice never affects memory",
+      "D": "Navigation apps should be banned"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "末句明确限制了结论的适用范围。",
+    "source": "原创仿真",
+    "format_tag": "阅读理解专项 · 每题2分"
+  },
+  {
+    "id": "e2gr004",
+    "subject": "英语二",
+    "chapter": "阅读理解A",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "A city planted trees in its hottest neighborhoods. Surface temperatures fell near mature trees, but the effect was smaller on wide roads with heavy traffic.\n\nThe passage suggests that tree planting—",
+    "options": {
+      "A": "has identical effects everywhere",
+      "B": "can help but its effect depends on local conditions",
+      "C": "raises road temperatures",
+      "D": "works only without traffic"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "树木有降温作用，但效果受道路和交通等局部条件影响。",
+    "source": "原创仿真",
+    "format_tag": "阅读理解专项 · 每题2分"
+  },
+  {
+    "id": "e2gr005",
+    "subject": "英语二",
+    "chapter": "阅读理解A",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "Remote meetings reduce travel time. They can also make informal conversation harder, especially for new team members who have not yet built personal connections.\n\nThe author presents remote meetings as—",
+    "options": {
+      "A": "entirely harmful",
+      "B": "a trade-off with both benefits and costs",
+      "C": "useful only to new staff",
+      "D": "a complete replacement for offices"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "文本同时给出节省时间的收益与沟通成本。",
+    "source": "原创仿真",
+    "format_tag": "阅读理解专项 · 每题2分"
+  },
+  {
+    "id": "e2gr006",
+    "subject": "英语二",
+    "chapter": "阅读理解A",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "A hospital shortened appointment forms. Completion rates improved most among first-time patients, while returning patients showed little change.\n\nWhich group benefited most?",
+    "options": {
+      "A": "Returning patients",
+      "B": "First-time patients",
+      "C": "Hospital managers",
+      "D": "No group"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "材料直接说明首次就诊者改善最大。",
+    "source": "原创仿真",
+    "format_tag": "阅读理解专项 · 每题2分"
+  },
+  {
+    "id": "e2gr007",
+    "subject": "英语二",
+    "chapter": "阅读理解A",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "A company published salary ranges in job advertisements. Applications increased, but the share of qualified applicants remained stable.\n\nWhat can be inferred?",
+    "options": {
+      "A": "Every applicant was qualified",
+      "B": "Transparency attracted more applications without changing the qualified share",
+      "C": "Salary ranges reduced interest",
+      "D": "Hiring standards were removed"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "申请数量增加，而合格比例稳定。",
+    "source": "原创仿真",
+    "format_tag": "阅读理解专项 · 每题2分"
+  },
+  {
+    "id": "e2gr008",
+    "subject": "英语二",
+    "chapter": "阅读理解A",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "Some failures are informative because they reveal which assumptions were wrong. This does not mean that organizations should ignore avoidable mistakes.\n\nThe author distinguishes between—",
+    "options": {
+      "A": "useful learning and careless error",
+      "B": "success and all forms of failure",
+      "C": "research and management",
+      "D": "rules and assumptions"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "作者肯定可产生学习的失败，同时反对可避免的疏忽。",
+    "source": "原创仿真",
+    "format_tag": "阅读理解专项 · 每题2分"
+  },
+  {
+    "id": "e2gr009",
+    "subject": "英语二",
+    "chapter": "阅读理解A",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "A school replaced one large exam with several smaller assessments. Average scores changed little, but students reported less anxiety before each test.\n\nThe change primarily affected—",
+    "options": {
+      "A": "reported anxiety",
+      "B": "average achievement dramatically",
+      "C": "course content",
+      "D": "class size"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "成绩变化不大，明显变化是单次考试前焦虑下降。",
+    "source": "原创仿真",
+    "format_tag": "阅读理解专项 · 每题2分"
+  },
+  {
+    "id": "e2gr010",
+    "subject": "英语二",
+    "chapter": "阅读理解A",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "An online store added detailed repair guides. Product returns declined for simple faults, while returns for major defects were unchanged.\n\nThe guides were most useful for—",
+    "options": {
+      "A": "major defects",
+      "B": "simple faults",
+      "C": "all returns equally",
+      "D": "preventing purchases"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "退货减少只出现在简单故障。",
+    "source": "原创仿真",
+    "format_tag": "阅读理解专项 · 每题2分"
+  },
+  {
+    "id": "e2gr011",
+    "subject": "英语二",
+    "chapter": "阅读理解A",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "A transit agency made real-time arrival data public. Independent developers then created accessibility tools the agency had not planned.\n\nThe example illustrates how open data can—",
+    "options": {
+      "A": "eliminate public agencies",
+      "B": "enable unanticipated services",
+      "C": "guarantee accurate predictions",
+      "D": "reduce accessibility"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "开发者创造了机构原先未规划的新工具。",
+    "source": "原创仿真",
+    "format_tag": "阅读理解专项 · 每题2分"
+  },
+  {
+    "id": "gm1d00",
+    "subject": "数学一",
+    "chapter": "高等数学",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "设 f(x)=1x²-3x+1，则 f'(0)=",
+    "options": {
+      "A": "-3",
+      "B": "-2",
+      "C": "-5",
+      "D": "-1"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "f'(x)=2x-3，代入 x=0 得 -3。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1d01",
+    "subject": "数学一",
+    "chapter": "高等数学",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "设 f(x)=2x²+0x+1，则 f'(1)=",
+    "options": {
+      "A": "5",
+      "B": "2",
+      "C": "6",
+      "D": "4"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "f'(x)=4x+0，代入 x=1 得 4。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1d02",
+    "subject": "数学一",
+    "chapter": "高等数学",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "设 f(x)=3x²+3x+1，则 f'(2)=",
+    "options": {
+      "A": "13",
+      "B": "9",
+      "C": "15",
+      "D": "16"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "f'(x)=6x+3，代入 x=2 得 15。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1d03",
+    "subject": "数学一",
+    "chapter": "高等数学",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "设 f(x)=4x²-1x+1，则 f'(0)=",
+    "options": {
+      "A": "1",
+      "B": "-1",
+      "C": "0",
+      "D": "-3"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "f'(x)=8x-1，代入 x=0 得 -1。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1d04",
+    "subject": "数学一",
+    "chapter": "高等数学",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "设 f(x)=1x²+2x+1，则 f'(1)=",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "2",
+      "D": "3"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "f'(x)=2x+2，代入 x=1 得 4。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1d05",
+    "subject": "数学一",
+    "chapter": "高等数学",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "设 f(x)=2x²-2x+1，则 f'(2)=",
+    "options": {
+      "A": "7",
+      "B": "4",
+      "C": "2",
+      "D": "6"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "f'(x)=4x-2，代入 x=2 得 6。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1d06",
+    "subject": "数学一",
+    "chapter": "高等数学",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "设 f(x)=3x²+1x+1，则 f'(0)=",
+    "options": {
+      "A": "-1",
+      "B": "3",
+      "C": "1",
+      "D": "2"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "f'(x)=6x+1，代入 x=0 得 1。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1d07",
+    "subject": "数学一",
+    "chapter": "高等数学",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "设 f(x)=4x²-3x+1，则 f'(1)=",
+    "options": {
+      "A": "1",
+      "B": "5",
+      "C": "6",
+      "D": "3"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "f'(x)=8x-3，代入 x=1 得 5。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1d08",
+    "subject": "数学一",
+    "chapter": "高等数学",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "设 f(x)=1x²+0x+1，则 f'(2)=",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "2",
+      "D": "6"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "f'(x)=2x+0，代入 x=2 得 4。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1d09",
+    "subject": "数学一",
+    "chapter": "高等数学",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "设 f(x)=2x²+3x+1，则 f'(0)=",
+    "options": {
+      "A": "4",
+      "B": "1",
+      "C": "5",
+      "D": "3"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "f'(x)=4x+3，代入 x=0 得 3。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1d10",
+    "subject": "数学一",
+    "chapter": "高等数学",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "设 f(x)=3x²-1x+1，则 f'(1)=",
+    "options": {
+      "A": "3",
+      "B": "2",
+      "C": "5",
+      "D": "6"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "f'(x)=6x-1，代入 x=1 得 5。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1d11",
+    "subject": "数学一",
+    "chapter": "高等数学",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "设 f(x)=4x²+2x+1，则 f'(2)=",
+    "options": {
+      "A": "10",
+      "B": "18",
+      "C": "19",
+      "D": "16"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "f'(x)=8x+2，代入 x=2 得 18。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1i00",
+    "subject": "数学一",
+    "chapter": "高等数学",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "定积分 ∫₀^1 2x dx 等于",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "0",
+      "D": "1"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "原函数为 1x²，代入上下限得 1。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1i01",
+    "subject": "数学一",
+    "chapter": "高等数学",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "定积分 ∫₀^2 4x dx 等于",
+    "options": {
+      "A": "12",
+      "B": "6",
+      "C": "8",
+      "D": "10"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "原函数为 2x²，代入上下限得 8。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1i02",
+    "subject": "数学一",
+    "chapter": "高等数学",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "定积分 ∫₀^3 6x dx 等于",
+    "options": {
+      "A": "24",
+      "B": "27",
+      "C": "30",
+      "D": "33"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "原函数为 3x²，代入上下限得 27。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1i03",
+    "subject": "数学一",
+    "chapter": "高等数学",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "定积分 ∫₀^1 8x dx 等于",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "12",
+      "D": "3"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "原函数为 4x²，代入上下限得 4。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1i04",
+    "subject": "数学一",
+    "chapter": "高等数学",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "定积分 ∫₀^2 2x dx 等于",
+    "options": {
+      "A": "6",
+      "B": "2",
+      "C": "5",
+      "D": "4"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "原函数为 1x²，代入上下限得 4。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1i05",
+    "subject": "数学一",
+    "chapter": "高等数学",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "定积分 ∫₀^3 4x dx 等于",
+    "options": {
+      "A": "22",
+      "B": "15",
+      "C": "18",
+      "D": "21"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "原函数为 2x²，代入上下限得 18。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1i06",
+    "subject": "数学一",
+    "chapter": "高等数学",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "定积分 ∫₀^1 6x dx 等于",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "9"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "原函数为 3x²，代入上下限得 3。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1i07",
+    "subject": "数学一",
+    "chapter": "高等数学",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "定积分 ∫₀^2 8x dx 等于",
+    "options": {
+      "A": "16",
+      "B": "18",
+      "C": "24",
+      "D": "14"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "原函数为 4x²，代入上下限得 16。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1i08",
+    "subject": "数学一",
+    "chapter": "高等数学",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "定积分 ∫₀^3 2x dx 等于",
+    "options": {
+      "A": "12",
+      "B": "11",
+      "C": "6",
+      "D": "9"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "原函数为 1x²，代入上下限得 9。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1i09",
+    "subject": "数学一",
+    "chapter": "高等数学",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "定积分 ∫₀^1 4x dx 等于",
+    "options": {
+      "A": "6",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "原函数为 2x²，代入上下限得 2。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1l00",
+    "subject": "数学一",
+    "chapter": "线性代数",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 1、1、1，则 det(A²)=",
+    "options": {
+      "A": "0",
+      "B": "3",
+      "C": "1",
+      "D": "2"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "det(A)=1，所以 det(A²)=det(A)²=1。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1l01",
+    "subject": "数学一",
+    "chapter": "线性代数",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 2、2、2，则 det(A²)=",
+    "options": {
+      "A": "56",
+      "B": "64",
+      "C": "8",
+      "D": "65"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "det(A)=8，所以 det(A²)=det(A)²=64。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1l02",
+    "subject": "数学一",
+    "chapter": "线性代数",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 3、3、3，则 det(A²)=",
+    "options": {
+      "A": "729",
+      "B": "27",
+      "C": "730",
+      "D": "702"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "det(A)=27，所以 det(A²)=det(A)²=729。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1l03",
+    "subject": "数学一",
+    "chapter": "线性代数",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 4、4、1，则 det(A²)=",
+    "options": {
+      "A": "16",
+      "B": "257",
+      "C": "240",
+      "D": "256"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "det(A)=16，所以 det(A²)=det(A)²=256。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1l04",
+    "subject": "数学一",
+    "chapter": "线性代数",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 1、5、2，则 det(A²)=",
+    "options": {
+      "A": "101",
+      "B": "90",
+      "C": "100",
+      "D": "10"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "det(A)=10，所以 det(A²)=det(A)²=100。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1l05",
+    "subject": "数学一",
+    "chapter": "线性代数",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 2、1、3，则 det(A²)=",
+    "options": {
+      "A": "30",
+      "B": "36",
+      "C": "6",
+      "D": "37"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "det(A)=6，所以 det(A²)=det(A)²=36。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1l06",
+    "subject": "数学一",
+    "chapter": "线性代数",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 3、2、1，则 det(A²)=",
+    "options": {
+      "A": "36",
+      "B": "6",
+      "C": "37",
+      "D": "30"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "det(A)=6，所以 det(A²)=det(A)²=36。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1l07",
+    "subject": "数学一",
+    "chapter": "线性代数",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 4、3、2，则 det(A²)=",
+    "options": {
+      "A": "24",
+      "B": "577",
+      "C": "552",
+      "D": "576"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "det(A)=24，所以 det(A²)=det(A)²=576。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1l08",
+    "subject": "数学一",
+    "chapter": "线性代数",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 1、4、3，则 det(A²)=",
+    "options": {
+      "A": "145",
+      "B": "132",
+      "C": "144",
+      "D": "12"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "det(A)=12，所以 det(A²)=det(A)²=144。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1l09",
+    "subject": "数学一",
+    "chapter": "线性代数",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 2、5、1，则 det(A²)=",
+    "options": {
+      "A": "90",
+      "B": "100",
+      "C": "10",
+      "D": "101"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "det(A)=10，所以 det(A²)=det(A)²=100。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1p00",
+    "subject": "数学一",
+    "chapter": "概率论与数理统计",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "若 X、Y 独立，D(X)=1，D(Y)=1，则 D(1X-Y)=",
+    "options": {
+      "A": "4",
+      "B": "2",
+      "C": "3",
+      "D": "1"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "独立时方差可加，D(1X-Y)=1²D(X)+D(Y)=2。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1p01",
+    "subject": "数学一",
+    "chapter": "概率论与数理统计",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "若 X、Y 独立，D(X)=2，D(Y)=2，则 D(2X-Y)=",
+    "options": {
+      "A": "10",
+      "B": "6",
+      "C": "12",
+      "D": "8"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "独立时方差可加，D(2X-Y)=2²D(X)+D(Y)=10。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1p02",
+    "subject": "数学一",
+    "chapter": "概率论与数理统计",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "若 X、Y 独立，D(X)=3，D(Y)=3，则 D(3X-Y)=",
+    "options": {
+      "A": "12",
+      "B": "33",
+      "C": "27",
+      "D": "30"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "独立时方差可加，D(3X-Y)=3²D(X)+D(Y)=30。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1p03",
+    "subject": "数学一",
+    "chapter": "概率论与数理统计",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "若 X、Y 独立，D(X)=4，D(Y)=1，则 D(1X-Y)=",
+    "options": {
+      "A": "4",
+      "B": "6",
+      "C": "5",
+      "D": "9"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "独立时方差可加，D(1X-Y)=1²D(X)+D(Y)=5。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1p04",
+    "subject": "数学一",
+    "chapter": "概率论与数理统计",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "若 X、Y 独立，D(X)=1，D(Y)=2，则 D(2X-Y)=",
+    "options": {
+      "A": "8",
+      "B": "6",
+      "C": "4",
+      "D": "7"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "独立时方差可加，D(2X-Y)=2²D(X)+D(Y)=6。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1p05",
+    "subject": "数学一",
+    "chapter": "概率论与数理统计",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "若 X、Y 独立，D(X)=2，D(Y)=3，则 D(3X-Y)=",
+    "options": {
+      "A": "21",
+      "B": "9",
+      "C": "23",
+      "D": "18"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "独立时方差可加，D(3X-Y)=3²D(X)+D(Y)=21。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1p06",
+    "subject": "数学一",
+    "chapter": "概率论与数理统计",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "若 X、Y 独立，D(X)=3，D(Y)=1，则 D(1X-Y)=",
+    "options": {
+      "A": "7",
+      "B": "3",
+      "C": "5",
+      "D": "4"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "独立时方差可加，D(1X-Y)=1²D(X)+D(Y)=4。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1p07",
+    "subject": "数学一",
+    "chapter": "概率论与数理统计",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "若 X、Y 独立，D(X)=4，D(Y)=2，则 D(2X-Y)=",
+    "options": {
+      "A": "22",
+      "B": "16",
+      "C": "18",
+      "D": "10"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "独立时方差可加，D(2X-Y)=2²D(X)+D(Y)=18。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1p08",
+    "subject": "数学一",
+    "chapter": "概率论与数理统计",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "若 X、Y 独立，D(X)=1，D(Y)=3，则 D(3X-Y)=",
+    "options": {
+      "A": "9",
+      "B": "12",
+      "C": "6",
+      "D": "13"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "独立时方差可加，D(3X-Y)=3²D(X)+D(Y)=12。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm1p09",
+    "subject": "数学一",
+    "chapter": "概率论与数理统计",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "若 X、Y 独立，D(X)=2，D(Y)=1，则 D(1X-Y)=",
+    "options": {
+      "A": "3",
+      "B": "5",
+      "C": "2",
+      "D": "4"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "独立时方差可加，D(1X-Y)=1²D(X)+D(Y)=3。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2d00",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "设 f(x)=1x²-3x+1，则 f'(0)=",
+    "options": {
+      "A": "-3",
+      "B": "-2",
+      "C": "-5",
+      "D": "-1"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "f'(x)=2x-3，代入 x=0 得 -3。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2d01",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "设 f(x)=2x²+0x+1，则 f'(1)=",
+    "options": {
+      "A": "5",
+      "B": "2",
+      "C": "6",
+      "D": "4"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "f'(x)=4x+0，代入 x=1 得 4。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2d02",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "设 f(x)=3x²+3x+1，则 f'(2)=",
+    "options": {
+      "A": "13",
+      "B": "9",
+      "C": "15",
+      "D": "16"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "f'(x)=6x+3，代入 x=2 得 15。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2d03",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "设 f(x)=4x²-1x+1，则 f'(0)=",
+    "options": {
+      "A": "1",
+      "B": "-1",
+      "C": "0",
+      "D": "-3"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "f'(x)=8x-1，代入 x=0 得 -1。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2d04",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "设 f(x)=1x²+2x+1，则 f'(1)=",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "2",
+      "D": "3"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "f'(x)=2x+2，代入 x=1 得 4。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2d05",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "设 f(x)=2x²-2x+1，则 f'(2)=",
+    "options": {
+      "A": "7",
+      "B": "4",
+      "C": "2",
+      "D": "6"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "f'(x)=4x-2，代入 x=2 得 6。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2d06",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "设 f(x)=3x²+1x+1，则 f'(0)=",
+    "options": {
+      "A": "-1",
+      "B": "3",
+      "C": "1",
+      "D": "2"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "f'(x)=6x+1，代入 x=0 得 1。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2d07",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "设 f(x)=4x²-3x+1，则 f'(1)=",
+    "options": {
+      "A": "1",
+      "B": "5",
+      "C": "6",
+      "D": "3"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "f'(x)=8x-3，代入 x=1 得 5。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2d08",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "设 f(x)=1x²+0x+1，则 f'(2)=",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "2",
+      "D": "6"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "f'(x)=2x+0，代入 x=2 得 4。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2d09",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "设 f(x)=2x²+3x+1，则 f'(0)=",
+    "options": {
+      "A": "4",
+      "B": "1",
+      "C": "5",
+      "D": "3"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "f'(x)=4x+3，代入 x=0 得 3。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2d10",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "设 f(x)=3x²-1x+1，则 f'(1)=",
+    "options": {
+      "A": "3",
+      "B": "2",
+      "C": "5",
+      "D": "6"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "f'(x)=6x-1，代入 x=1 得 5。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2d11",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "设 f(x)=4x²+2x+1，则 f'(2)=",
+    "options": {
+      "A": "10",
+      "B": "18",
+      "C": "19",
+      "D": "16"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "f'(x)=8x+2，代入 x=2 得 18。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2i00",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "定积分 ∫₀^1 2x dx 等于",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "0",
+      "D": "1"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "原函数为 1x²，代入上下限得 1。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2i01",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "定积分 ∫₀^2 4x dx 等于",
+    "options": {
+      "A": "12",
+      "B": "6",
+      "C": "8",
+      "D": "10"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "原函数为 2x²，代入上下限得 8。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2i02",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "定积分 ∫₀^3 6x dx 等于",
+    "options": {
+      "A": "24",
+      "B": "27",
+      "C": "30",
+      "D": "33"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "原函数为 3x²，代入上下限得 27。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2i03",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "定积分 ∫₀^1 8x dx 等于",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "12",
+      "D": "3"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "原函数为 4x²，代入上下限得 4。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2i04",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "定积分 ∫₀^2 2x dx 等于",
+    "options": {
+      "A": "6",
+      "B": "2",
+      "C": "5",
+      "D": "4"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "原函数为 1x²，代入上下限得 4。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2i05",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "定积分 ∫₀^3 4x dx 等于",
+    "options": {
+      "A": "22",
+      "B": "15",
+      "C": "18",
+      "D": "21"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "原函数为 2x²，代入上下限得 18。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2i06",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "定积分 ∫₀^1 6x dx 等于",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "9"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "原函数为 3x²，代入上下限得 3。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2i07",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "定积分 ∫₀^2 8x dx 等于",
+    "options": {
+      "A": "16",
+      "B": "18",
+      "C": "24",
+      "D": "14"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "原函数为 4x²，代入上下限得 16。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2i08",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "定积分 ∫₀^3 2x dx 等于",
+    "options": {
+      "A": "12",
+      "B": "11",
+      "C": "6",
+      "D": "9"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "原函数为 1x²，代入上下限得 9。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2i09",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "定积分 ∫₀^1 4x dx 等于",
+    "options": {
+      "A": "6",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "原函数为 2x²，代入上下限得 2。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2l00",
+    "subject": "数学二",
+    "chapter": "线性代数",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 1、1、1，则 det(A²)=",
+    "options": {
+      "A": "0",
+      "B": "3",
+      "C": "1",
+      "D": "2"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "det(A)=1，所以 det(A²)=det(A)²=1。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2l01",
+    "subject": "数学二",
+    "chapter": "线性代数",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 2、2、2，则 det(A²)=",
+    "options": {
+      "A": "56",
+      "B": "64",
+      "C": "8",
+      "D": "65"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "det(A)=8，所以 det(A²)=det(A)²=64。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2l02",
+    "subject": "数学二",
+    "chapter": "线性代数",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 3、3、3，则 det(A²)=",
+    "options": {
+      "A": "729",
+      "B": "27",
+      "C": "730",
+      "D": "702"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "det(A)=27，所以 det(A²)=det(A)²=729。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2l03",
+    "subject": "数学二",
+    "chapter": "线性代数",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 4、4、1，则 det(A²)=",
+    "options": {
+      "A": "16",
+      "B": "257",
+      "C": "240",
+      "D": "256"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "det(A)=16，所以 det(A²)=det(A)²=256。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2l04",
+    "subject": "数学二",
+    "chapter": "线性代数",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 1、5、2，则 det(A²)=",
+    "options": {
+      "A": "101",
+      "B": "90",
+      "C": "100",
+      "D": "10"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "det(A)=10，所以 det(A²)=det(A)²=100。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2l05",
+    "subject": "数学二",
+    "chapter": "线性代数",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 2、1、3，则 det(A²)=",
+    "options": {
+      "A": "30",
+      "B": "36",
+      "C": "6",
+      "D": "37"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "det(A)=6，所以 det(A²)=det(A)²=36。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2l06",
+    "subject": "数学二",
+    "chapter": "线性代数",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 3、2、1，则 det(A²)=",
+    "options": {
+      "A": "36",
+      "B": "6",
+      "C": "37",
+      "D": "30"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "det(A)=6，所以 det(A²)=det(A)²=36。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2l07",
+    "subject": "数学二",
+    "chapter": "线性代数",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 4、3、2，则 det(A²)=",
+    "options": {
+      "A": "24",
+      "B": "577",
+      "C": "552",
+      "D": "576"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "det(A)=24，所以 det(A²)=det(A)²=576。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2l08",
+    "subject": "数学二",
+    "chapter": "线性代数",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 1、4、3，则 det(A²)=",
+    "options": {
+      "A": "145",
+      "B": "132",
+      "C": "144",
+      "D": "12"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "det(A)=12，所以 det(A²)=det(A)²=144。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2l09",
+    "subject": "数学二",
+    "chapter": "线性代数",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 2、5、1，则 det(A²)=",
+    "options": {
+      "A": "90",
+      "B": "100",
+      "C": "10",
+      "D": "101"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "det(A)=10，所以 det(A²)=det(A)²=100。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2h00",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "极限 lim(x→0) sin(1x)/x 等于",
+    "options": {
+      "A": "3",
+      "B": "1",
+      "C": "2",
+      "D": "0"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "利用 sin u/u→1，原式=1。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2h01",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "极限 lim(x→0) sin(2x)/x 等于",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "0"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "利用 sin u/u→1，原式=2。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2h02",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "极限 lim(x→0) sin(3x)/x 等于",
+    "options": {
+      "A": "4",
+      "B": "9",
+      "C": "0",
+      "D": "3"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "利用 sin u/u→1，原式=3。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2h03",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "极限 lim(x→0) sin(4x)/x 等于",
+    "options": {
+      "A": "16",
+      "B": "0",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "利用 sin u/u→1，原式=4。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2h04",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "极限 lim(x→0) sin(5x)/x 等于",
+    "options": {
+      "A": "0",
+      "B": "5",
+      "C": "6",
+      "D": "25"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "利用 sin u/u→1，原式=5。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2h05",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "极限 lim(x→0) sin(6x)/x 等于",
+    "options": {
+      "A": "6",
+      "B": "7",
+      "C": "36",
+      "D": "0"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "利用 sin u/u→1，原式=6。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2h06",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "极限 lim(x→0) sin(7x)/x 等于",
+    "options": {
+      "A": "8",
+      "B": "49",
+      "C": "0",
+      "D": "7"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "利用 sin u/u→1，原式=7。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2h07",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "极限 lim(x→0) sin(8x)/x 等于",
+    "options": {
+      "A": "64",
+      "B": "0",
+      "C": "8",
+      "D": "9"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "利用 sin u/u→1，原式=8。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2h08",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "极限 lim(x→0) sin(9x)/x 等于",
+    "options": {
+      "A": "0",
+      "B": "9",
+      "C": "10",
+      "D": "81"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "利用 sin u/u→1，原式=9。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm2h09",
+    "subject": "数学二",
+    "chapter": "高等数学",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "极限 lim(x→0) sin(10x)/x 等于",
+    "options": {
+      "A": "10",
+      "B": "11",
+      "C": "100",
+      "D": "0"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "利用 sin u/u→1，原式=10。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3d00",
+    "subject": "数学三",
+    "chapter": "微积分",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "设 f(x)=1x²-3x+1，则 f'(0)=",
+    "options": {
+      "A": "-3",
+      "B": "-2",
+      "C": "-5",
+      "D": "-1"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "f'(x)=2x-3，代入 x=0 得 -3。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3d01",
+    "subject": "数学三",
+    "chapter": "微积分",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "设 f(x)=2x²+0x+1，则 f'(1)=",
+    "options": {
+      "A": "5",
+      "B": "2",
+      "C": "6",
+      "D": "4"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "f'(x)=4x+0，代入 x=1 得 4。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3d02",
+    "subject": "数学三",
+    "chapter": "微积分",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "设 f(x)=3x²+3x+1，则 f'(2)=",
+    "options": {
+      "A": "13",
+      "B": "9",
+      "C": "15",
+      "D": "16"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "f'(x)=6x+3，代入 x=2 得 15。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3d03",
+    "subject": "数学三",
+    "chapter": "微积分",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "设 f(x)=4x²-1x+1，则 f'(0)=",
+    "options": {
+      "A": "1",
+      "B": "-1",
+      "C": "0",
+      "D": "-3"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "f'(x)=8x-1，代入 x=0 得 -1。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3d04",
+    "subject": "数学三",
+    "chapter": "微积分",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "设 f(x)=1x²+2x+1，则 f'(1)=",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "2",
+      "D": "3"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "f'(x)=2x+2，代入 x=1 得 4。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3d05",
+    "subject": "数学三",
+    "chapter": "微积分",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "设 f(x)=2x²-2x+1，则 f'(2)=",
+    "options": {
+      "A": "7",
+      "B": "4",
+      "C": "2",
+      "D": "6"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "f'(x)=4x-2，代入 x=2 得 6。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3d06",
+    "subject": "数学三",
+    "chapter": "微积分",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "设 f(x)=3x²+1x+1，则 f'(0)=",
+    "options": {
+      "A": "-1",
+      "B": "3",
+      "C": "1",
+      "D": "2"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "f'(x)=6x+1，代入 x=0 得 1。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3d07",
+    "subject": "数学三",
+    "chapter": "微积分",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "设 f(x)=4x²-3x+1，则 f'(1)=",
+    "options": {
+      "A": "1",
+      "B": "5",
+      "C": "6",
+      "D": "3"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "f'(x)=8x-3，代入 x=1 得 5。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3d08",
+    "subject": "数学三",
+    "chapter": "微积分",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "设 f(x)=1x²+0x+1，则 f'(2)=",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "2",
+      "D": "6"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "f'(x)=2x+0，代入 x=2 得 4。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3d09",
+    "subject": "数学三",
+    "chapter": "微积分",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "设 f(x)=2x²+3x+1，则 f'(0)=",
+    "options": {
+      "A": "4",
+      "B": "1",
+      "C": "5",
+      "D": "3"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "f'(x)=4x+3，代入 x=0 得 3。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3d10",
+    "subject": "数学三",
+    "chapter": "微积分",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "设 f(x)=3x²-1x+1，则 f'(1)=",
+    "options": {
+      "A": "3",
+      "B": "2",
+      "C": "5",
+      "D": "6"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "f'(x)=6x-1，代入 x=1 得 5。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3d11",
+    "subject": "数学三",
+    "chapter": "微积分",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "设 f(x)=4x²+2x+1，则 f'(2)=",
+    "options": {
+      "A": "10",
+      "B": "18",
+      "C": "19",
+      "D": "16"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "f'(x)=8x+2，代入 x=2 得 18。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3i00",
+    "subject": "数学三",
+    "chapter": "微积分",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "定积分 ∫₀^1 2x dx 等于",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "0",
+      "D": "1"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "原函数为 1x²，代入上下限得 1。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3i01",
+    "subject": "数学三",
+    "chapter": "微积分",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "定积分 ∫₀^2 4x dx 等于",
+    "options": {
+      "A": "12",
+      "B": "6",
+      "C": "8",
+      "D": "10"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "原函数为 2x²，代入上下限得 8。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3i02",
+    "subject": "数学三",
+    "chapter": "微积分",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "定积分 ∫₀^3 6x dx 等于",
+    "options": {
+      "A": "24",
+      "B": "27",
+      "C": "30",
+      "D": "33"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "原函数为 3x²，代入上下限得 27。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3i03",
+    "subject": "数学三",
+    "chapter": "微积分",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "定积分 ∫₀^1 8x dx 等于",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "12",
+      "D": "3"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "原函数为 4x²，代入上下限得 4。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3i04",
+    "subject": "数学三",
+    "chapter": "微积分",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "定积分 ∫₀^2 2x dx 等于",
+    "options": {
+      "A": "6",
+      "B": "2",
+      "C": "5",
+      "D": "4"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "原函数为 1x²，代入上下限得 4。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3i05",
+    "subject": "数学三",
+    "chapter": "微积分",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "定积分 ∫₀^3 4x dx 等于",
+    "options": {
+      "A": "22",
+      "B": "15",
+      "C": "18",
+      "D": "21"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "原函数为 2x²，代入上下限得 18。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3i06",
+    "subject": "数学三",
+    "chapter": "微积分",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "定积分 ∫₀^1 6x dx 等于",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "9"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "原函数为 3x²，代入上下限得 3。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3i07",
+    "subject": "数学三",
+    "chapter": "微积分",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "定积分 ∫₀^2 8x dx 等于",
+    "options": {
+      "A": "16",
+      "B": "18",
+      "C": "24",
+      "D": "14"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "原函数为 4x²，代入上下限得 16。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3i08",
+    "subject": "数学三",
+    "chapter": "微积分",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "定积分 ∫₀^3 2x dx 等于",
+    "options": {
+      "A": "12",
+      "B": "11",
+      "C": "6",
+      "D": "9"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "原函数为 1x²，代入上下限得 9。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3i09",
+    "subject": "数学三",
+    "chapter": "微积分",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "定积分 ∫₀^1 4x dx 等于",
+    "options": {
+      "A": "6",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "原函数为 2x²，代入上下限得 2。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3l00",
+    "subject": "数学三",
+    "chapter": "线性代数",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 1、1、1，则 det(A²)=",
+    "options": {
+      "A": "0",
+      "B": "3",
+      "C": "1",
+      "D": "2"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "det(A)=1，所以 det(A²)=det(A)²=1。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3l01",
+    "subject": "数学三",
+    "chapter": "线性代数",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 2、2、2，则 det(A²)=",
+    "options": {
+      "A": "56",
+      "B": "64",
+      "C": "8",
+      "D": "65"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "det(A)=8，所以 det(A²)=det(A)²=64。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3l02",
+    "subject": "数学三",
+    "chapter": "线性代数",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 3、3、3，则 det(A²)=",
+    "options": {
+      "A": "729",
+      "B": "27",
+      "C": "730",
+      "D": "702"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "det(A)=27，所以 det(A²)=det(A)²=729。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3l03",
+    "subject": "数学三",
+    "chapter": "线性代数",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 4、4、1，则 det(A²)=",
+    "options": {
+      "A": "16",
+      "B": "257",
+      "C": "240",
+      "D": "256"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "det(A)=16，所以 det(A²)=det(A)²=256。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3l04",
+    "subject": "数学三",
+    "chapter": "线性代数",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 1、5、2，则 det(A²)=",
+    "options": {
+      "A": "101",
+      "B": "90",
+      "C": "100",
+      "D": "10"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "det(A)=10，所以 det(A²)=det(A)²=100。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3l05",
+    "subject": "数学三",
+    "chapter": "线性代数",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 2、1、3，则 det(A²)=",
+    "options": {
+      "A": "30",
+      "B": "36",
+      "C": "6",
+      "D": "37"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "det(A)=6，所以 det(A²)=det(A)²=36。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3l06",
+    "subject": "数学三",
+    "chapter": "线性代数",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 3、2、1，则 det(A²)=",
+    "options": {
+      "A": "36",
+      "B": "6",
+      "C": "37",
+      "D": "30"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "det(A)=6，所以 det(A²)=det(A)²=36。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3l07",
+    "subject": "数学三",
+    "chapter": "线性代数",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 4、3、2，则 det(A²)=",
+    "options": {
+      "A": "24",
+      "B": "577",
+      "C": "552",
+      "D": "576"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "det(A)=24，所以 det(A²)=det(A)²=576。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3l08",
+    "subject": "数学三",
+    "chapter": "线性代数",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 1、4、3，则 det(A²)=",
+    "options": {
+      "A": "145",
+      "B": "132",
+      "C": "144",
+      "D": "12"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "det(A)=12，所以 det(A²)=det(A)²=144。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3l09",
+    "subject": "数学三",
+    "chapter": "线性代数",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "三阶对角矩阵 A 的对角元为 2、5、1，则 det(A²)=",
+    "options": {
+      "A": "90",
+      "B": "100",
+      "C": "10",
+      "D": "101"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "det(A)=10，所以 det(A²)=det(A)²=100。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3p00",
+    "subject": "数学三",
+    "chapter": "概率论与数理统计",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "若 X、Y 独立，D(X)=1，D(Y)=1，则 D(1X-Y)=",
+    "options": {
+      "A": "4",
+      "B": "2",
+      "C": "3",
+      "D": "1"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "独立时方差可加，D(1X-Y)=1²D(X)+D(Y)=2。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3p01",
+    "subject": "数学三",
+    "chapter": "概率论与数理统计",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "若 X、Y 独立，D(X)=2，D(Y)=2，则 D(2X-Y)=",
+    "options": {
+      "A": "10",
+      "B": "6",
+      "C": "12",
+      "D": "8"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "独立时方差可加，D(2X-Y)=2²D(X)+D(Y)=10。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3p02",
+    "subject": "数学三",
+    "chapter": "概率论与数理统计",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "若 X、Y 独立，D(X)=3，D(Y)=3，则 D(3X-Y)=",
+    "options": {
+      "A": "12",
+      "B": "33",
+      "C": "27",
+      "D": "30"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "独立时方差可加，D(3X-Y)=3²D(X)+D(Y)=30。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3p03",
+    "subject": "数学三",
+    "chapter": "概率论与数理统计",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "若 X、Y 独立，D(X)=4，D(Y)=1，则 D(1X-Y)=",
+    "options": {
+      "A": "4",
+      "B": "6",
+      "C": "5",
+      "D": "9"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "独立时方差可加，D(1X-Y)=1²D(X)+D(Y)=5。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3p04",
+    "subject": "数学三",
+    "chapter": "概率论与数理统计",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "若 X、Y 独立，D(X)=1，D(Y)=2，则 D(2X-Y)=",
+    "options": {
+      "A": "8",
+      "B": "6",
+      "C": "4",
+      "D": "7"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "独立时方差可加，D(2X-Y)=2²D(X)+D(Y)=6。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3p05",
+    "subject": "数学三",
+    "chapter": "概率论与数理统计",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "若 X、Y 独立，D(X)=2，D(Y)=3，则 D(3X-Y)=",
+    "options": {
+      "A": "21",
+      "B": "9",
+      "C": "23",
+      "D": "18"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "独立时方差可加，D(3X-Y)=3²D(X)+D(Y)=21。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3p06",
+    "subject": "数学三",
+    "chapter": "概率论与数理统计",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "若 X、Y 独立，D(X)=3，D(Y)=1，则 D(1X-Y)=",
+    "options": {
+      "A": "7",
+      "B": "3",
+      "C": "5",
+      "D": "4"
+    },
+    "answer": "D",
+    "points": 5,
+    "explanation": "独立时方差可加，D(1X-Y)=1²D(X)+D(Y)=4。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3p07",
+    "subject": "数学三",
+    "chapter": "概率论与数理统计",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "若 X、Y 独立，D(X)=4，D(Y)=2，则 D(2X-Y)=",
+    "options": {
+      "A": "22",
+      "B": "16",
+      "C": "18",
+      "D": "10"
+    },
+    "answer": "C",
+    "points": 5,
+    "explanation": "独立时方差可加，D(2X-Y)=2²D(X)+D(Y)=18。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3p08",
+    "subject": "数学三",
+    "chapter": "概率论与数理统计",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "若 X、Y 独立，D(X)=1，D(Y)=3，则 D(3X-Y)=",
+    "options": {
+      "A": "9",
+      "B": "12",
+      "C": "6",
+      "D": "13"
+    },
+    "answer": "B",
+    "points": 5,
+    "explanation": "独立时方差可加，D(3X-Y)=3²D(X)+D(Y)=12。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gm3p09",
+    "subject": "数学三",
+    "chapter": "概率论与数理统计",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "若 X、Y 独立，D(X)=2，D(Y)=1，则 D(1X-Y)=",
+    "options": {
+      "A": "3",
+      "B": "5",
+      "C": "2",
+      "D": "4"
+    },
+    "answer": "A",
+    "points": 5,
+    "explanation": "独立时方差可加，D(1X-Y)=1²D(X)+D(Y)=3。",
+    "source": "原创仿真",
+    "format_tag": "选择题专项 · 每题5分"
+  },
+  {
+    "id": "gc000",
+    "subject": "计算机学科专业基础",
+    "chapter": "数据结构",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "请选择正确结论：对长度为 n 的有序顺序表进行二分查找，最坏时间复杂度为",
+    "options": {
+      "A": "O(1)",
+      "B": "O(log n)",
+      "C": "O(n)",
+      "D": "O(n log n)"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "二分查找每次将候选区间缩小约一半。",
+    "source": "原创仿真",
+    "format_tag": "408选择题专项 · 每题2分"
+  },
+  {
+    "id": "gc001",
+    "subject": "计算机学科专业基础",
+    "chapter": "数据结构",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "请选择正确结论：采用邻接矩阵存储含 n 个顶点的无向图，判断两个给定顶点是否相邻的时间复杂度为",
+    "options": {
+      "A": "O(1)",
+      "B": "O(log n)",
+      "C": "O(n)",
+      "D": "O(n²)"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "直接访问矩阵对应元素即可。",
+    "source": "原创仿真",
+    "format_tag": "408选择题专项 · 每题2分"
+  },
+  {
+    "id": "gc002",
+    "subject": "计算机学科专业基础",
+    "chapter": "数据结构",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "请选择正确结论：在只允许从一端插入、从另一端删除的线性结构中，数据遵循",
+    "options": {
+      "A": "后进先出",
+      "B": "先进先出",
+      "C": "随机访问",
+      "D": "按关键字有序"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "队列遵循先进先出原则。",
+    "source": "原创仿真",
+    "format_tag": "408选择题专项 · 每题2分"
+  },
+  {
+    "id": "gc003",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机组成原理",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "请选择正确结论：32位地址、按字节编址的系统，其理论最大地址空间为",
+    "options": {
+      "A": "2 GiB",
+      "B": "4 GiB",
+      "C": "8 GiB",
+      "D": "32 GiB"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "2³²个字节等于4 GiB。",
+    "source": "原创仿真",
+    "format_tag": "408选择题专项 · 每题2分"
+  },
+  {
+    "id": "gc004",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机组成原理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "请选择正确结论：提高 Cache 命中率通常能够直接降低",
+    "options": {
+      "A": "平均存储访问时间",
+      "B": "指令条数",
+      "C": "磁盘容量",
+      "D": "进程数量"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "更多访问在高速缓存中完成会降低平均访问时间。",
+    "source": "原创仿真",
+    "format_tag": "408选择题专项 · 每题2分"
+  },
+  {
+    "id": "gc005",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机组成原理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "请选择正确结论：补码加减运算中，判断有符号数溢出主要依据",
+    "options": {
+      "A": "最高位进位是否为1",
+      "B": "两个同号数相加结果是否异号",
+      "C": "结果是否为0",
+      "D": "操作数位数是否相同"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "同号数相加得到异号结果时发生溢出。",
+    "source": "原创仿真",
+    "format_tag": "408选择题专项 · 每题2分"
+  },
+  {
+    "id": "gc006",
+    "subject": "计算机学科专业基础",
+    "chapter": "操作系统",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "请选择正确结论：运行进程主动请求尚未完成的 I/O 后，通常转入",
+    "options": {
+      "A": "就绪态",
+      "B": "阻塞态",
+      "C": "终止态",
+      "D": "创建态"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "进程等待I/O事件完成时进入阻塞态。",
+    "source": "原创仿真",
+    "format_tag": "408选择题专项 · 每题2分"
+  },
+  {
+    "id": "gc007",
+    "subject": "计算机学科专业基础",
+    "chapter": "操作系统",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "请选择正确结论：时间片用完但进程尚未结束时，该进程通常从运行态转入",
+    "options": {
+      "A": "就绪态",
+      "B": "阻塞态",
+      "C": "终止态",
+      "D": "挂起态"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "时间片耗尽后等待再次调度，进入就绪态。",
+    "source": "原创仿真",
+    "format_tag": "408选择题专项 · 每题2分"
+  },
+  {
+    "id": "gc008",
+    "subject": "计算机学科专业基础",
+    "chapter": "操作系统",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "请选择正确结论：虚拟存储器的容量主要受限于",
+    "options": {
+      "A": "地址空间和外存容量",
+      "B": "CPU主频",
+      "C": "显示器分辨率",
+      "D": "网络带宽"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "虚拟地址空间与可用外存共同约束虚拟存储容量。",
+    "source": "原创仿真",
+    "format_tag": "408选择题专项 · 每题2分"
+  },
+  {
+    "id": "gc009",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机网络",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "请选择正确结论：TCP 建立连接通常使用",
+    "options": {
+      "A": "一次握手",
+      "B": "两次握手",
+      "C": "三次握手",
+      "D": "四次握手"
+    },
+    "answer": "C",
+    "points": 2,
+    "explanation": "TCP三次握手用于同步初始序号并确认双方收发能力。",
+    "source": "原创仿真",
+    "format_tag": "408选择题专项 · 每题2分"
+  },
+  {
+    "id": "gc010",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机网络",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "请选择正确结论：IPv4 /24 网络在传统用法下可分配给主机的地址数为",
+    "options": {
+      "A": "254",
+      "B": "255",
+      "C": "256",
+      "D": "510"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "8位主机号共256个地址，扣除网络地址和广播地址。",
+    "source": "原创仿真",
+    "format_tag": "408选择题专项 · 每题2分"
+  },
+  {
+    "id": "gc011",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机网络",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "请选择正确结论：路由器转发 IP 分组时主要依据",
+    "options": {
+      "A": "目的IP地址",
+      "B": "源MAC地址",
+      "C": "应用进程名称",
+      "D": "文件扩展名"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "IP层路由转发查找目的IP地址的最长前缀匹配。",
+    "source": "原创仿真",
+    "format_tag": "408选择题专项 · 每题2分"
+  },
+  {
+    "id": "gcn00",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机组成原理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "Cache命中时间1 ns、主存访问时间40 ns、命中率90%，先查Cache且未命中再访主存，平均访问时间约为",
+    "options": {
+      "A": "5 ns",
+      "B": "41 ns",
+      "C": "36 ns",
+      "D": "11 ns"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "平均时间=1+(1-0.90)×40=5 ns。",
+    "source": "原创仿真",
+    "format_tag": "408计算专项 · 每题2分"
+  },
+  {
+    "id": "gcn01",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机组成原理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "Cache命中时间2 ns、主存访问时间50 ns、命中率91%，先查Cache且未命中再访主存，平均访问时间约为",
+    "options": {
+      "A": "52 ns",
+      "B": "45.5 ns",
+      "C": "11 ns",
+      "D": "6.5 ns"
+    },
+    "answer": "D",
+    "points": 2,
+    "explanation": "平均时间=2+(1-0.91)×50=6.5 ns。",
+    "source": "原创仿真",
+    "format_tag": "408计算专项 · 每题2分"
+  },
+  {
+    "id": "gcn02",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机组成原理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "Cache命中时间3 ns、主存访问时间60 ns、命中率92%，先查Cache且未命中再访主存，平均访问时间约为",
+    "options": {
+      "A": "55.2 ns",
+      "B": "11 ns",
+      "C": "7.8 ns",
+      "D": "63 ns"
+    },
+    "answer": "C",
+    "points": 2,
+    "explanation": "平均时间=3+(1-0.92)×60=7.8 ns。",
+    "source": "原创仿真",
+    "format_tag": "408计算专项 · 每题2分"
+  },
+  {
+    "id": "gcn03",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机组成原理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "Cache命中时间1 ns、主存访问时间70 ns、命中率93%，先查Cache且未命中再访主存，平均访问时间约为",
+    "options": {
+      "A": "8 ns",
+      "B": "5.9 ns",
+      "C": "71 ns",
+      "D": "65.1 ns"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "平均时间=1+(1-0.93)×70=5.9 ns。",
+    "source": "原创仿真",
+    "format_tag": "408计算专项 · 每题2分"
+  },
+  {
+    "id": "gcn04",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机组成原理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "Cache命中时间2 ns、主存访问时间80 ns、命中率94%，先查Cache且未命中再访主存，平均访问时间约为",
+    "options": {
+      "A": "6.8 ns",
+      "B": "82 ns",
+      "C": "75.2 ns",
+      "D": "8 ns"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "平均时间=2+(1-0.94)×80=6.8 ns。",
+    "source": "原创仿真",
+    "format_tag": "408计算专项 · 每题2分"
+  },
+  {
+    "id": "gcn05",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机组成原理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "Cache命中时间3 ns、主存访问时间40 ns、命中率95%，先查Cache且未命中再访主存，平均访问时间约为",
+    "options": {
+      "A": "43 ns",
+      "B": "38 ns",
+      "C": "8 ns",
+      "D": "5 ns"
+    },
+    "answer": "D",
+    "points": 2,
+    "explanation": "平均时间=3+(1-0.95)×40=5 ns。",
+    "source": "原创仿真",
+    "format_tag": "408计算专项 · 每题2分"
+  },
+  {
+    "id": "gcn06",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机组成原理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "Cache命中时间1 ns、主存访问时间50 ns、命中率90%，先查Cache且未命中再访主存，平均访问时间约为",
+    "options": {
+      "A": "45 ns",
+      "B": "11 ns",
+      "C": "6 ns",
+      "D": "51 ns"
+    },
+    "answer": "C",
+    "points": 2,
+    "explanation": "平均时间=1+(1-0.90)×50=6 ns。",
+    "source": "原创仿真",
+    "format_tag": "408计算专项 · 每题2分"
+  },
+  {
+    "id": "gcn07",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机组成原理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "Cache命中时间2 ns、主存访问时间60 ns、命中率91%，先查Cache且未命中再访主存，平均访问时间约为",
+    "options": {
+      "A": "11 ns",
+      "B": "7.4 ns",
+      "C": "62 ns",
+      "D": "54.6 ns"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "平均时间=2+(1-0.91)×60=7.4 ns。",
+    "source": "原创仿真",
+    "format_tag": "408计算专项 · 每题2分"
+  },
+  {
+    "id": "gcn08",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机组成原理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "Cache命中时间3 ns、主存访问时间70 ns、命中率92%，先查Cache且未命中再访主存，平均访问时间约为",
+    "options": {
+      "A": "8.6 ns",
+      "B": "73 ns",
+      "C": "64.4 ns",
+      "D": "11 ns"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "平均时间=3+(1-0.92)×70=8.6 ns。",
+    "source": "原创仿真",
+    "format_tag": "408计算专项 · 每题2分"
+  },
+  {
+    "id": "gcn09",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机组成原理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "Cache命中时间1 ns、主存访问时间80 ns、命中率93%，先查Cache且未命中再访主存，平均访问时间约为",
+    "options": {
+      "A": "81 ns",
+      "B": "74.4 ns",
+      "C": "8 ns",
+      "D": "6.6 ns"
+    },
+    "answer": "D",
+    "points": 2,
+    "explanation": "平均时间=1+(1-0.93)×80=6.6 ns。",
+    "source": "原创仿真",
+    "format_tag": "408计算专项 · 每题2分"
+  },
+  {
+    "id": "gcn10",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机组成原理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "Cache命中时间2 ns、主存访问时间40 ns、命中率94%，先查Cache且未命中再访主存，平均访问时间约为",
+    "options": {
+      "A": "37.6 ns",
+      "B": "8 ns",
+      "C": "4.4 ns",
+      "D": "42 ns"
+    },
+    "answer": "C",
+    "points": 2,
+    "explanation": "平均时间=2+(1-0.94)×40=4.4 ns。",
+    "source": "原创仿真",
+    "format_tag": "408计算专项 · 每题2分"
+  },
+  {
+    "id": "gcn11",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机组成原理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "Cache命中时间3 ns、主存访问时间50 ns、命中率95%，先查Cache且未命中再访主存，平均访问时间约为",
+    "options": {
+      "A": "8 ns",
+      "B": "5.5 ns",
+      "C": "53 ns",
+      "D": "47.5 ns"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "平均时间=3+(1-0.95)×50=5.5 ns。",
+    "source": "原创仿真",
+    "format_tag": "408计算专项 · 每题2分"
+  },
+  {
+    "id": "gcn12",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机组成原理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "Cache命中时间1 ns、主存访问时间60 ns、命中率90%，先查Cache且未命中再访主存，平均访问时间约为",
+    "options": {
+      "A": "7 ns",
+      "B": "61 ns",
+      "C": "54 ns",
+      "D": "11 ns"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "平均时间=1+(1-0.90)×60=7 ns。",
+    "source": "原创仿真",
+    "format_tag": "408计算专项 · 每题2分"
+  },
+  {
+    "id": "gcn13",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机组成原理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "Cache命中时间2 ns、主存访问时间70 ns、命中率91%，先查Cache且未命中再访主存，平均访问时间约为",
+    "options": {
+      "A": "72 ns",
+      "B": "63.7 ns",
+      "C": "11 ns",
+      "D": "8.3 ns"
+    },
+    "answer": "D",
+    "points": 2,
+    "explanation": "平均时间=2+(1-0.91)×70=8.3 ns。",
+    "source": "原创仿真",
+    "format_tag": "408计算专项 · 每题2分"
+  },
+  {
+    "id": "gcn14",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机组成原理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "Cache命中时间3 ns、主存访问时间80 ns、命中率92%，先查Cache且未命中再访主存，平均访问时间约为",
+    "options": {
+      "A": "73.6 ns",
+      "B": "11 ns",
+      "C": "9.4 ns",
+      "D": "83 ns"
+    },
+    "answer": "C",
+    "points": 2,
+    "explanation": "平均时间=3+(1-0.92)×80=9.4 ns。",
+    "source": "原创仿真",
+    "format_tag": "408计算专项 · 每题2分"
+  },
+  {
+    "id": "gcn15",
+    "subject": "计算机学科专业基础",
+    "chapter": "计算机组成原理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "Cache命中时间1 ns、主存访问时间40 ns、命中率93%，先查Cache且未命中再访主存，平均访问时间约为",
+    "options": {
+      "A": "8 ns",
+      "B": "3.8 ns",
+      "C": "41 ns",
+      "D": "37.2 ns"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "平均时间=1+(1-0.93)×40=3.8 ns。",
+    "source": "原创仿真",
+    "format_tag": "408计算专项 · 每题2分"
+  },
+  {
+    "id": "mba_ps00",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "某商品成本为80元，按成本加价20%标价，再按标价的80%出售，售价为多少元？",
+    "options": {
+      "A": "76",
+      "B": "96",
+      "C": "64",
+      "D": "86"
+    },
+    "answer": "A",
+    "points": 3,
+    "explanation": "售价=80×(1+20%)×80%=76元。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_ps01",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "某商品成本为100元，按成本加价30%标价，再按标价的85%出售，售价为多少元？",
+    "options": {
+      "A": "130",
+      "B": "85",
+      "C": "120",
+      "D": "110"
+    },
+    "answer": "D",
+    "points": 3,
+    "explanation": "售价=100×(1+30%)×85%=110元。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_ps02",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "某商品成本为120元，按成本加价40%标价，再按标价的90%出售，售价为多少元？",
+    "options": {
+      "A": "108",
+      "B": "161",
+      "C": "151",
+      "D": "168"
+    },
+    "answer": "C",
+    "points": 3,
+    "explanation": "售价=120×(1+40%)×90%=151元。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_ps03",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "某商品成本为140元，按成本加价50%标价，再按标价的95%出售，售价为多少元？",
+    "options": {
+      "A": "209",
+      "B": "199",
+      "C": "210",
+      "D": "133"
+    },
+    "answer": "B",
+    "points": 3,
+    "explanation": "售价=140×(1+50%)×95%=199元。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_ps04",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "某商品成本为160元，按成本加价20%标价，再按标价的80%出售，售价为多少元？",
+    "options": {
+      "A": "153",
+      "B": "192",
+      "C": "128",
+      "D": "163"
+    },
+    "answer": "A",
+    "points": 3,
+    "explanation": "售价=160×(1+20%)×80%=153元。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_ps05",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "某商品成本为180元，按成本加价30%标价，再按标价的85%出售，售价为多少元？",
+    "options": {
+      "A": "234",
+      "B": "153",
+      "C": "208",
+      "D": "198"
+    },
+    "answer": "D",
+    "points": 3,
+    "explanation": "售价=180×(1+30%)×85%=198元。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_ps06",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "某商品成本为200元，按成本加价40%标价，再按标价的90%出售，售价为多少元？",
+    "options": {
+      "A": "180",
+      "B": "262",
+      "C": "252",
+      "D": "280"
+    },
+    "answer": "C",
+    "points": 3,
+    "explanation": "售价=200×(1+40%)×90%=252元。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_ps07",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "某商品成本为220元，按成本加价50%标价，再按标价的95%出售，售价为多少元？",
+    "options": {
+      "A": "323",
+      "B": "313",
+      "C": "330",
+      "D": "209"
+    },
+    "answer": "B",
+    "points": 3,
+    "explanation": "售价=220×(1+50%)×95%=313元。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_ps08",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "某商品成本为240元，按成本加价20%标价，再按标价的80%出售，售价为多少元？",
+    "options": {
+      "A": "230",
+      "B": "288",
+      "C": "192",
+      "D": "240"
+    },
+    "answer": "A",
+    "points": 3,
+    "explanation": "售价=240×(1+20%)×80%=230元。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_ps09",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "某商品成本为260元，按成本加价30%标价，再按标价的85%出售，售价为多少元？",
+    "options": {
+      "A": "338",
+      "B": "221",
+      "C": "297",
+      "D": "287"
+    },
+    "answer": "D",
+    "points": 3,
+    "explanation": "售价=260×(1+30%)×85%=287元。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_ps10",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "某商品成本为280元，按成本加价40%标价，再按标价的90%出售，售价为多少元？",
+    "options": {
+      "A": "252",
+      "B": "362",
+      "C": "352",
+      "D": "392"
+    },
+    "answer": "C",
+    "points": 3,
+    "explanation": "售价=280×(1+40%)×90%=352元。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_ps11",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "某商品成本为300元，按成本加价50%标价，再按标价的95%出售，售价为多少元？",
+    "options": {
+      "A": "437",
+      "B": "427",
+      "C": "450",
+      "D": "285"
+    },
+    "answer": "B",
+    "points": 3,
+    "explanation": "售价=300×(1+50%)×95%=427元。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_ps12",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "某商品成本为320元，按成本加价20%标价，再按标价的80%出售，售价为多少元？",
+    "options": {
+      "A": "307",
+      "B": "384",
+      "C": "256",
+      "D": "317"
+    },
+    "answer": "A",
+    "points": 3,
+    "explanation": "售价=320×(1+20%)×80%=307元。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_ps13",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "某商品成本为340元，按成本加价30%标价，再按标价的85%出售，售价为多少元？",
+    "options": {
+      "A": "442",
+      "B": "289",
+      "C": "385",
+      "D": "375"
+    },
+    "answer": "D",
+    "points": 3,
+    "explanation": "售价=340×(1+30%)×85%=375元。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_ps14",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "某商品成本为360元，按成本加价40%标价，再按标价的90%出售，售价为多少元？",
+    "options": {
+      "A": "324",
+      "B": "463",
+      "C": "453",
+      "D": "504"
+    },
+    "answer": "C",
+    "points": 3,
+    "explanation": "售价=360×(1+40%)×90%=453元。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_ps15",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "某商品成本为380元，按成本加价50%标价，再按标价的95%出售，售价为多少元？",
+    "options": {
+      "A": "551",
+      "B": "541",
+      "C": "570",
+      "D": "361"
+    },
+    "answer": "B",
+    "points": 3,
+    "explanation": "售价=380×(1+50%)×95%=541元。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_ps16",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "某商品成本为400元，按成本加价20%标价，再按标价的80%出售，售价为多少元？",
+    "options": {
+      "A": "384",
+      "B": "480",
+      "C": "320",
+      "D": "394"
+    },
+    "answer": "A",
+    "points": 3,
+    "explanation": "售价=400×(1+20%)×80%=384元。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_ps17",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "某商品成本为420元，按成本加价30%标价，再按标价的85%出售，售价为多少元？",
+    "options": {
+      "A": "546",
+      "B": "357",
+      "C": "474",
+      "D": "464"
+    },
+    "answer": "D",
+    "points": 3,
+    "explanation": "售价=420×(1+30%)×85%=464元。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_ps18",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "某商品成本为440元，按成本加价40%标价，再按标价的90%出售，售价为多少元？",
+    "options": {
+      "A": "396",
+      "B": "564",
+      "C": "554",
+      "D": "616"
+    },
+    "answer": "C",
+    "points": 3,
+    "explanation": "售价=440×(1+40%)×90%=554元。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_ps19",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "某商品成本为460元，按成本加价50%标价，再按标价的95%出售，售价为多少元？",
+    "options": {
+      "A": "665",
+      "B": "655",
+      "C": "690",
+      "D": "437"
+    },
+    "answer": "B",
+    "points": 3,
+    "explanation": "售价=460×(1+50%)×95%=655元。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_ps20",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "某商品成本为480元，按成本加价20%标价，再按标价的80%出售，售价为多少元？",
+    "options": {
+      "A": "460",
+      "B": "576",
+      "C": "384",
+      "D": "470"
+    },
+    "answer": "A",
+    "points": 3,
+    "explanation": "售价=480×(1+20%)×80%=460元。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_ps21",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "某商品成本为500元，按成本加价30%标价，再按标价的85%出售，售价为多少元？",
+    "options": {
+      "A": "650",
+      "B": "425",
+      "C": "562",
+      "D": "552"
+    },
+    "answer": "D",
+    "points": 3,
+    "explanation": "售价=500×(1+30%)×85%=552元。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_ps22",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "某商品成本为520元，按成本加价40%标价，再按标价的90%出售，售价为多少元？",
+    "options": {
+      "A": "468",
+      "B": "665",
+      "C": "655",
+      "D": "728"
+    },
+    "answer": "C",
+    "points": 3,
+    "explanation": "售价=520×(1+40%)×90%=655元。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_ps23",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "某商品成本为540元，按成本加价50%标价，再按标价的95%出售，售价为多少元？",
+    "options": {
+      "A": "779",
+      "B": "769",
+      "C": "810",
+      "D": "513"
+    },
+    "answer": "B",
+    "points": 3,
+    "explanation": "售价=540×(1+50%)×95%=769元。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_seq00",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "连续5个整数从20开始，它们的和为",
+    "options": {
+      "A": "100",
+      "B": "120",
+      "C": "115",
+      "D": "110"
+    },
+    "answer": "D",
+    "points": 3,
+    "explanation": "等差数列求和：(20+24)×5÷2=110。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_seq01",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "连续6个整数从21开始，它们的和为",
+    "options": {
+      "A": "156",
+      "B": "147",
+      "C": "141",
+      "D": "126"
+    },
+    "answer": "C",
+    "points": 3,
+    "explanation": "等差数列求和：(21+26)×6÷2=141。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_seq02",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "连续7个整数从22开始，它们的和为",
+    "options": {
+      "A": "182",
+      "B": "175",
+      "C": "154",
+      "D": "196"
+    },
+    "answer": "B",
+    "points": 3,
+    "explanation": "等差数列求和：(22+28)×7÷2=175。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_seq03",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "连续8个整数从23开始，它们的和为",
+    "options": {
+      "A": "212",
+      "B": "184",
+      "C": "240",
+      "D": "220"
+    },
+    "answer": "A",
+    "points": 3,
+    "explanation": "等差数列求和：(23+30)×8÷2=212。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_seq04",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "连续5个整数从24开始，它们的和为",
+    "options": {
+      "A": "120",
+      "B": "140",
+      "C": "135",
+      "D": "130"
+    },
+    "answer": "D",
+    "points": 3,
+    "explanation": "等差数列求和：(24+28)×5÷2=130。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_seq05",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "连续6个整数从25开始，它们的和为",
+    "options": {
+      "A": "180",
+      "B": "171",
+      "C": "165",
+      "D": "150"
+    },
+    "answer": "C",
+    "points": 3,
+    "explanation": "等差数列求和：(25+30)×6÷2=165。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_seq06",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "连续7个整数从26开始，它们的和为",
+    "options": {
+      "A": "210",
+      "B": "203",
+      "C": "182",
+      "D": "224"
+    },
+    "answer": "B",
+    "points": 3,
+    "explanation": "等差数列求和：(26+32)×7÷2=203。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_seq07",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "连续8个整数从27开始，它们的和为",
+    "options": {
+      "A": "244",
+      "B": "216",
+      "C": "272",
+      "D": "252"
+    },
+    "answer": "A",
+    "points": 3,
+    "explanation": "等差数列求和：(27+34)×8÷2=244。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_seq08",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "连续5个整数从28开始，它们的和为",
+    "options": {
+      "A": "140",
+      "B": "160",
+      "C": "155",
+      "D": "150"
+    },
+    "answer": "D",
+    "points": 3,
+    "explanation": "等差数列求和：(28+32)×5÷2=150。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_seq09",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "连续6个整数从29开始，它们的和为",
+    "options": {
+      "A": "204",
+      "B": "195",
+      "C": "189",
+      "D": "174"
+    },
+    "answer": "C",
+    "points": 3,
+    "explanation": "等差数列求和：(29+34)×6÷2=189。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_seq10",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "连续7个整数从30开始，它们的和为",
+    "options": {
+      "A": "238",
+      "B": "231",
+      "C": "210",
+      "D": "252"
+    },
+    "answer": "B",
+    "points": 3,
+    "explanation": "等差数列求和：(30+36)×7÷2=231。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_seq11",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "连续8个整数从31开始，它们的和为",
+    "options": {
+      "A": "276",
+      "B": "248",
+      "C": "304",
+      "D": "284"
+    },
+    "answer": "A",
+    "points": 3,
+    "explanation": "等差数列求和：(31+38)×8÷2=276。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_seq12",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "连续5个整数从32开始，它们的和为",
+    "options": {
+      "A": "160",
+      "B": "180",
+      "C": "175",
+      "D": "170"
+    },
+    "answer": "D",
+    "points": 3,
+    "explanation": "等差数列求和：(32+36)×5÷2=170。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_seq13",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "连续6个整数从33开始，它们的和为",
+    "options": {
+      "A": "228",
+      "B": "219",
+      "C": "213",
+      "D": "198"
+    },
+    "answer": "C",
+    "points": 3,
+    "explanation": "等差数列求和：(33+38)×6÷2=213。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_seq14",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "连续7个整数从34开始，它们的和为",
+    "options": {
+      "A": "266",
+      "B": "259",
+      "C": "238",
+      "D": "280"
+    },
+    "answer": "B",
+    "points": 3,
+    "explanation": "等差数列求和：(34+40)×7÷2=259。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_seq15",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·问题求解",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "连续8个整数从35开始，它们的和为",
+    "options": {
+      "A": "308",
+      "B": "280",
+      "C": "336",
+      "D": "316"
+    },
+    "answer": "A",
+    "points": 3,
+    "explanation": "等差数列求和：(35+42)×8÷2=308。",
+    "source": "原创仿真",
+    "format_tag": "199问题求解 · 15题×3分"
+  },
+  {
+    "id": "mba_cs00",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·条件充分性判断",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "能否确定实数x的值？\n（1）x=2\n（2）y=1",
+    "options": {
+      "A": "条件（1）充分，但条件（2）不充分",
+      "B": "条件（2）充分，但条件（1）不充分",
+      "C": "条件（1）和（2）单独都充分",
+      "D": "条件（1）和（2）联合充分，但单独都不充分",
+      "E": "条件（1）和（2）联合仍不充分"
+    },
+    "answer": "A",
+    "points": 3,
+    "explanation": "条件（1）直接确定x；条件（2）与x无关。",
+    "source": "原创仿真",
+    "format_tag": "199条件充分性判断 · 10题×3分"
+  },
+  {
+    "id": "mba_cs01",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·条件充分性判断",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "能否确定实数x的值？\n（1）y=2\n（2）x=3",
+    "options": {
+      "A": "条件（1）充分，但条件（2）不充分",
+      "B": "条件（2）充分，但条件（1）不充分",
+      "C": "条件（1）和（2）单独都充分",
+      "D": "条件（1）和（2）联合充分，但单独都不充分",
+      "E": "条件（1）和（2）联合仍不充分"
+    },
+    "answer": "B",
+    "points": 3,
+    "explanation": "条件（2）直接确定x；条件（1）与x无关。",
+    "source": "原创仿真",
+    "format_tag": "199条件充分性判断 · 10题×3分"
+  },
+  {
+    "id": "mba_cs02",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·条件充分性判断",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "能否确定实数x的值？\n（1）x=4\n（2）2x=8",
+    "options": {
+      "A": "条件（1）充分，但条件（2）不充分",
+      "B": "条件（2）充分，但条件（1）不充分",
+      "C": "条件（1）和（2）单独都充分",
+      "D": "条件（1）和（2）联合充分，但单独都不充分",
+      "E": "条件（1）和（2）联合仍不充分"
+    },
+    "answer": "C",
+    "points": 3,
+    "explanation": "两个条件单独都能确定x。",
+    "source": "原创仿真",
+    "format_tag": "199条件充分性判断 · 10题×3分"
+  },
+  {
+    "id": "mba_cs03",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·条件充分性判断",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "能否确定实数x的值？\n（1）x+y=9\n（2）y=4",
+    "options": {
+      "A": "条件（1）充分，但条件（2）不充分",
+      "B": "条件（2）充分，但条件（1）不充分",
+      "C": "条件（1）和（2）单独都充分",
+      "D": "条件（1）和（2）联合充分，但单独都不充分",
+      "E": "条件（1）和（2）联合仍不充分"
+    },
+    "answer": "D",
+    "points": 3,
+    "explanation": "任一条件单独都不能确定x，联合可得x。",
+    "source": "原创仿真",
+    "format_tag": "199条件充分性判断 · 10题×3分"
+  },
+  {
+    "id": "mba_cs04",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·条件充分性判断",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "能否确定正整数x的值？\n（1）x>2\n（2）x<10",
+    "options": {
+      "A": "条件（1）充分，但条件（2）不充分",
+      "B": "条件（2）充分，但条件（1）不充分",
+      "C": "条件（1）和（2）单独都充分",
+      "D": "条件（1）和（2）联合充分，但单独都不充分",
+      "E": "条件（1）和（2）联合仍不充分"
+    },
+    "answer": "E",
+    "points": 3,
+    "explanation": "联合只能把x限制在3至9中的多个正整数，仍不能唯一确定。",
+    "source": "原创仿真",
+    "format_tag": "199条件充分性判断 · 10题×3分"
+  },
+  {
+    "id": "mba_cs05",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·条件充分性判断",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "能否确定实数x的值？\n（1）x=7\n（2）y=1",
+    "options": {
+      "A": "条件（1）充分，但条件（2）不充分",
+      "B": "条件（2）充分，但条件（1）不充分",
+      "C": "条件（1）和（2）单独都充分",
+      "D": "条件（1）和（2）联合充分，但单独都不充分",
+      "E": "条件（1）和（2）联合仍不充分"
+    },
+    "answer": "A",
+    "points": 3,
+    "explanation": "条件（1）直接确定x；条件（2）与x无关。",
+    "source": "原创仿真",
+    "format_tag": "199条件充分性判断 · 10题×3分"
+  },
+  {
+    "id": "mba_cs06",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·条件充分性判断",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "能否确定实数x的值？\n（1）y=2\n（2）x=8",
+    "options": {
+      "A": "条件（1）充分，但条件（2）不充分",
+      "B": "条件（2）充分，但条件（1）不充分",
+      "C": "条件（1）和（2）单独都充分",
+      "D": "条件（1）和（2）联合充分，但单独都不充分",
+      "E": "条件（1）和（2）联合仍不充分"
+    },
+    "answer": "B",
+    "points": 3,
+    "explanation": "条件（2）直接确定x；条件（1）与x无关。",
+    "source": "原创仿真",
+    "format_tag": "199条件充分性判断 · 10题×3分"
+  },
+  {
+    "id": "mba_cs07",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·条件充分性判断",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "能否确定实数x的值？\n（1）x=2\n（2）2x=4",
+    "options": {
+      "A": "条件（1）充分，但条件（2）不充分",
+      "B": "条件（2）充分，但条件（1）不充分",
+      "C": "条件（1）和（2）单独都充分",
+      "D": "条件（1）和（2）联合充分，但单独都不充分",
+      "E": "条件（1）和（2）联合仍不充分"
+    },
+    "answer": "C",
+    "points": 3,
+    "explanation": "两个条件单独都能确定x。",
+    "source": "原创仿真",
+    "format_tag": "199条件充分性判断 · 10题×3分"
+  },
+  {
+    "id": "mba_cs08",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·条件充分性判断",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "能否确定实数x的值？\n（1）x+y=7\n（2）y=4",
+    "options": {
+      "A": "条件（1）充分，但条件（2）不充分",
+      "B": "条件（2）充分，但条件（1）不充分",
+      "C": "条件（1）和（2）单独都充分",
+      "D": "条件（1）和（2）联合充分，但单独都不充分",
+      "E": "条件（1）和（2）联合仍不充分"
+    },
+    "answer": "D",
+    "points": 3,
+    "explanation": "任一条件单独都不能确定x，联合可得x。",
+    "source": "原创仿真",
+    "format_tag": "199条件充分性判断 · 10题×3分"
+  },
+  {
+    "id": "mba_cs09",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·条件充分性判断",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "能否确定正整数x的值？\n（1）x>3\n（2）x<11",
+    "options": {
+      "A": "条件（1）充分，但条件（2）不充分",
+      "B": "条件（2）充分，但条件（1）不充分",
+      "C": "条件（1）和（2）单独都充分",
+      "D": "条件（1）和（2）联合充分，但单独都不充分",
+      "E": "条件（1）和（2）联合仍不充分"
+    },
+    "answer": "E",
+    "points": 3,
+    "explanation": "联合只能把x限制在4至10中的多个正整数，仍不能唯一确定。",
+    "source": "原创仿真",
+    "format_tag": "199条件充分性判断 · 10题×3分"
+  },
+  {
+    "id": "mba_cs10",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·条件充分性判断",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "能否确定实数x的值？\n（1）x=5\n（2）y=1",
+    "options": {
+      "A": "条件（1）充分，但条件（2）不充分",
+      "B": "条件（2）充分，但条件（1）不充分",
+      "C": "条件（1）和（2）单独都充分",
+      "D": "条件（1）和（2）联合充分，但单独都不充分",
+      "E": "条件（1）和（2）联合仍不充分"
+    },
+    "answer": "A",
+    "points": 3,
+    "explanation": "条件（1）直接确定x；条件（2）与x无关。",
+    "source": "原创仿真",
+    "format_tag": "199条件充分性判断 · 10题×3分"
+  },
+  {
+    "id": "mba_cs11",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·条件充分性判断",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "能否确定实数x的值？\n（1）y=2\n（2）x=6",
+    "options": {
+      "A": "条件（1）充分，但条件（2）不充分",
+      "B": "条件（2）充分，但条件（1）不充分",
+      "C": "条件（1）和（2）单独都充分",
+      "D": "条件（1）和（2）联合充分，但单独都不充分",
+      "E": "条件（1）和（2）联合仍不充分"
+    },
+    "answer": "B",
+    "points": 3,
+    "explanation": "条件（2）直接确定x；条件（1）与x无关。",
+    "source": "原创仿真",
+    "format_tag": "199条件充分性判断 · 10题×3分"
+  },
+  {
+    "id": "mba_cs12",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·条件充分性判断",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "能否确定实数x的值？\n（1）x=7\n（2）2x=14",
+    "options": {
+      "A": "条件（1）充分，但条件（2）不充分",
+      "B": "条件（2）充分，但条件（1）不充分",
+      "C": "条件（1）和（2）单独都充分",
+      "D": "条件（1）和（2）联合充分，但单独都不充分",
+      "E": "条件（1）和（2）联合仍不充分"
+    },
+    "answer": "C",
+    "points": 3,
+    "explanation": "两个条件单独都能确定x。",
+    "source": "原创仿真",
+    "format_tag": "199条件充分性判断 · 10题×3分"
+  },
+  {
+    "id": "mba_cs13",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·条件充分性判断",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "能否确定实数x的值？\n（1）x+y=12\n（2）y=4",
+    "options": {
+      "A": "条件（1）充分，但条件（2）不充分",
+      "B": "条件（2）充分，但条件（1）不充分",
+      "C": "条件（1）和（2）单独都充分",
+      "D": "条件（1）和（2）联合充分，但单独都不充分",
+      "E": "条件（1）和（2）联合仍不充分"
+    },
+    "answer": "D",
+    "points": 3,
+    "explanation": "任一条件单独都不能确定x，联合可得x。",
+    "source": "原创仿真",
+    "format_tag": "199条件充分性判断 · 10题×3分"
+  },
+  {
+    "id": "mba_cs14",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·条件充分性判断",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "能否确定正整数x的值？\n（1）x>4\n（2）x<12",
+    "options": {
+      "A": "条件（1）充分，但条件（2）不充分",
+      "B": "条件（2）充分，但条件（1）不充分",
+      "C": "条件（1）和（2）单独都充分",
+      "D": "条件（1）和（2）联合充分，但单独都不充分",
+      "E": "条件（1）和（2）联合仍不充分"
+    },
+    "answer": "E",
+    "points": 3,
+    "explanation": "联合只能把x限制在5至11中的多个正整数，仍不能唯一确定。",
+    "source": "原创仿真",
+    "format_tag": "199条件充分性判断 · 10题×3分"
+  },
+  {
+    "id": "mba_cs15",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·条件充分性判断",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "能否确定实数x的值？\n（1）x=3\n（2）y=1",
+    "options": {
+      "A": "条件（1）充分，但条件（2）不充分",
+      "B": "条件（2）充分，但条件（1）不充分",
+      "C": "条件（1）和（2）单独都充分",
+      "D": "条件（1）和（2）联合充分，但单独都不充分",
+      "E": "条件（1）和（2）联合仍不充分"
+    },
+    "answer": "A",
+    "points": 3,
+    "explanation": "条件（1）直接确定x；条件（2）与x无关。",
+    "source": "原创仿真",
+    "format_tag": "199条件充分性判断 · 10题×3分"
+  },
+  {
+    "id": "mba_cs16",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·条件充分性判断",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "能否确定实数x的值？\n（1）y=2\n（2）x=4",
+    "options": {
+      "A": "条件（1）充分，但条件（2）不充分",
+      "B": "条件（2）充分，但条件（1）不充分",
+      "C": "条件（1）和（2）单独都充分",
+      "D": "条件（1）和（2）联合充分，但单独都不充分",
+      "E": "条件（1）和（2）联合仍不充分"
+    },
+    "answer": "B",
+    "points": 3,
+    "explanation": "条件（2）直接确定x；条件（1）与x无关。",
+    "source": "原创仿真",
+    "format_tag": "199条件充分性判断 · 10题×3分"
+  },
+  {
+    "id": "mba_cs17",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·条件充分性判断",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "能否确定实数x的值？\n（1）x=5\n（2）2x=10",
+    "options": {
+      "A": "条件（1）充分，但条件（2）不充分",
+      "B": "条件（2）充分，但条件（1）不充分",
+      "C": "条件（1）和（2）单独都充分",
+      "D": "条件（1）和（2）联合充分，但单独都不充分",
+      "E": "条件（1）和（2）联合仍不充分"
+    },
+    "answer": "C",
+    "points": 3,
+    "explanation": "两个条件单独都能确定x。",
+    "source": "原创仿真",
+    "format_tag": "199条件充分性判断 · 10题×3分"
+  },
+  {
+    "id": "mba_cs18",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·条件充分性判断",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "能否确定实数x的值？\n（1）x+y=10\n（2）y=4",
+    "options": {
+      "A": "条件（1）充分，但条件（2）不充分",
+      "B": "条件（2）充分，但条件（1）不充分",
+      "C": "条件（1）和（2）单独都充分",
+      "D": "条件（1）和（2）联合充分，但单独都不充分",
+      "E": "条件（1）和（2）联合仍不充分"
+    },
+    "answer": "D",
+    "points": 3,
+    "explanation": "任一条件单独都不能确定x，联合可得x。",
+    "source": "原创仿真",
+    "format_tag": "199条件充分性判断 · 10题×3分"
+  },
+  {
+    "id": "mba_cs19",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·条件充分性判断",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "能否确定正整数x的值？\n（1）x>5\n（2）x<13",
+    "options": {
+      "A": "条件（1）充分，但条件（2）不充分",
+      "B": "条件（2）充分，但条件（1）不充分",
+      "C": "条件（1）和（2）单独都充分",
+      "D": "条件（1）和（2）联合充分，但单独都不充分",
+      "E": "条件（1）和（2）联合仍不充分"
+    },
+    "answer": "E",
+    "points": 3,
+    "explanation": "联合只能把x限制在6至12中的多个正整数，仍不能唯一确定。",
+    "source": "原创仿真",
+    "format_tag": "199条件充分性判断 · 10题×3分"
+  },
+  {
+    "id": "mba_cs20",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·条件充分性判断",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "能否确定实数x的值？\n（1）x=8\n（2）y=1",
+    "options": {
+      "A": "条件（1）充分，但条件（2）不充分",
+      "B": "条件（2）充分，但条件（1）不充分",
+      "C": "条件（1）和（2）单独都充分",
+      "D": "条件（1）和（2）联合充分，但单独都不充分",
+      "E": "条件（1）和（2）联合仍不充分"
+    },
+    "answer": "A",
+    "points": 3,
+    "explanation": "条件（1）直接确定x；条件（2）与x无关。",
+    "source": "原创仿真",
+    "format_tag": "199条件充分性判断 · 10题×3分"
+  },
+  {
+    "id": "mba_cs21",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·条件充分性判断",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "能否确定实数x的值？\n（1）y=2\n（2）x=2",
+    "options": {
+      "A": "条件（1）充分，但条件（2）不充分",
+      "B": "条件（2）充分，但条件（1）不充分",
+      "C": "条件（1）和（2）单独都充分",
+      "D": "条件（1）和（2）联合充分，但单独都不充分",
+      "E": "条件（1）和（2）联合仍不充分"
+    },
+    "answer": "B",
+    "points": 3,
+    "explanation": "条件（2）直接确定x；条件（1）与x无关。",
+    "source": "原创仿真",
+    "format_tag": "199条件充分性判断 · 10题×3分"
+  },
+  {
+    "id": "mba_cs22",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·条件充分性判断",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "能否确定实数x的值？\n（1）x=3\n（2）2x=6",
+    "options": {
+      "A": "条件（1）充分，但条件（2）不充分",
+      "B": "条件（2）充分，但条件（1）不充分",
+      "C": "条件（1）和（2）单独都充分",
+      "D": "条件（1）和（2）联合充分，但单独都不充分",
+      "E": "条件（1）和（2）联合仍不充分"
+    },
+    "answer": "C",
+    "points": 3,
+    "explanation": "两个条件单独都能确定x。",
+    "source": "原创仿真",
+    "format_tag": "199条件充分性判断 · 10题×3分"
+  },
+  {
+    "id": "mba_cs23",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·条件充分性判断",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "能否确定实数x的值？\n（1）x+y=8\n（2）y=4",
+    "options": {
+      "A": "条件（1）充分，但条件（2）不充分",
+      "B": "条件（2）充分，但条件（1）不充分",
+      "C": "条件（1）和（2）单独都充分",
+      "D": "条件（1）和（2）联合充分，但单独都不充分",
+      "E": "条件（1）和（2）联合仍不充分"
+    },
+    "answer": "D",
+    "points": 3,
+    "explanation": "任一条件单独都不能确定x，联合可得x。",
+    "source": "原创仿真",
+    "format_tag": "199条件充分性判断 · 10题×3分"
+  },
+  {
+    "id": "mba_cs24",
+    "subject": "管理类综合能力",
+    "chapter": "数学基础·条件充分性判断",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "能否确定正整数x的值？\n（1）x>6\n（2）x<14",
+    "options": {
+      "A": "条件（1）充分，但条件（2）不充分",
+      "B": "条件（2）充分，但条件（1）不充分",
+      "C": "条件（1）和（2）单独都充分",
+      "D": "条件（1）和（2）联合充分，但单独都不充分",
+      "E": "条件（1）和（2）联合仍不充分"
+    },
+    "answer": "E",
+    "points": 3,
+    "explanation": "联合只能把x限制在7至13中的多个正整数，仍不能唯一确定。",
+    "source": "原创仿真",
+    "format_tag": "199条件充分性判断 · 10题×3分"
+  },
+  {
+    "id": "mba_l000",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "所有完成安全培训的员工都可进入实验区。小周不能进入实验区。以下必然成立的是",
+    "options": {
+      "A": "小周未完成安全培训",
+      "B": "小周不是员工",
+      "C": "小周完成了培训但忘带证件",
+      "D": "无人可进入实验区"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "由“完成培训→可进入”及“不能进入”，按逆否推理得未完成培训。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 30题×2分"
+  },
+  {
+    "id": "mba_l001",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "如果项目延期，则预算需要重估。预算没有重估。由此可以推出",
+    "options": {
+      "A": "项目没有延期",
+      "B": "项目一定提前",
+      "C": "预算一定增加",
+      "D": "无法判断项目是否启动"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "P→Q且非Q，可推出非P。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 30题×2分"
+  },
+  {
+    "id": "mba_l002",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "某产品销量上升后，公司断言广告必然有效。以下最能削弱该断言的是",
+    "options": {
+      "A": "同期主要竞争对手退出市场",
+      "B": "广告画面受到好评",
+      "C": "公司增加了广告预算",
+      "D": "销量数据按月统计"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "竞争对手退出提供了销量上升的替代原因。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 30题×2分"
+  },
+  {
+    "id": "mba_l003",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "调查发现使用健身应用者平均运动更多，研究者据此认为应用使人增加运动。以下最需要排除的是",
+    "options": {
+      "A": "本来爱运动的人更愿意使用健身应用",
+      "B": "应用有多种颜色",
+      "C": "不同手机品牌价格不同",
+      "D": "运动场所有开放时间"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "自选择偏差可能同时解释应用使用与运动量。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 30题×2分"
+  },
+  {
+    "id": "mba_l004",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "只有获得许可，车辆才能进入园区。甲车进入了园区。可以推出",
+    "options": {
+      "A": "甲车获得了许可",
+      "B": "所有获许可车辆都已进入",
+      "C": "甲车没有驾驶员",
+      "D": "园区没有其他车辆"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "“只有P才Q”等价于Q→P，进入园区可推出获得许可。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 30题×2分"
+  },
+  {
+    "id": "mba_l005",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "五人排队，甲必须在乙前，丙必须在丁后。以下哪项可能成立？",
+    "options": {
+      "A": "乙、甲、丙、丁、戊",
+      "B": "甲、乙、丁、丙、戊",
+      "C": "丙、丁、甲、乙、戊",
+      "D": "丁、丙、乙、甲、戊"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "B同时满足甲在乙前、丙在丁后。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 30题×2分"
+  },
+  {
+    "id": "mba_l006",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "某餐厅推出低价套餐后客流增加，经理认为降价必然提高利润。以下最能指出论证漏洞的是",
+    "options": {
+      "A": "客流增加不等于总利润增加，还需考虑毛利和成本",
+      "B": "套餐菜单采用彩色印刷",
+      "C": "餐厅位于一楼",
+      "D": "经理工作时间较长"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "论证把客流增加直接等同于利润增加，忽略单位利润和成本。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 30题×2分"
+  },
+  {
+    "id": "mba_l007",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "某市增设自行车道后骑行人数增加。以下最能加强“自行车道促进骑行”的结论的是",
+    "options": {
+      "A": "同期天气、油价和公共交通价格基本稳定",
+      "B": "自行车颜色变多",
+      "C": "城市人口略有变化",
+      "D": "部分道路正在维修"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "排除主要替代解释可增强因果推断。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 30题×2分"
+  },
+  {
+    "id": "mba_l008",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "所有A类文件都需复核，有些需复核的文件是电子文件。以下不能必然推出的是",
+    "options": {
+      "A": "有些电子文件是A类文件",
+      "B": "所有A类文件都需复核",
+      "C": "有些电子文件需复核",
+      "D": "可能存在非A类的需复核文件"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "两个集合都与“需复核”有交集，不代表A类与电子文件必有交集。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 30题×2分"
+  },
+  {
+    "id": "mba_l009",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "甲、乙、丙三项任务中，甲既不能与乙同日，也不能与丙同日；乙与丙可以同日。若必须有两项同日，则同日的是",
+    "options": {
+      "A": "甲和乙",
+      "B": "乙和丙",
+      "C": "甲和丙",
+      "D": "无法确定"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "甲不能与另外两项同日，因此必须同日的是乙和丙。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 30题×2分"
+  },
+  {
+    "id": "mba_cond00",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "如果审计通过，那么许可证获批。现已知“许可证获批”没有发生。以下必然成立的是",
+    "options": {
+      "A": "审计通过没有发生",
+      "B": "许可证获批一定发生",
+      "C": "审计通过与许可证获批同时发生",
+      "D": "无法得到任何结论"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "P→Q且非Q，根据逆否规则可推出非P。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 条件推理"
+  },
+  {
+    "id": "mba_cond01",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "如果温度低于零度，那么路面结冰预警启动。现已知“路面结冰预警启动”没有发生。以下必然成立的是",
+    "options": {
+      "A": "路面结冰预警启动一定发生",
+      "B": "温度低于零度与路面结冰预警启动同时发生",
+      "C": "无法得到任何结论",
+      "D": "温度低于零度没有发生"
+    },
+    "answer": "D",
+    "points": 2,
+    "explanation": "P→Q且非Q，根据逆否规则可推出非P。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 条件推理"
+  },
+  {
+    "id": "mba_cond02",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "如果订单完成复核，那么货物可以出库。现已知“货物可以出库”没有发生。以下必然成立的是",
+    "options": {
+      "A": "订单完成复核与货物可以出库同时发生",
+      "B": "无法得到任何结论",
+      "C": "订单完成复核没有发生",
+      "D": "货物可以出库一定发生"
+    },
+    "answer": "C",
+    "points": 2,
+    "explanation": "P→Q且非Q，根据逆否规则可推出非P。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 条件推理"
+  },
+  {
+    "id": "mba_cond03",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "如果项目通过验收，那么尾款可以支付。现已知“尾款可以支付”没有发生。以下必然成立的是",
+    "options": {
+      "A": "无法得到任何结论",
+      "B": "项目通过验收没有发生",
+      "C": "尾款可以支付一定发生",
+      "D": "项目通过验收与尾款可以支付同时发生"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "P→Q且非Q，根据逆否规则可推出非P。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 条件推理"
+  },
+  {
+    "id": "mba_cond04",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "如果用户完成实名认证，那么账户可以提现。现已知“账户可以提现”没有发生。以下必然成立的是",
+    "options": {
+      "A": "用户完成实名认证没有发生",
+      "B": "账户可以提现一定发生",
+      "C": "用户完成实名认证与账户可以提现同时发生",
+      "D": "无法得到任何结论"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "P→Q且非Q，根据逆否规则可推出非P。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 条件推理"
+  },
+  {
+    "id": "mba_cond05",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "如果设备通过自检，那么生产线可以启动。现已知“生产线可以启动”没有发生。以下必然成立的是",
+    "options": {
+      "A": "生产线可以启动一定发生",
+      "B": "设备通过自检与生产线可以启动同时发生",
+      "C": "无法得到任何结论",
+      "D": "设备通过自检没有发生"
+    },
+    "answer": "D",
+    "points": 2,
+    "explanation": "P→Q且非Q，根据逆否规则可推出非P。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 条件推理"
+  },
+  {
+    "id": "mba_cond06",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "如果申请材料齐全，那么窗口受理申请。现已知“窗口受理申请”没有发生。以下必然成立的是",
+    "options": {
+      "A": "申请材料齐全与窗口受理申请同时发生",
+      "B": "无法得到任何结论",
+      "C": "申请材料齐全没有发生",
+      "D": "窗口受理申请一定发生"
+    },
+    "answer": "C",
+    "points": 2,
+    "explanation": "P→Q且非Q，根据逆否规则可推出非P。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 条件推理"
+  },
+  {
+    "id": "mba_cond07",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "如果航班获得放行，那么飞机可以起飞。现已知“飞机可以起飞”没有发生。以下必然成立的是",
+    "options": {
+      "A": "无法得到任何结论",
+      "B": "航班获得放行没有发生",
+      "C": "飞机可以起飞一定发生",
+      "D": "航班获得放行与飞机可以起飞同时发生"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "P→Q且非Q，根据逆否规则可推出非P。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 条件推理"
+  },
+  {
+    "id": "mba_cond08",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "如果论文通过查重，那么进入送审环节。现已知“进入送审环节”没有发生。以下必然成立的是",
+    "options": {
+      "A": "论文通过查重没有发生",
+      "B": "进入送审环节一定发生",
+      "C": "论文通过查重与进入送审环节同时发生",
+      "D": "无法得到任何结论"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "P→Q且非Q，根据逆否规则可推出非P。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 条件推理"
+  },
+  {
+    "id": "mba_cond09",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "如果预算获得批准，那么采购流程启动。现已知“采购流程启动”没有发生。以下必然成立的是",
+    "options": {
+      "A": "采购流程启动一定发生",
+      "B": "预算获得批准与采购流程启动同时发生",
+      "C": "无法得到任何结论",
+      "D": "预算获得批准没有发生"
+    },
+    "answer": "D",
+    "points": 2,
+    "explanation": "P→Q且非Q，根据逆否规则可推出非P。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 条件推理"
+  },
+  {
+    "id": "mba_cond10",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "如果水质达到标准，那么水源恢复供应。现已知“水源恢复供应”没有发生。以下必然成立的是",
+    "options": {
+      "A": "水质达到标准与水源恢复供应同时发生",
+      "B": "无法得到任何结论",
+      "C": "水质达到标准没有发生",
+      "D": "水源恢复供应一定发生"
+    },
+    "answer": "C",
+    "points": 2,
+    "explanation": "P→Q且非Q，根据逆否规则可推出非P。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 条件推理"
+  },
+  {
+    "id": "mba_cond11",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "如果候选人通过背景核验，那么发出正式录用通知。现已知“发出正式录用通知”没有发生。以下必然成立的是",
+    "options": {
+      "A": "无法得到任何结论",
+      "B": "候选人通过背景核验没有发生",
+      "C": "发出正式录用通知一定发生",
+      "D": "候选人通过背景核验与发出正式录用通知同时发生"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "P→Q且非Q，根据逆否规则可推出非P。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 条件推理"
+  },
+  {
+    "id": "mba_cond12",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "如果系统完成备份，那么执行版本升级。现已知“执行版本升级”没有发生。以下必然成立的是",
+    "options": {
+      "A": "系统完成备份没有发生",
+      "B": "执行版本升级一定发生",
+      "C": "系统完成备份与执行版本升级同时发生",
+      "D": "无法得到任何结论"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "P→Q且非Q，根据逆否规则可推出非P。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 条件推理"
+  },
+  {
+    "id": "mba_cond13",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "如果样品通过稳定性测试，那么进入量产评估。现已知“进入量产评估”没有发生。以下必然成立的是",
+    "options": {
+      "A": "进入量产评估一定发生",
+      "B": "样品通过稳定性测试与进入量产评估同时发生",
+      "C": "无法得到任何结论",
+      "D": "样品通过稳定性测试没有发生"
+    },
+    "answer": "D",
+    "points": 2,
+    "explanation": "P→Q且非Q，根据逆否规则可推出非P。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 条件推理"
+  },
+  {
+    "id": "mba_cond14",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "如果合同完成法务审核，那么双方正式签署。现已知“双方正式签署”没有发生。以下必然成立的是",
+    "options": {
+      "A": "合同完成法务审核与双方正式签署同时发生",
+      "B": "无法得到任何结论",
+      "C": "合同完成法务审核没有发生",
+      "D": "双方正式签署一定发生"
+    },
+    "answer": "C",
+    "points": 2,
+    "explanation": "P→Q且非Q，根据逆否规则可推出非P。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 条件推理"
+  },
+  {
+    "id": "mba_nec00",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "只有完成伦理审查，才能开展人体试验。已知某对象已经开展人体试验，可以推出",
+    "options": {
+      "A": "所有已经完成伦理审查的人都已开展人体试验",
+      "B": "未开展人体试验",
+      "C": "无法判断是否满足任何条件",
+      "D": "已经完成伦理审查"
+    },
+    "answer": "D",
+    "points": 2,
+    "explanation": "“只有P才Q”等价于Q→P，Q成立可推出P成立。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 必要条件"
+  },
+  {
+    "id": "mba_nec01",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "只有持有有效票证，才能进入会场。已知某对象已经进入会场，可以推出",
+    "options": {
+      "A": "未进入会场",
+      "B": "无法判断是否满足任何条件",
+      "C": "已经持有有效票证",
+      "D": "所有已经持有有效票证的人都已进入会场"
+    },
+    "answer": "C",
+    "points": 2,
+    "explanation": "“只有P才Q”等价于Q→P，Q成立可推出P成立。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 必要条件"
+  },
+  {
+    "id": "mba_nec02",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "只有获得数据授权，才能下载完整数据集。已知某对象已经下载完整数据集，可以推出",
+    "options": {
+      "A": "无法判断是否满足任何条件",
+      "B": "已经获得数据授权",
+      "C": "所有已经获得数据授权的人都已下载完整数据集",
+      "D": "未下载完整数据集"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "“只有P才Q”等价于Q→P，Q成立可推出P成立。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 必要条件"
+  },
+  {
+    "id": "mba_nec03",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "只有通过资格审核，才能参加面试。已知某对象已经参加面试，可以推出",
+    "options": {
+      "A": "已经通过资格审核",
+      "B": "所有已经通过资格审核的人都已参加面试",
+      "C": "未参加面试",
+      "D": "无法判断是否满足任何条件"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "“只有P才Q”等价于Q→P，Q成立可推出P成立。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 必要条件"
+  },
+  {
+    "id": "mba_nec04",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "只有取得施工许可，才能开始主体施工。已知某对象已经开始主体施工，可以推出",
+    "options": {
+      "A": "所有已经取得施工许可的人都已开始主体施工",
+      "B": "未开始主体施工",
+      "C": "无法判断是否满足任何条件",
+      "D": "已经取得施工许可"
+    },
+    "answer": "D",
+    "points": 2,
+    "explanation": "“只有P才Q”等价于Q→P，Q成立可推出P成立。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 必要条件"
+  },
+  {
+    "id": "mba_nec05",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "只有完成安全培训，才能进入高风险作业区。已知某对象已经进入高风险作业区，可以推出",
+    "options": {
+      "A": "未进入高风险作业区",
+      "B": "无法判断是否满足任何条件",
+      "C": "已经完成安全培训",
+      "D": "所有已经完成安全培训的人都已进入高风险作业区"
+    },
+    "answer": "C",
+    "points": 2,
+    "explanation": "“只有P才Q”等价于Q→P，Q成立可推出P成立。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 必要条件"
+  },
+  {
+    "id": "mba_nec06",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "只有董事会批准，才能实施重大资产处置。已知某对象已经实施重大资产处置，可以推出",
+    "options": {
+      "A": "无法判断是否满足任何条件",
+      "B": "已经董事会批准",
+      "C": "所有已经董事会批准的人都已实施重大资产处置",
+      "D": "未实施重大资产处置"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "“只有P才Q”等价于Q→P，Q成立可推出P成立。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 必要条件"
+  },
+  {
+    "id": "mba_nec07",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "只有监护人签字，才能未成年人参加活动。已知某对象已经未成年人参加活动，可以推出",
+    "options": {
+      "A": "已经监护人签字",
+      "B": "所有已经监护人签字的人都已未成年人参加活动",
+      "C": "未未成年人参加活动",
+      "D": "无法判断是否满足任何条件"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "“只有P才Q”等价于Q→P，Q成立可推出P成立。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 必要条件"
+  },
+  {
+    "id": "mba_nec08",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "只有完成身份核验，才能领取重要文件。已知某对象已经领取重要文件，可以推出",
+    "options": {
+      "A": "所有已经完成身份核验的人都已领取重要文件",
+      "B": "未领取重要文件",
+      "C": "无法判断是否满足任何条件",
+      "D": "已经完成身份核验"
+    },
+    "answer": "D",
+    "points": 2,
+    "explanation": "“只有P才Q”等价于Q→P，Q成立可推出P成立。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 必要条件"
+  },
+  {
+    "id": "mba_nec09",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 2,
+    "type": "single",
+    "stem": "只有满足最低资本要求，才能获准开展该项业务。已知某对象已经获准开展该项业务，可以推出",
+    "options": {
+      "A": "未获准开展该项业务",
+      "B": "无法判断是否满足任何条件",
+      "C": "已经满足最低资本要求",
+      "D": "所有已经满足最低资本要求的人都已获准开展该项业务"
+    },
+    "answer": "C",
+    "points": 2,
+    "explanation": "“只有P才Q”等价于Q→P，Q成立可推出P成立。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 必要条件"
+  },
+  {
+    "id": "mba_cause00",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "观察到“门店更换招牌后客流上升”，研究者据此认为“新招牌提升了客流”。以下哪项最能削弱该结论？",
+    "options": {
+      "A": "研究记录了变化发生的日期",
+      "B": "样本来自实际业务场景",
+      "C": "同期地铁新出口在门店旁启用",
+      "D": "该变化受到部分用户好评"
+    },
+    "answer": "C",
+    "points": 2,
+    "explanation": "该选项提供了结果变化的有力替代原因，削弱了题干的因果归因。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 论证评价"
+  },
+  {
+    "id": "mba_cause01",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "观察到“公司启用新考勤系统后迟到减少”，研究者据此认为“新系统改善了纪律”。以下哪项最能削弱该结论？",
+    "options": {
+      "A": "样本来自实际业务场景",
+      "B": "同期公司把上班时间推迟了半小时",
+      "C": "该变化受到部分用户好评",
+      "D": "研究记录了变化发生的日期"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "该选项提供了结果变化的有力替代原因，削弱了题干的因果归因。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 论证评价"
+  },
+  {
+    "id": "mba_cause02",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "观察到“学校增加晚自习后平均分提高”，研究者据此认为“晚自习提高了成绩”。以下哪项最能削弱该结论？",
+    "options": {
+      "A": "本学期试卷难度明显低于上学期",
+      "B": "该变化受到部分用户好评",
+      "C": "研究记录了变化发生的日期",
+      "D": "样本来自实际业务场景"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "该选项提供了结果变化的有力替代原因，削弱了题干的因果归因。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 论证评价"
+  },
+  {
+    "id": "mba_cause03",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "观察到“社区增设摄像头后报案数量下降”，研究者据此认为“摄像头减少了犯罪”。以下哪项最能削弱该结论？",
+    "options": {
+      "A": "该变化受到部分用户好评",
+      "B": "研究记录了变化发生的日期",
+      "C": "样本来自实际业务场景",
+      "D": "居民转而通过其他平台报案"
+    },
+    "answer": "D",
+    "points": 2,
+    "explanation": "该选项提供了结果变化的有力替代原因，削弱了题干的因果归因。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 论证评价"
+  },
+  {
+    "id": "mba_cause04",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "观察到“应用改版后日活跃用户增加”，研究者据此认为“新版界面提高了活跃度”。以下哪项最能削弱该结论？",
+    "options": {
+      "A": "研究记录了变化发生的日期",
+      "B": "样本来自实际业务场景",
+      "C": "同期推出了高额签到奖励",
+      "D": "该变化受到部分用户好评"
+    },
+    "answer": "C",
+    "points": 2,
+    "explanation": "该选项提供了结果变化的有力替代原因，削弱了题干的因果归因。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 论证评价"
+  },
+  {
+    "id": "mba_cause05",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "观察到“餐厅增加素食菜单后利润上升”，研究者据此认为“素食菜单提高了利润”。以下哪项最能削弱该结论？",
+    "options": {
+      "A": "样本来自实际业务场景",
+      "B": "同期租金获得大幅减免",
+      "C": "该变化受到部分用户好评",
+      "D": "研究记录了变化发生的日期"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "该选项提供了结果变化的有力替代原因，削弱了题干的因果归因。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 论证评价"
+  },
+  {
+    "id": "mba_cause06",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "观察到“城市提高停车费后拥堵下降”，研究者据此认为“停车费抑制了驾车需求”。以下哪项最能削弱该结论？",
+    "options": {
+      "A": "同期一条主要道路长期封闭施工",
+      "B": "该变化受到部分用户好评",
+      "C": "研究记录了变化发生的日期",
+      "D": "样本来自实际业务场景"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "该选项提供了结果变化的有力替代原因，削弱了题干的因果归因。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 论证评价"
+  },
+  {
+    "id": "mba_cause07",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "观察到“企业采用开放办公区后协作评价上升”，研究者据此认为“开放空间促进了协作”。以下哪项最能削弱该结论？",
+    "options": {
+      "A": "该变化受到部分用户好评",
+      "B": "研究记录了变化发生的日期",
+      "C": "样本来自实际业务场景",
+      "D": "评价问卷同时更换了评分尺度"
+    },
+    "answer": "D",
+    "points": 2,
+    "explanation": "该选项提供了结果变化的有力替代原因，削弱了题干的因果归因。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 论证评价"
+  },
+  {
+    "id": "mba_cause08",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "观察到“医院上线预约提醒后爽约率下降”，研究者据此认为“提醒减少了爽约”。以下哪项最能削弱该结论？",
+    "options": {
+      "A": "研究记录了变化发生的日期",
+      "B": "样本来自实际业务场景",
+      "C": "同期取消预约的操作也被简化",
+      "D": "该变化受到部分用户好评"
+    },
+    "answer": "C",
+    "points": 2,
+    "explanation": "该选项提供了结果变化的有力替代原因，削弱了题干的因果归因。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 论证评价"
+  },
+  {
+    "id": "mba_cause09",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "观察到“平台增加评论审核后投诉减少”，研究者据此认为“审核提高了内容质量”。以下哪项最能削弱该结论？",
+    "options": {
+      "A": "样本来自实际业务场景",
+      "B": "投诉入口同时被移到更深层页面",
+      "C": "该变化受到部分用户好评",
+      "D": "研究记录了变化发生的日期"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "该选项提供了结果变化的有力替代原因，削弱了题干的因果归因。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 论证评价"
+  },
+  {
+    "id": "mba_cause10",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "观察到“工厂调整照明后产量增加”，研究者据此认为“照明改善提高了产量”。以下哪项最能削弱该结论？",
+    "options": {
+      "A": "同期新增了一条自动化生产线",
+      "B": "该变化受到部分用户好评",
+      "C": "研究记录了变化发生的日期",
+      "D": "样本来自实际业务场景"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "该选项提供了结果变化的有力替代原因，削弱了题干的因果归因。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 论证评价"
+  },
+  {
+    "id": "mba_cause11",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "观察到“图书馆延长开放时间后借阅增加”，研究者据此认为“延时开放促进了借阅”。以下哪项最能削弱该结论？",
+    "options": {
+      "A": "该变化受到部分用户好评",
+      "B": "研究记录了变化发生的日期",
+      "C": "样本来自实际业务场景",
+      "D": "同期取消了逾期罚款"
+    },
+    "answer": "D",
+    "points": 2,
+    "explanation": "该选项提供了结果变化的有力替代原因，削弱了题干的因果归因。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 论证评价"
+  },
+  {
+    "id": "mba_cause12",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "观察到“商场举行艺术展后销售额增长”，研究者据此认为“艺术展带动了消费”。以下哪项最能削弱该结论？",
+    "options": {
+      "A": "研究记录了变化发生的日期",
+      "B": "样本来自实际业务场景",
+      "C": "同期正值大型节假日促销",
+      "D": "该变化受到部分用户好评"
+    },
+    "answer": "C",
+    "points": 2,
+    "explanation": "该选项提供了结果变化的有力替代原因，削弱了题干的因果归因。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 论证评价"
+  },
+  {
+    "id": "mba_cause13",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 4,
+    "type": "single",
+    "stem": "观察到“团队采用站立会议后项目周期缩短”，研究者据此认为“站立会议提高了效率”。以下哪项最能削弱该结论？",
+    "options": {
+      "A": "样本来自实际业务场景",
+      "B": "项目范围同时被大幅缩减",
+      "C": "该变化受到部分用户好评",
+      "D": "研究记录了变化发生的日期"
+    },
+    "answer": "B",
+    "points": 2,
+    "explanation": "该选项提供了结果变化的有力替代原因，削弱了题干的因果归因。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 论证评价"
+  },
+  {
+    "id": "mba_cause14",
+    "subject": "管理类综合能力",
+    "chapter": "逻辑推理",
+    "difficulty": 3,
+    "type": "single",
+    "stem": "观察到“网站启用深色模式后停留时长增加”，研究者据此认为“深色模式增强了用户黏性”。以下哪项最能削弱该结论？",
+    "options": {
+      "A": "统计口径同时由中位数改为平均数",
+      "B": "该变化受到部分用户好评",
+      "C": "研究记录了变化发生的日期",
+      "D": "样本来自实际业务场景"
+    },
+    "answer": "A",
+    "points": 2,
+    "explanation": "该选项提供了结果变化的有力替代原因，削弱了题干的因果归因。",
+    "source": "原创仿真",
+    "format_tag": "199逻辑推理 · 论证评价"
+  },
+  {
+    "id": "mba_w00",
+    "subject": "管理类综合能力",
+    "chapter": "写作·论证有效性分析",
+    "difficulty": 4,
+    "type": "essay",
+    "stem": "某企业认为：凡是采用远程办公的部门成本都下降，因此只要全面取消办公室，公司利润必然大幅增长。",
+    "options": {},
+    "answer": "检查样本范围、成本与利润的概念差异、取消办公室的新增成本，以及相关关系能否推出因果。",
+    "points": 30,
+    "explanation": "检查样本范围、成本与利润的概念差异、取消办公室的新增成本，以及相关关系能否推出因果。",
+    "source": "原创仿真",
+    "format_tag": "199写作 · 30分 · 人工自评"
+  },
+  {
+    "id": "mba_w01",
+    "subject": "管理类综合能力",
+    "chapter": "写作·论证有效性分析",
+    "difficulty": 4,
+    "type": "essay",
+    "stem": "调查显示高绩效员工更常参加培训，所以增加强制培训次数必然使所有员工达到高绩效。",
+    "options": {},
+    "answer": "检查自选择、反向因果、培训质量与次数的差异，以及从平均趋势到所有个体的过度概括。",
+    "points": 30,
+    "explanation": "检查自选择、反向因果、培训质量与次数的差异，以及从平均趋势到所有个体的过度概括。",
+    "source": "原创仿真",
+    "format_tag": "199写作 · 30分 · 人工自评"
+  },
+  {
+    "id": "mba_w02",
+    "subject": "管理类综合能力",
+    "chapter": "写作·论证有效性分析",
+    "difficulty": 4,
+    "type": "essay",
+    "stem": "某商店延长营业时间后销售额上升，据此认为延长到24小时营业一定能继续同比例增加利润。",
+    "options": {},
+    "answer": "检查同期因素、销售额与利润差异、边际收益递减以及夜间成本。",
+    "points": 30,
+    "explanation": "检查同期因素、销售额与利润差异、边际收益递减以及夜间成本。",
+    "source": "原创仿真",
+    "format_tag": "199写作 · 30分 · 人工自评"
+  },
+  {
+    "id": "mba_w03",
+    "subject": "管理类综合能力",
+    "chapter": "写作·论证有效性分析",
+    "difficulty": 4,
+    "type": "essay",
+    "stem": "一家工厂引入自动化设备后次品率下降，因此任何工厂购买同型号设备都能消除质量问题。",
+    "options": {},
+    "answer": "检查实施条件、人员培训、原料与流程差异，以及“下降”到“消除”的结论跳跃。",
+    "points": 30,
+    "explanation": "检查实施条件、人员培训、原料与流程差异，以及“下降”到“消除”的结论跳跃。",
+    "source": "原创仿真",
+    "format_tag": "199写作 · 30分 · 人工自评"
+  },
+  {
+    "id": "mba_w04",
+    "subject": "管理类综合能力",
+    "chapter": "写作·论证有效性分析",
+    "difficulty": 4,
+    "type": "essay",
+    "stem": "某城市共享单车投放量增加后拥堵缓解，所以继续无限增加投放就能彻底解决拥堵。",
+    "options": {},
+    "answer": "检查相关与因果、其他交通政策、边际效应、过量投放的负面影响。",
+    "points": 30,
+    "explanation": "检查相关与因果、其他交通政策、边际效应、过量投放的负面影响。",
+    "source": "原创仿真",
+    "format_tag": "199写作 · 30分 · 人工自评"
+  },
+  {
+    "id": "mba_w05",
+    "subject": "管理类综合能力",
+    "chapter": "写作·论说文",
+    "difficulty": 4,
+    "type": "essay",
+    "stem": "有人说，管理的价值在于减少不确定性；也有人认为，过度追求确定性会压制创新。请据此写一篇论说文。",
+    "options": {},
+    "answer": "可围绕规则与试验的边界建立中心论点，用条件化观点避免二元对立。",
+    "points": 35,
+    "explanation": "可围绕规则与试验的边界建立中心论点，用条件化观点避免二元对立。",
+    "source": "原创仿真",
+    "format_tag": "199写作 · 35分 · 人工自评"
+  },
+  {
+    "id": "mba_w06",
+    "subject": "管理类综合能力",
+    "chapter": "写作·论说文",
+    "difficulty": 4,
+    "type": "essay",
+    "stem": "一家企业允许员工用20%的工作时间探索自主项目。请讨论组织效率与长期创新之间的关系。",
+    "options": {},
+    "answer": "可从短期机会成本、长期学习收益、筛选机制和评价周期展开论证。",
+    "points": 35,
+    "explanation": "可从短期机会成本、长期学习收益、筛选机制和评价周期展开论证。",
+    "source": "原创仿真",
+    "format_tag": "199写作 · 35分 · 人工自评"
+  },
+  {
+    "id": "mba_w07",
+    "subject": "管理类综合能力",
+    "chapter": "写作·论说文",
+    "difficulty": 4,
+    "type": "essay",
+    "stem": "材料：真正的合作不是所有人意见一致，而是在分歧中形成可执行的共同方案。",
+    "options": {},
+    "answer": "可区分一致、服从与协作，讨论程序、信息和责任对合作质量的影响。",
+    "points": 35,
+    "explanation": "可区分一致、服从与协作，讨论程序、信息和责任对合作质量的影响。",
+    "source": "原创仿真",
+    "format_tag": "199写作 · 35分 · 人工自评"
+  },
+  {
+    "id": "mba_w08",
+    "subject": "管理类综合能力",
+    "chapter": "写作·论说文",
+    "difficulty": 4,
+    "type": "essay",
+    "stem": "请以“速度与质量”为主题，结合组织决策写一篇论说文。",
+    "options": {},
+    "answer": "可论证时间压力下最低质量标准、可逆决策与不可逆决策应采用不同速度。",
+    "points": 35,
+    "explanation": "可论证时间压力下最低质量标准、可逆决策与不可逆决策应采用不同速度。",
+    "source": "原创仿真",
+    "format_tag": "199写作 · 35分 · 人工自评"
+  },
+  {
+    "id": "mba_w09",
+    "subject": "管理类综合能力",
+    "chapter": "写作·论说文",
+    "difficulty": 4,
+    "type": "essay",
+    "stem": "材料：衡量什么，往往就会得到什么；但不是所有重要的事都容易衡量。",
+    "options": {},
+    "answer": "可讨论指标的激励作用、替代效应与定量指标和专业判断的结合。",
+    "points": 35,
+    "explanation": "可讨论指标的激励作用、替代效应与定量指标和专业判断的结合。",
+    "source": "原创仿真",
+    "format_tag": "199写作 · 35分 · 人工自评"
+  }
 ]
+
