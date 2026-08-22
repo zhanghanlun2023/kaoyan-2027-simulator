@@ -1,4 +1,4 @@
-from engine import build_paper, score_paper
+from engine import build_english2_paper, build_paper, score_paper
 from engine import load_json
 
 
@@ -27,12 +27,27 @@ def test_university_catalog_counts():
 
 
 def test_question_bank_has_mba_path_and_no_duplicates():
-    questions = load_json("questions.json")
-    assert len(questions) == 402
-    assert sum(q["subject"] == "管理类综合能力" for q in questions) == 125
-    assert sum(q["subject"] == "英语二" for q in questions) == 32
+    core = load_json("questions.json")
+    management = load_json("questions_199.json")
+    english2 = load_json("english2_bank.json")["questions"]
+    questions = core + management + english2
+    assert len(core) == 245
+    assert len(management) == 650
+    assert len(english2) == 520
+    assert len(questions) == 1415
     assert len({q["id"] for q in questions}) == len(questions)
-    assert len({(q["subject"], q["stem"]) for q in questions}) == len(questions)
+    assert len({(q["subject"], q.get("set_id", ""), q["stem"]) for q in questions}) == len(questions)
+
+
+def test_english2_full_paper_matches_real_section_totals():
+    bank = load_json("english2_bank.json")
+    paper = build_english2_paper(bank, 2027)
+    assert len(paper) == 48
+    assert sum(q["points"] for q in paper) == 100
+    assert sum(q["points"] for q in paper if q["type"] != "essay") == 60
+    assert sum(q["section"] == "英语知识运用（完形填空）" for q in paper) == 20
+    assert sum(q["section"] == "阅读理解A" for q in paper) == 20
+    assert sum(q["section"] == "阅读理解B（新题型）" for q in paper) == 5
 
 
 def test_essay_is_excluded_from_automatic_score():
