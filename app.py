@@ -6,7 +6,7 @@ from datetime import date
 import pandas as pd
 import streamlit as st
 
-from engine import build_paper, load_json, score_paper, stable_seed
+from engine import build_english2_paper, build_paper, load_json, score_paper, stable_seed
 
 
 st.set_page_config(
@@ -43,7 +43,9 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-questions = load_json("questions.json")
+questions = load_json("questions.json") + load_json("questions_199.json")
+english2_bank = load_json("english2_bank.json")
+english2_questions = english2_bank["questions"]
 syllabus = load_json("syllabus.json")
 papers = load_json("past_papers.json")
 university_data = load_json("universities.json")
@@ -71,7 +73,7 @@ with st.sidebar:
     selected_university = next((u for u in universities if u["name"] == selected_university_name), None)
     allowed_subjects = ["管理类综合能力", "英语二"] if study_track == "MBA 工商管理" else [s for s in subjects if s != "管理类综合能力"]
     selected_subject = st.selectbox("当前科目", allowed_subjects)
-    available = sum(q["subject"] == selected_subject for q in questions)
+    available = len(english2_questions) if selected_subject == "英语二" else sum(q["subject"] == selected_subject for q in questions)
     st.caption(f"当前原创题量 · {available} 道")
     st.caption("知识状态 · 截至 2026-08-22")
 
@@ -89,7 +91,7 @@ if page == "备考总览":
     )
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("覆盖统考科目", f"{len(subjects)} 门")
-    c2.metric("原创仿真题", f"{len(questions)} 道")
+    c2.metric("原创仿真题", f"{len(questions) + len(english2_questions)} 道")
     c3.metric("真题索引跨度", "5 年")
     c4.metric("考纲状态", "待官方发布")
     target_label = selected_university_name if selected_university else "尚未确定目标院校"
@@ -113,7 +115,7 @@ if page == "备考总览":
     for idx in range(0, len(syllabus["subjects"]), 3):
         row = st.columns(3)
         for col, subject in zip(row, syllabus["subjects"][idx:idx+3]):
-            count = sum(q["subject"] == subject["name"] for q in questions)
+            count = len(english2_questions) if subject["name"] == "英语二" else sum(q["subject"] == subject["name"] for q in questions)
             col.markdown(
                 f'<div class="card"><span class="pill">{subject["code"]}</span><h3>{subject["name"]}</h3>'
                 f'<div class="muted">{subject["score"]}分 · {subject["minutes"]}分钟 · 当前{count}题</div></div>',
@@ -186,20 +188,26 @@ elif page == "智能组卷":
         st.info("MBA联考路径：199管理类综合能力200分 + 204英语（二）100分。199写作须人工评阅，本系统只提供自评要点。")
     elif study_mode == "非全日制":
         st.info("在职训练建议：工作日选 5—8 题限时小测，周末再按正式时长完成整卷。")
-    subject_questions = [q for q in questions if q["subject"] == selected_subject]
+    is_english2 = selected_subject == "英语二"
+    subject_questions = english2_questions if is_english2 else [q for q in questions if q["subject"] == selected_subject]
     chapters = sorted({q["chapter"] for q in subject_questions})
     with st.container(border=True):
-        c1, c2, c3 = st.columns([2, 2, 1])
-        chosen_chapters = c1.multiselect("章节范围", chapters, default=chapters)
-        max_count = max(1, sum(q["chapter"] in chosen_chapters for q in subject_questions))
-        count = c2.slider("题目数量", 1, max_count, min(8, max_count))
-        version = c3.number_input("试卷版本", min_value=1, max_value=999, value=1)
+        if is_english2:
+            st.markdown("**英语二完整仿真结构：** 完形20题 + 阅读A 20题 + 阅读B 5题 + 翻译1题 + 小作文1题 + 大作文1题，共100分。")
+            version = st.number_input("试卷版本", min_value=1, max_value=999, value=1)
+            chosen_chapters, count = tuple(chapters), 48
+        else:
+            c1, c2, c3 = st.columns([2, 2, 1])
+            chosen_chapters = c1.multiselect("章节范围", chapters, default=chapters)
+            max_count = max(1, sum(q["chapter"] in chosen_chapters for q in subject_questions))
+            count = c2.slider("题目数量", 1, max_count, min(12, max_count))
+            version = c3.number_input("试卷版本", min_value=1, max_value=999, value=1)
         start = st.button("生成 / 重置试卷", type="primary", width="stretch")
 
     config = (selected_subject, tuple(chosen_chapters), count, int(version))
     if start or st.session_state.get("paper_config") != config:
         seed = stable_seed(date.today().isoformat(), *config)
-        st.session_state.paper = build_paper(questions, selected_subject, count, seed, chosen_chapters)
+        st.session_state.paper = build_english2_paper(english2_bank, seed) if is_english2 else build_paper(questions, selected_subject, count, seed, chosen_chapters)
         st.session_state.paper_config = config
         st.session_state.paper_started = time.time()
         st.session_state.pop("result", None)
@@ -213,11 +221,17 @@ elif page == "智能组卷":
         st.caption(f"试卷编号 {stable_seed(*config) % 100000:05d} · {len(paper)}题 · {points}分 · 已用时 {elapsed//60:02d}:{elapsed%60:02d}")
         answers = {}
         with st.form("exam_form"):
+            last_set_id = None
             for number, q in enumerate(paper, 1):
+                if is_english2 and q.get("set_id") != last_set_id:
+                    last_set_id = q.get("set_id")
+                    st.markdown(f"### {q['section']}")
+                    if q.get("passage_id"):
+                        st.info(english2_bank["passages"][q["passage_id"]])
                 st.markdown(f"#### {number}. {q['stem']}  `{q['points']}分`")
                 opts = [f"{key}. {value}" for key, value in q["options"].items()]
                 if q["type"] == "essay":
-                    answers[q["id"]] = st.text_area("写作区（提交后显示自评要点）", height=220, key=f"ans_{q['id']}")
+                    answers[q["id"]] = st.text_area("主观题作答区（提交后显示自评要点）", height=220, key=f"ans_{q['id']}")
                 elif q["type"] == "multiple":
                     raw = st.multiselect("请选择所有正确选项", opts, key=f"ans_{q['id']}")
                     answers[q["id"]] = [item.split(".", 1)[0] for item in raw]
@@ -300,7 +314,7 @@ else:
 
 ### 当前版本边界
 
-当前覆盖 8 门统考科目、402 道原创参数化专项题和全部原985/211院校选择，其中包含MBA常用的199管理类综合能力与204英语（二）。主观题不做虚假的机器评分；各校自命题专业课仍需按招生目录继续扩充。
+当前覆盖 8 门统考科目、1415 道原创训练题和全部原985/211院校选择。其中MBA关联题1170道：199管理类综合能力650道，英语二520道；英语二按完形、阅读A、阅读B、翻译和两类写作整卷组卷。主观题不做虚假的机器评分。
         """
     )
     st.markdown("### 技术与反馈")

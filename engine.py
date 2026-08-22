@@ -32,6 +32,30 @@ def build_paper(
     return pool[: min(count, len(pool))]
 
 
+def build_english2_paper(bank: dict, seed: int) -> list[dict]:
+    """Build one complete English II paper using the official section blueprint."""
+    rng = random.Random(seed)
+    by_section: dict[str, dict[str, list[dict]]] = {}
+    for question in bank["questions"]:
+        by_section.setdefault(question["section"], {}).setdefault(question["set_id"], []).append(question)
+
+    plan = [
+        ("英语知识运用（完形填空）", 1),
+        ("阅读理解A", 4),
+        ("阅读理解B（新题型）", 1),
+        ("英译汉", 1),
+        ("应用文写作", 1),
+        ("图表/情境作文", 1),
+    ]
+    paper = []
+    for section, set_count in plan:
+        set_ids = sorted(by_section[section])
+        chosen = rng.sample(set_ids, set_count)
+        for set_id in chosen:
+            paper.extend(sorted(by_section[section][set_id], key=lambda q: q["order"]))
+    return paper
+
+
 def score_paper(paper: list[dict], answers: dict[str, object]) -> dict:
     earned = 0
     possible = sum(q["points"] for q in paper if q["type"] != "essay")
