@@ -65,13 +65,15 @@ with st.sidebar:
         "学习方式", ["全日制", "非全日制"], default="全日制",
         help="日常所说的“在职考研”在统一招生制度中通常对应非全日制；最终以招生单位专业目录为准。",
     )
+    study_track = st.selectbox("报考路径", ["普通硕士", "MBA 工商管理"])
     university_names = ["暂未确定"] + [u["name"] for u in universities]
     selected_university_name = st.selectbox("目标院校", university_names)
     selected_university = next((u for u in universities if u["name"] == selected_university_name), None)
-    selected_subject = st.selectbox("当前科目", subjects)
+    allowed_subjects = ["管理类综合能力", "英语二"] if study_track == "MBA 工商管理" else [s for s in subjects if s != "管理类综合能力"]
+    selected_subject = st.selectbox("当前科目", allowed_subjects)
     available = sum(q["subject"] == selected_subject for q in questions)
     st.caption(f"当前原创题量 · {available} 道")
-    st.caption("知识状态 · 截至 2026-08-21")
+    st.caption("知识状态 · 截至 2026-08-22")
 
 
 if page == "备考总览":
@@ -93,7 +95,8 @@ if page == "备考总览":
     target_label = selected_university_name if selected_university else "尚未确定目标院校"
     mode_tip = "整段复习优先：按正式考试时长训练" if study_mode == "全日制" else "在职节奏：工作日小测 + 周末整卷"
     st.markdown(
-        f'<div class="notice"><b>{study_mode} · {target_label}</b><br><span class="muted">{mode_tip}。全国统考科目使用同一套训练题；院校差异主要在专业目录、自命题、复试、学费与培养安排。</span></div>',
+        f'<div class="notice"><b>{study_mode} · {study_track} · {target_label}</b><br><span class="muted">{mode_tip}。'
+        f'{"MBA初试重点为199管理类综合能力与204英语（二）；复试通常另考思想政治理论和综合素质。" if study_track == "MBA 工商管理" else "全国统考科目使用同一套训练题；院校差异主要在专业目录、自命题、复试、学费与培养安排。"}</span></div>',
         unsafe_allow_html=True,
     )
     st.write("")
@@ -119,7 +122,9 @@ if page == "备考总览":
 
 elif page == "院校与学习方式":
     header("院校与学习方式", "先确定招生路径，再决定练什么；统考共用，自命题与复试按学校核对。")
-    if study_mode == "非全日制":
+    if study_track == "MBA 工商管理":
+        st.info("MBA是工商管理专业学位，不等同于学习方式。按2026管理规定基线：本科毕业后3年以上、高职高专或本科结业后5年以上、硕博毕业后2年以上工作经验；2027须以正式规定和院校简章复核。")
+    elif study_mode == "非全日制":
         st.info("非全日制常被口语称为“在职研究生”。教育部规定全日制和非全日制执行相同考试招生政策和标准；原则上非全日制硕士招收在职定向就业人员，具体以学校当年招生章程为准。")
     else:
         st.info("全日制通常为全脱产在校学习。考试科目、报考条件、学制、学费、住宿和培养校区仍需逐校逐专业核对。")
@@ -153,7 +158,7 @@ elif page == "院校与学习方式":
         st.markdown(f"### 当前目标：{selected_university['name']}")
         a, b, c = st.columns(3)
         a.metric("历史标签", tags)
-        b.metric("学习方式", study_mode)
+        b.metric("学习方式", f"{study_mode} · {study_track}")
         c.metric("统考题库", "全国共用")
         st.markdown("#### 报考前必须核对")
         checklist = [
@@ -176,8 +181,10 @@ elif page == "院校与学习方式":
 elif page == "智能组卷":
     header("智能组卷", "同一日期、科目和配置会生成相同试卷，便于复盘与分享。")
     if selected_university:
-        st.caption(f"目标：{selected_university_name} · {study_mode} · 本页为全国统考共用训练，不会因院校名称改变统考试题。")
-    if study_mode == "非全日制":
+        st.caption(f"目标：{selected_university_name} · {study_mode} · {study_track} · 本页为全国统考共用训练，不会因院校名称改变统考试题。")
+    if study_track == "MBA 工商管理":
+        st.info("MBA联考路径：199管理类综合能力200分 + 204英语（二）100分。199写作须人工评阅，本系统只提供自评要点。")
+    elif study_mode == "非全日制":
         st.info("在职训练建议：工作日选 5—8 题限时小测，周末再按正式时长完成整卷。")
     subject_questions = [q for q in questions if q["subject"] == selected_subject]
     chapters = sorted({q["chapter"] for q in subject_questions})
@@ -209,13 +216,15 @@ elif page == "智能组卷":
             for number, q in enumerate(paper, 1):
                 st.markdown(f"#### {number}. {q['stem']}  `{q['points']}分`")
                 opts = [f"{key}. {value}" for key, value in q["options"].items()]
-                if q["type"] == "multiple":
+                if q["type"] == "essay":
+                    answers[q["id"]] = st.text_area("写作区（提交后显示自评要点）", height=220, key=f"ans_{q['id']}")
+                elif q["type"] == "multiple":
                     raw = st.multiselect("请选择所有正确选项", opts, key=f"ans_{q['id']}")
                     answers[q["id"]] = [item.split(".", 1)[0] for item in raw]
                 else:
                     raw = st.radio("请选择一项", ["未作答"] + opts, key=f"ans_{q['id']}", horizontal=True)
                     answers[q["id"]] = None if raw == "未作答" else raw.split(".", 1)[0]
-                st.caption(f"{q['chapter']} · 难度 {'●' * q['difficulty']}{'○' * (5-q['difficulty'])}")
+                st.caption(f"{q['chapter']} · {q.get('format_tag', '专项训练')} · 难度 {'●' * q['difficulty']}{'○' * (5-q['difficulty'])}")
                 st.divider()
             submitted = st.form_submit_button("交卷并生成诊断", type="primary", width="stretch")
         if submitted:
@@ -225,21 +234,26 @@ elif page == "智能组卷":
         if result:
             st.markdown("### 本次诊断")
             a, b, c = st.columns(3)
-            a.metric("得分", f"{result['earned']} / {result['possible']}")
+            a.metric("客观题得分", f"{result['earned']} / {result['possible']}")
             b.metric("正确率", f"{result['accuracy']:.0%}")
             c.metric("建议", "进入错题复盘" if result["accuracy"] < .8 else "提高难度")
             stats = pd.DataFrame([
                 {"章节": chapter, "正确": stat["correct"], "总题数": stat["total"], "正确率": stat["correct"] / stat["total"]}
                 for chapter, stat in result["chapter_stats"].items()
-            ]).set_index("章节")
-            st.bar_chart(stats["正确率"], horizontal=True)
+            ])
+            if not stats.empty:
+                stats = stats.set_index("章节")
+                st.bar_chart(stats["正确率"], horizontal=True)
             for i, detail in enumerate(result["details"], 1):
                 q = detail["question"]
-                icon = "✅" if detail["correct"] else "❌"
+                icon = "📝" if detail["correct"] is None else ("✅" if detail["correct"] else "❌")
                 with st.expander(f"{icon} 第{i}题 · {q['chapter']}"):
                     st.write(q["stem"])
                     st.write(f"你的答案：{detail['actual'] or '未作答'}")
-                    st.write(f"正确答案：{q['answer']}")
+                    if detail["correct"] is None:
+                        st.write("本题需人工评阅，下面是自评要点：")
+                    else:
+                        st.write(f"正确答案：{q['answer']}")
                     st.info(q["explanation"])
                     st.caption(q["source"])
 
@@ -282,13 +296,14 @@ else:
 - 训练题均标注“原创仿真”，不是历年真题的逐字复制。
 - 五年真题模块保存结构化索引和个人错因，不把来源不明的整套试卷打包传播。
 - 2027 全国统考考纲未正式发布时，页面明确显示“待官方发布”。
-- 全日制与非全日制执行相同考试招生政策和标准；院校选择不会改变全国统考题。
+- 全日制与非全日制执行相同考试招生政策和标准；MBA是专业学位路径，不等同于学习方式。
 
 ### 当前版本边界
 
-这是首个可运行版本，覆盖 7 门通用统考科目和全部原985/211院校选择。政治主观题、英语作文自动批改、数学/408完整大题以及各校自命题专业课仍需后续扩充；当前分数只代表抽样小测，不可直接外推到正式考试总分。
+当前覆盖 8 门统考科目、402 道原创参数化专项题和全部原985/211院校选择，其中包含MBA常用的199管理类综合能力与204英语（二）。主观题不做虚假的机器评分；各校自命题专业课仍需按招生目录继续扩充。
         """
     )
     st.markdown("### 技术与反馈")
     st.code("streamlit run app.py", language="bash")
     st.caption("建议通过 GitHub Issues 提交错题、勘误和新增科目需求。")
+

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="2027考研原创仿真题库：全日制/非全日制、985/211院校选择、智能组卷与考纲雷达。">
   <title>研途 · 2027考研仿真题库</title>
-  <link rel="stylesheet" href="static-style.css">
+  <link rel="stylesheet" href="static-style.css?v=20260822">
 </head>
 <body>
   <div id="loading" class="loading">正在装载题库…</div>
@@ -22,18 +22,24 @@
           <button data-mode="全日制" class="active">全日制</button>
           <button data-mode="非全日制">非全日制</button>
         </div>
+        <label for="track-select">报考路径</label>
+        <select id="track-select">
+          <option>普通硕士</option>
+          <option>MBA 工商管理</option>
+        </select>
         <label for="university-select">目标院校</label>
         <select id="university-select"></select>
         <label for="subject-select">当前科目</label>
         <select id="subject-select"></select>
       </div>
-      <div class="side-foot">知识状态<br><b>截至 2026-08-21</b></div>
+      <div class="side-foot">知识状态<br><b>截至 2026-08-22</b></div>
     </aside>
     <main id="main" class="main" tabindex="-1"></main>
   </div>
   <noscript>本网站需要启用 JavaScript 才能进行组卷和评分。</noscript>
-  <script src="static-app.js" defer></script>
+  <script src="static-app.js?v=20260822" defer></script>
 </body>
 </html>
+
 
 
