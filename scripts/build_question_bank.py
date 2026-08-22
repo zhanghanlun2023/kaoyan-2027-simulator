@@ -1,11 +1,15 @@
 from __future__ import annotations
 
 import json
+import math
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-TARGET = ROOT / "data" / "questions.json"
+SOURCE = ROOT / "data" / "questions.json"
+TARGET_CORE = ROOT / "data" / "questions.json"
+TARGET_199 = ROOT / "data" / "questions_199.json"
+TARGET_ENGLISH2 = ROOT / "data" / "english2_bank.json"
 
 
 def optionize(correct: object, distractors: list[object], shift: int = 0, formatter=str):
@@ -50,7 +54,7 @@ def add(qid, subject, chapter, difficulty, qtype, stem, options, answer, points,
     })
 
 
-with TARGET.open("r", encoding="utf-8") as handle:
+with SOURCE.open("r", encoding="utf-8") as handle:
     legacy = json.load(handle)
 
 # 仅保留旧版中题型与真实客观题训练相符的条目；英译汉不再伪装成选择题。
@@ -64,7 +68,7 @@ legacy_ids = {
     *{f"c{i:03d}" for i in range(1, 9)},
 }
 for q in legacy:
-    if q["id"] not in legacy_ids or q["chapter"] == "英译汉":
+    if q["id"] not in legacy_ids or q["chapter"] == "英译汉" or q["subject"] == "英语二":
         continue
     item = dict(q)
     item.setdefault("format_tag", "专项选择题")
@@ -122,8 +126,8 @@ reading_bank = [
     ("An online store added detailed repair guides. Product returns declined for simple faults, while returns for major defects were unchanged.", "The guides were most useful for—", {"A":"major defects","B":"simple faults","C":"all returns equally","D":"preventing purchases"}, "B", "退货减少只出现在简单故障。"),
     ("A transit agency made real-time arrival data public. Independent developers then created accessibility tools the agency had not planned.", "The example illustrates how open data can—", {"A":"eliminate public agencies","B":"enable unanticipated services","C":"guarantee accurate predictions","D":"reduce accessibility"}, "B", "开发者创造了机构原先未规划的新工具。"),
 ]
-for subject in ("英语一", "英语二"):
-    prefix = "e1g" if subject == "英语一" else "e2g"
+for subject in ("英语一",):
+    prefix = "e1g"
     for cycle in range(1):
         for i, (stem, options, answer, explanation) in enumerate(cloze_bank):
             lead = "Choose the best answer. " if cycle == 0 else "In formal written English, choose the best answer. "
@@ -306,13 +310,273 @@ writing_prompts = [
 for i, (chapter, points, prompt, guide) in enumerate(writing_prompts):
     add(f"mba_w{i:02d}", "管理类综合能力", f"写作·{chapter}", 4, "essay", prompt, {}, guide, points, guide, format_tag=f"199写作 · {points}分 · 人工自评")
 
+# 199扩充：保持真实卷面分类，不以重复题干充数。
+for i in range(50):
+    first = 12 + i
+    values = [first, first + 2, first + 4, first + 6]
+    correct = first + 3
+    options, answer = optionize(correct, [correct - 2, correct + 2, sum(values)], i)
+    add(f"mba_avg{i:03d}", "管理类综合能力", "数学基础·问题求解", 2 + i % 3, "single", f"四个数{values[0]}、{values[1]}、{values[2]}、{values[3]}的算术平均数为", options, answer, 3, f"平均数=({'+'.join(map(str, values))})÷4={correct}。", format_tag="199问题求解 · 15题×3分")
+
+for i in range(50):
+    speed = 40 + i
+    hours = 2 + i % 5
+    distance = speed * hours
+    correct = hours
+    options, answer = optionize(correct, [hours + 1, max(1, hours - 1), speed], i + 1, lambda x: f"{x}小时")
+    add(f"mba_rate{i:03d}", "管理类综合能力", "数学基础·问题求解", 2 + i % 3, "single", f"一辆车以每小时{speed}千米的速度匀速行驶{distance}千米，需要的时间为", options, answer, 3, f"时间=路程÷速度={distance}÷{speed}={hours}小时。", format_tag="199问题求解 · 15题×3分")
+
+for i in range(40):
+    length = 8 + i
+    width = 3 + i % 7
+    correct = length * width
+    options, answer = optionize(correct, [2*(length+width), length+width, correct+width], i + 2)
+    add(f"mba_geo{i:03d}", "管理类综合能力", "数学基础·问题求解", 2 + i % 3, "single", f"一个长方形的长为{length}，宽为{width}，其面积为", options, answer, 3, f"长方形面积={length}×{width}={correct}。", format_tag="199问题求解 · 15题×3分")
+
+for i in range(30):
+    red = 2 + i
+    blue = 3 + i % 8
+    divisor = math.gcd(red, red + blue)
+    correct = f"{red//divisor}/{(red+blue)//divisor}"
+    distractors = [f"{blue}/{red+blue}", f"{red}/{blue}", f"1/{red+blue}"]
+    options, answer = optionize(correct, distractors, i + 3)
+    add(f"mba_prob{i:03d}", "管理类综合能力", "数学基础·问题求解", 3 + i % 2, "single", f"袋中有{red}个红球和{blue}个蓝球，随机取出1个球，取到红球的概率为", options, answer, 3, f"所求概率={red}/({red}+{blue})={correct}。", format_tag="199问题求解 · 15题×3分")
+
+for i in range(40):
+    coefficient = 2 + i % 7
+    root = 3 + i
+    constant = coefficient * root
+    correct = root
+    options, answer = optionize(correct, [root+1, max(0, root-1), constant], i)
+    add(f"mba_eq{i:03d}", "管理类综合能力", "数学基础·问题求解", 2 + i % 3, "single", f"方程{coefficient}x={constant}的解为", options, answer, 3, f"两边同除以{coefficient}，得x={root}。", format_tag="199问题求解 · 15题×3分")
+
+for i in range(125):
+    x = 5 + i
+    mode = i % 5
+    if mode == 0:
+        stem, answer, exp = f"能否确定实数x的值？\n（1）3x={3*x}\n（2）y={i+1}", "A", "条件（1）充分；条件（2）与x无关。"
+    elif mode == 1:
+        stem, answer, exp = f"能否确定实数x的值？\n（1）y={i+2}\n（2）4x={4*x}", "B", "条件（2）充分；条件（1）与x无关。"
+    elif mode == 2:
+        stem, answer, exp = f"能否确定实数x的值？\n（1）x={x}\n（2）x+{i+1}={x+i+1}", "C", "两个条件单独都能唯一确定x。"
+    elif mode == 3:
+        y = 2 + i % 11
+        stem, answer, exp = f"能否确定实数x的值？\n（1）x+y={x+y}\n（2）y={y}", "D", "两个条件联合可以唯一确定x，单独均不充分。"
+    else:
+        lower = 200 + i
+        stem, answer, exp = f"能否确定正整数x的值？\n（1）x>{lower}\n（2）x<{lower+8}", "E", "联合条件仍允许多个正整数取值。"
+    add(f"mba_csx{i:03d}", "管理类综合能力", "数学基础·条件充分性判断", 3 + i % 2, "single", stem, cs_options, answer, 3, exp, format_tag="199条件充分性判断 · 10题×3分")
+
+logic_entities = ["甲方案", "乙项目", "丙系统", "丁产品", "戊流程", "己平台", "庚设备", "辛服务", "壬计划", "癸模型"]
+for i in range(50):
+    p = f"{logic_entities[i%10]}通过第{i+1}轮评审"
+    q = f"进入第{i+2}阶段"
+    correct = f"{p}没有发生"
+    options, answer = optionize(correct, [f"{q}一定发生", f"{p}与{q}同时发生", "不能判断前件是否发生"], i)
+    add(f"mba_lcondx{i:03d}", "管理类综合能力", "逻辑推理", 2 + i % 3, "single", f"如果{p}，那么{q}。现已知没有{q}。以下必然成立的是", options, answer, 2, "根据充分条件假言命题的逆否规则，由非Q推出非P。", format_tag="199逻辑推理 · 条件推理")
+
+for i in range(50):
+    group = f"第{i+1}组候选人"
+    correct = f"有些需要复核的对象不一定属于{group}"
+    options, answer = optionize(correct, [f"所有需要复核的对象都属于{group}", f"没有{group}对象需要复核", f"所有{group}对象都无需复核"], i + 1)
+    add(f"mba_lsetx{i:03d}", "管理类综合能力", "逻辑推理", 3, "single", f"已知所有{group}对象都需要复核，但还有一些非{group}对象也需要复核。以下正确的是", options, answer, 2, "题干只说明该组是需复核对象的子集，不能把两个集合等同。", format_tag="199逻辑推理 · 集合关系")
+
+for i in range(50):
+    action = ["调整价格", "延长营业时间", "更换包装", "增加培训", "升级系统"][i%5]
+    result = ["销量提高", "客流增加", "投诉下降", "效率提升", "活跃度上升"][i%5]
+    alternative = ["同期主要竞争者退出", "统计口径同时改变", "市场进入旺季", "样本构成发生变化", "另有大额补贴上线"][i%5]
+    correct = alternative + f"（第{i+1}个案例）"
+    options, answer = optionize(correct, ["变化受到部分参与者好评", "研究记录了实施日期", "样本来自真实业务"], i + 2)
+    add(f"mba_lweakx{i:03d}", "管理类综合能力", "逻辑推理", 3 + i % 2, "single", f"某机构{action}后{result}，于是断言该措施必然导致这一结果。以下最能削弱第{i+1}个案例的结论的是", options, answer, 2, "该选项提供了结果变化的替代原因，削弱因果归因。", format_tag="199逻辑推理 · 论证评价")
+
+for i in range(20):
+    prompt = f"某组织在第{i+1}次改革后看到一项指标改善，便认为只要把改革范围扩大一倍，所有指标都会同比例改善。请分析该论证的有效性。"
+    guide = "可检查样本代表性、指标与目标的关系、其他同期因素、边际效应及从局部到整体的推断。"
+    add(f"mba_wax{i:03d}", "管理类综合能力", "写作·论证有效性分析", 4, "essay", prompt, {}, guide, 30, guide, format_tag="199写作 · 论证有效性分析30分")
+for i in range(20):
+    prompt = f"材料作文第{i+1}组：组织既需要稳定的规则，也需要为试验保留空间。请结合管理实践写一篇论说文。"
+    guide = "可建立条件化中心论点，讨论规则、试验、风险边界和反馈机制，避免简单二元对立。"
+    add(f"mba_wex{i:03d}", "管理类综合能力", "写作·论说文", 4, "essay", prompt, {}, guide, 35, guide, format_tag="199写作 · 论说文35分")
+
+
+# ------------------------- 204 英语（二）：严格按整篇/整组真题结构 -------------------------
+english2_bank = {
+    "subject": "英语二",
+    "blueprint": [
+        {"section": "英语知识运用（完形填空）", "sets_in_paper": 1, "questions_per_set": 20, "points_each": 0.5, "total": 10},
+        {"section": "阅读理解A", "sets_in_paper": 4, "questions_per_set": 5, "points_each": 2, "total": 40},
+        {"section": "阅读理解B（新题型）", "sets_in_paper": 1, "questions_per_set": 5, "points_each": 2, "total": 10},
+        {"section": "英译汉", "sets_in_paper": 1, "questions_per_set": 1, "points_each": 15, "total": 15},
+        {"section": "应用文写作", "sets_in_paper": 1, "questions_per_set": 1, "points_each": 10, "total": 10},
+        {"section": "图表/情境作文", "sets_in_paper": 1, "questions_per_set": 1, "points_each": 15, "total": 15},
+    ],
+    "passages": {},
+    "questions": [],
+}
+
+
+def add_en2(qid, section, set_id, order, qtype, stem, options, answer, points, explanation, passage_id=None):
+    english2_bank["questions"].append({
+        "id": qid, "subject": "英语二", "section": section, "chapter": section,
+        "set_id": set_id, "passage_id": passage_id, "order": order, "type": qtype,
+        "stem": stem, "options": options, "answer": answer, "points": points,
+        "difficulty": 2 + order % 3, "explanation": explanation, "source": "原创仿真",
+        "format_tag": section,
+    })
+
+
+cloze_passage = """Many organizations [1] pressure to change quickly, yet speed alone does not guarantee improvement. A recent project in {domain} [2] a more careful approach. The team first [3] a limited goal and collected baseline data [4] making changes. This allowed researchers to distinguish real progress [5] ordinary fluctuation.
+
+Instead of redesigning the whole system, they tested one feature with a small group. Participants were asked not only [6] they liked the feature, but also [7] it changed their behavior. Feedback was recorded immediately, [8] memories became less reliable.
+
+The early results were mixed. Completion times fell, [9] errors initially rose. Rather than treating this as a failure, the team examined [10] the errors occurred. It found [11] new users needed clearer instructions. Staff members [12] had helped design the trial then rewrote the guidance.
+
+The second test produced better results [13] the instructions were easier to follow. The team [14] compared the new data with the original baseline. Improvement was measured not only [15] speed but also by accuracy and user confidence.
+
+The project shows that change works best [16] evidence guides each step. Organizations with limited [17] are especially [18] to benefit from small trials. They can stop weak ideas early and expand strong ones only after the [19] is clear. In this way, experimentation becomes a disciplined path to [20] improvement."""
+
+cloze_specs = [
+    ("face", ["avoid", "borrow", "divide"], "face pressure为固定搭配。"),
+    ("illustrated", ["prevented", "forgot", "owed"], "illustrate an approach表示说明一种方法。"),
+    ("defined", ["escaped", "removed", "guessed"], "先界定有限目标符合语境。"),
+    ("before", ["unless", "although", "beside"], "先收集基线，再改变。"),
+    ("from", ["into", "with", "about"], "distinguish A from B。"),
+    ("whether", ["whose", "where", "until"], "whether引导是否问题。"),
+    ("how", ["whom", "whenever", "however"], "考查功能如何改变行为。"),
+    ("before", ["because", "though", "since"], "在记忆变得不可靠之前立即记录。"),
+    ("but", ["so", "for", "or"], "速度下降与错误上升构成转折。"),
+    ("why", ["whose", "unless", "despite"], "检查错误为何发生。"),
+    ("that", ["what", "where", "than"], "found that引导宾语从句。"),
+    ("who", ["which", "where", "when"], "先行词为人。"),
+    ("because", ["unless", "whereas", "despite"], "说明结果改善的原因。"),
+    ("then", ["rarely", "instead", "otherwise"], "随后比较新数据与基线。"),
+    ("by", ["at", "for", "over"], "measured by表示以……衡量。"),
+    ("when", ["until", "although", "wherever"], "当证据指导步骤时效果最好。"),
+    ("resources", ["arguments", "memories", "borders"], "有限资源符合组织试验语境。"),
+    ("likely", ["unable", "afraid", "readying"], "be likely to固定结构。"),
+    ("evidence", ["furniture", "distance", "silence"], "证据明确后再扩大。"),
+    ("sustainable", ["accidental", "temporary", "silent"], "可持续改进符合全文主旨。"),
+]
+cloze_domains = [
+    "a city library", "a community hospital", "an online retailer", "a public transport agency", "a manufacturing plant",
+    "a vocational college", "a financial service center", "a software company", "a local museum", "an energy provider",
+]
+for set_index, domain in enumerate(cloze_domains):
+    set_id = f"en2_cloze_{set_index:02d}"
+    passage_id = f"passage_{set_id}"
+    english2_bank["passages"][passage_id] = cloze_passage.format(domain=domain)
+    for order, (correct, distractors, explanation) in enumerate(cloze_specs, 1):
+        options, answer = optionize(correct, distractors, set_index + order)
+        add_en2(f"{set_id}_{order:02d}", "英语知识运用（完形填空）", set_id, order, "single", f"第[{order}]空应选择", options, answer, 0.5, explanation, passage_id)
+
+
+reading_contexts = [
+    ("a city library", "extend weekend opening hours", "visitor numbers", "book lending", "first-time visitors"),
+    ("a hospital", "send appointment reminders", "attendance", "treatment time", "patients under 30"),
+    ("a school", "replace one final exam with smaller assessments", "reported anxiety", "average scores", "new students"),
+    ("a transit agency", "publish real-time arrival data", "trip planning accuracy", "ticket prices", "passengers with transfers"),
+    ("an online store", "provide repair guides", "returns for simple faults", "returns for major defects", "new customers"),
+    ("a factory", "introduce short safety briefings", "minor incident reports", "production volume", "night-shift teams"),
+    ("a museum", "rewrite exhibit labels in plain language", "visitor comprehension", "visit duration", "teenage visitors"),
+    ("a bank", "simplify account forms", "completion rates", "loan approval standards", "first-time applicants"),
+    ("a software firm", "adopt four-day project cycles", "team satisfaction", "total working hours", "newly formed teams"),
+    ("a community center", "offer online booking", "class attendance", "course fees", "working parents"),
+    ("a university", "open lecture recordings", "review frequency", "exam difficulty", "commuting students"),
+    ("a restaurant group", "display calorie information", "lower-calorie choices", "meal prices", "repeat customers"),
+    ("a local government", "publish budget summaries", "public understanding", "tax rates", "younger residents"),
+    ("a delivery company", "show narrower arrival windows", "customer availability", "fuel use", "apartment residents"),
+    ("a newsroom", "label corrected articles clearly", "reader trust", "subscription price", "frequent readers"),
+    ("a park authority", "add shaded seating", "midday visits", "entry fees", "older visitors"),
+    ("a hotel", "allow digital check-in", "queue length", "room occupancy", "business travelers"),
+    ("a research lab", "use preregistered analysis plans", "method consistency", "equipment cost", "junior researchers"),
+    ("a grocery chain", "place healthy food at eye level", "healthy item sales", "store size", "customers shopping quickly"),
+    ("a charity", "send donors project updates", "repeat donations", "administrative cost", "small donors"),
+    ("a sports club", "offer flexible session times", "member attendance", "membership fees", "shift workers"),
+    ("a telecom provider", "rewrite bills with visual summaries", "billing comprehension", "network speed", "older customers"),
+    ("a public archive", "digitize search indexes", "document discovery", "preservation cost", "remote researchers"),
+    ("a recruitment platform", "display salary ranges", "application numbers", "qualification standards", "mid-career applicants"),
+    ("a clinic", "offer same-day test results online", "follow-up completion", "test accuracy", "patients living far away"),
+    ("a publisher", "release sample chapters", "informed purchases", "printing cost", "new readers"),
+    ("a housing office", "send deadline alerts", "on-time applications", "eligibility rules", "first-time tenants"),
+    ("a training provider", "add practice feedback", "course completion", "course length", "learners with weak foundations"),
+    ("an energy company", "show hourly usage data", "peak-time conservation", "electricity prices", "high-usage households"),
+    ("a travel platform", "explain cancellation rules earlier", "booking confidence", "flight availability", "infrequent travelers"),
+]
+for i, (context, action, primary, unchanged, subgroup) in enumerate(reading_contexts):
+    set_id = f"en2_reada_{i:02d}"
+    passage_id = f"passage_{set_id}"
+    weeks, treatment_gain, comparison_gain = 6 + i % 7, 12 + i % 9, 3 + i % 5
+    passage = (
+        f"Researchers working with {context} examined whether it should {action}. They compared a pilot group with a similar group that continued using the existing arrangement. "
+        f"After {weeks} weeks, {primary} improved by {treatment_gain} percent in the pilot group, compared with {comparison_gain} percent in the comparison group. "
+        f"By contrast, {unchanged} changed little in either group. The improvement was strongest among {subgroup}. "
+        "The researchers warned that participation was voluntary and the observation period was short. They described the result as promising evidence for a wider trial, not as proof that the policy would work equally well everywhere."
+    )
+    english2_bank["passages"][passage_id] = passage
+    qa = [
+        ("What was the main purpose of the study?", f"To evaluate whether {action} under limited conditions", [f"To eliminate {unchanged}", "To compare unrelated institutions", "To prove the policy works everywhere"], "The study evaluates a specific intervention through a pilot comparison."),
+        ("Which finding is directly supported?", f"{primary.capitalize()} improved more in the pilot group", [f"{unchanged.capitalize()} changed sharply", "Every participant benefited equally", "The comparison group was removed"], "The reported improvement was larger in the pilot group."),
+        ("What changed little during the study?", unchanged.capitalize(), [primary.capitalize(), "The observation period", "The number of researchers"], "The passage explicitly says this outcome changed little."),
+        ("Why do the researchers call for caution?", "Participation was voluntary and the study was short", ["The pilot had no comparison group", "The primary outcome declined", "The action was never implemented"], "Volunteer selection and a short period limit generalization."),
+        ("Which conclusion best matches the passage?", "The result supports a broader trial but not a universal claim", ["The policy should immediately become compulsory", "The action had no measurable effect", "Local conditions never matter"], "The final sentence makes a limited, evidence-based conclusion."),
+    ]
+    for order, (stem, correct, distractors, explanation) in enumerate(qa, 1):
+        options, answer = optionize(correct, distractors, i + order)
+        add_en2(f"{set_id}_{order}", "阅读理解A", set_id, order, "single", stem, options, answer, 2, explanation, passage_id)
+
+
+reading_b_topics = [
+    ("planning a workplace pilot", ["Define the question", "Collect a baseline", "Run a small test", "Review unintended effects", "Decide whether to expand"]),
+    ("building a study routine", ["Set a realistic target", "Choose a fixed time", "Remove common distractions", "Record weekly progress", "Adjust the next cycle"]),
+    ("improving a public service", ["Identify the user journey", "Locate the main delay", "Design one change", "Compare before and after", "Publish the result"]),
+    ("preparing a team project", ["Clarify the final output", "Assign decision rights", "Map key dependencies", "Schedule review points", "Document lessons learned"]),
+    ("evaluating a new product", ["Describe the intended user", "State the core problem", "Build the smallest prototype", "Observe actual use", "Revise the value proposition"]),
+    ("organizing personal finances", ["List regular income", "Separate fixed expenses", "Create an emergency buffer", "Automate basic saving", "Review unusual spending"]),
+    ("launching a community program", ["Consult local participants", "Define access criteria", "Train front-line volunteers", "Track participation gaps", "Report back to the community"]),
+    ("reducing meeting overload", ["Audit recurring meetings", "Protect focus time", "Use written updates", "Set shorter agendas", "Review the calendar monthly"]),
+    ("managing research data", ["Name files consistently", "Record data origins", "Control access rights", "Back up critical versions", "Plan long-term storage"]),
+    ("improving customer support", ["Classify common requests", "Write clear first responses", "Escalate complex cases", "Measure resolution quality", "Update the knowledge base"]),
+]
+for i, (topic, headings) in enumerate(reading_b_topics):
+    set_id = f"en2_readb_{i:02d}"
+    passage_id = f"passage_{set_id}"
+    paragraphs = []
+    for letter, heading in zip("ABCDE", headings):
+        paragraphs.append(f"[{letter}] {heading} is an essential step when {topic}. It gives the next stage a clear basis and prevents avoidable rework.")
+    english2_bank["passages"][passage_id] = "\n\n".join(paragraphs)
+    options = {letter: heading for letter, heading in zip("ABCDE", headings)}
+    for order, (letter, heading) in enumerate(zip("ABCDE", headings), 1):
+        add_en2(f"{set_id}_{order}", "阅读理解B（新题型）", set_id, order, "single", f"Which paragraph focuses on “{heading}”?", options, letter, 2, f"段落[{letter}]直接讨论{heading}。", passage_id)
+
+
+for i in range(40):
+    set_id = f"en2_trans_{i:02d}"
+    text = (
+        f"Good decisions are not produced by information alone. In project {i+1}, managers had access to more data than before, "
+        "but progress came only after they agreed on which evidence mattered and what action it could reasonably support. "
+        "The value of data therefore depends on careful interpretation as well as collection."
+    )
+    guide = "参考要点：好决策不仅来自信息本身；管理者需要就证据的重要性及其能支持的合理行动形成共识；数据价值同时取决于收集与审慎解释。"
+    add_en2(set_id, "英译汉", set_id, 1, "essay", text, {}, guide, 15, guide)
+for i in range(40):
+    set_id = f"en2_writea_{i:02d}"
+    prompt = f"You are organizing activity No. {i+1} for an international student group. Write an email of about 100 words to explain the purpose, time and preparation required."
+    guide = "自评：称呼和结尾得体；完整覆盖目的、时间、准备事项；语气清楚礼貌；约100词。"
+    add_en2(set_id, "应用文写作", set_id, 1, "essay", prompt, {}, guide, 10, guide)
+for i in range(40):
+    set_id = f"en2_writeb_{i:02d}"
+    prompt = f"The chart for survey No. {i+1} compares three ways adults use their weekly learning time. Write an essay of about 150 words: summarize the main differences and give possible reasons."
+    guide = "自评：先概括总体趋势，再比较主要差异，随后解释可能原因；避免逐项机械罗列；约150词。"
+    add_en2(set_id, "图表/情境作文", set_id, 1, "essay", prompt, {}, guide, 15, guide)
+
 
 # ------------------------- 校验并输出 -------------------------
-ids = [q["id"] for q in questions]
+all_items = [*questions, *english2_bank["questions"]]
+ids = [q["id"] for q in all_items]
 if len(ids) != len(set(ids)):
     duplicates = sorted({qid for qid in ids if ids.count(qid) > 1})
     raise ValueError(f"题目ID重复: {duplicates}")
-for q in questions:
+for q in all_items:
     if q["type"] in {"single", "multiple"}:
         if not q["options"]:
             raise ValueError(f"客观题缺少选项: {q['id']}")
@@ -320,12 +584,41 @@ for q in questions:
         if any(answer not in q["options"] for answer in answers):
             raise ValueError(f"答案不在选项中: {q['id']}")
 
-with TARGET.open("w", encoding="utf-8", newline="\n") as handle:
-    json.dump(questions, handle, ensure_ascii=False, indent=2)
-    handle.write("\n")
+stems = [(q["subject"], q.get("set_id", ""), q["stem"]) for q in all_items]
+if len(stems) != len(set(stems)):
+    duplicates = sorted({stem for stem in stems if stems.count(stem) > 1})
+    raise ValueError(f"同一科目存在重复题干: {duplicates[:20]}")
+
+section_counts = {}
+for q in english2_bank["questions"]:
+    section_counts[q["section"]] = section_counts.get(q["section"], 0) + 1
+expected_sections = {
+    "英语知识运用（完形填空）": 200,
+    "阅读理解A": 150,
+    "阅读理解B（新题型）": 50,
+    "英译汉": 40,
+    "应用文写作": 40,
+    "图表/情境作文": 40,
+}
+if section_counts != expected_sections:
+    raise ValueError(f"英语二题型数量错误: {section_counts}")
+
+core_questions = [q for q in questions if q["subject"] != "管理类综合能力"]
+management_questions = [q for q in questions if q["subject"] == "管理类综合能力"]
+if len(management_questions) != 650:
+    raise ValueError(f"199题量应为650，实际为{len(management_questions)}")
+
+for target, payload in (
+    (TARGET_CORE, core_questions),
+    (TARGET_199, management_questions),
+    (TARGET_ENGLISH2, english2_bank),
+):
+    with target.open("w", encoding="utf-8", newline="\n") as handle:
+        json.dump(payload, handle, ensure_ascii=False, indent=2)
+        handle.write("\n")
 
 counts = {}
-for q in questions:
+for q in all_items:
     counts[q["subject"]] = counts.get(q["subject"], 0) + 1
-print(json.dumps({"total": len(questions), "subjects": counts}, ensure_ascii=False, indent=2))
+print(json.dumps({"total": len(all_items), "subjects": counts, "english2_sections": section_counts}, ensure_ascii=False, indent=2))
 
